@@ -1,0 +1,2421 @@
+[2020-08-05 09:45:02,339] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /opera/drreqes/
+Traceback (most recent call last):
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/views/generic/base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/opt/app/suzhou/Simulation/Simulation/apps/opera/views.py", line 369, in get
+    first_time, second_time = period_list
+ValueError: too many values to unpack (expected 2)
+[2020-08-05 09:45:53,710] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /opera/psreqes/
+Traceback (most recent call last):
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/views/generic/base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/opt/app/suzhou/Simulation/Simulation/apps/opera/views.py", line 48, in get
+    first_tm,second_tm = period_list
+ValueError: too many values to unpack (expected 2)
+[2020-08-05 09:46:15,511] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /opera/psreqes/
+Traceback (most recent call last):
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/views/generic/base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/opt/app/suzhou/Simulation/Simulation/apps/opera/views.py", line 48, in get
+    first_tm,second_tm = period_list
+ValueError: too many values to unpack (expected 2)
+[2020-08-05 09:50:14,389] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /station/login/
+Traceback (most recent call last):
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/resolvers.py", line 498, in resolve
+    for pattern in self.url_patterns:
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/utils/functional.py", line 36, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/resolvers.py", line 540, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/utils/functional.py", line 36, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/resolvers.py", line 533, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/local/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/app/suzhou/Simulation/Simulation/urls.py", line 9, in <module>
+    path('opera/',include('opera.urls')),
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/conf.py", line 34, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/local/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/app/suzhou/Simulation/Simulation/apps/opera/urls.py", line 2, in <module>
+    from . import views
+  File "/opt/app/suzhou/Simulation/Simulation/apps/opera/views.py", line 361
+    period_list = period_list.split(" ")
+                                       ^
+IndentationError: unindent does not match any outer indentation level
+[2020-08-05 09:50:14,385] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /station/line/
+Traceback (most recent call last):
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/resolvers.py", line 498, in resolve
+    for pattern in self.url_patterns:
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/utils/functional.py", line 36, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/resolvers.py", line 540, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/utils/functional.py", line 36, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/resolvers.py", line 533, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/local/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/app/suzhou/Simulation/Simulation/urls.py", line 9, in <module>
+    path('opera/',include('opera.urls')),
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/conf.py", line 34, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/local/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/app/suzhou/Simulation/Simulation/apps/opera/urls.py", line 2, in <module>
+    from . import views
+  File "/opt/app/suzhou/Simulation/Simulation/apps/opera/views.py", line 361
+    period_list = period_list.split(" ")
+                                       ^
+IndentationError: unindent does not match any outer indentation level
+[2020-08-05 09:50:27,991] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /station/login/
+Traceback (most recent call last):
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/resolvers.py", line 498, in resolve
+    for pattern in self.url_patterns:
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/utils/functional.py", line 36, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/resolvers.py", line 540, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/utils/functional.py", line 36, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/resolvers.py", line 533, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/local/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/app/suzhou/Simulation/Simulation/urls.py", line 9, in <module>
+    path('opera/',include('opera.urls')),
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/conf.py", line 34, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/local/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/app/suzhou/Simulation/Simulation/apps/opera/urls.py", line 2, in <module>
+    from . import views
+  File "/opt/app/suzhou/Simulation/Simulation/apps/opera/views.py", line 361
+    period_list = period_list.split(" ")
+                                       ^
+IndentationError: unindent does not match any outer indentation level
+[2020-08-05 09:50:34,816] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /station/line/
+Traceback (most recent call last):
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/resolvers.py", line 498, in resolve
+    for pattern in self.url_patterns:
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/utils/functional.py", line 36, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/resolvers.py", line 540, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/utils/functional.py", line 36, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/resolvers.py", line 533, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/local/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/app/suzhou/Simulation/Simulation/urls.py", line 9, in <module>
+    path('opera/',include('opera.urls')),
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/conf.py", line 34, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/local/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/app/suzhou/Simulation/Simulation/apps/opera/urls.py", line 2, in <module>
+    from . import views
+  File "/opt/app/suzhou/Simulation/Simulation/apps/opera/views.py", line 361
+    period_list = period_list.split(" ")
+                                       ^
+IndentationError: unindent does not match any outer indentation level
+[2020-08-05 09:50:34,818] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /station/login/
+Traceback (most recent call last):
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/resolvers.py", line 498, in resolve
+    for pattern in self.url_patterns:
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/utils/functional.py", line 36, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/resolvers.py", line 540, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/utils/functional.py", line 36, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/resolvers.py", line 533, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/local/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/app/suzhou/Simulation/Simulation/urls.py", line 9, in <module>
+    path('opera/',include('opera.urls')),
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/conf.py", line 34, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/local/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/app/suzhou/Simulation/Simulation/apps/opera/urls.py", line 2, in <module>
+    from . import views
+  File "/opt/app/suzhou/Simulation/Simulation/apps/opera/views.py", line 361
+    period_list = period_list.split(" ")
+                                       ^
+IndentationError: unindent does not match any outer indentation level
+[2020-08-05 09:50:57,061] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /station/line/
+Traceback (most recent call last):
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/resolvers.py", line 498, in resolve
+    for pattern in self.url_patterns:
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/utils/functional.py", line 36, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/resolvers.py", line 540, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/utils/functional.py", line 36, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/resolvers.py", line 533, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/local/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/app/suzhou/Simulation/Simulation/urls.py", line 9, in <module>
+    path('opera/',include('opera.urls')),
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/conf.py", line 34, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/local/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/app/suzhou/Simulation/Simulation/apps/opera/urls.py", line 2, in <module>
+    from . import views
+  File "/opt/app/suzhou/Simulation/Simulation/apps/opera/views.py", line 361
+    period_list = period_list.split(" ")
+                                       ^
+IndentationError: unindent does not match any outer indentation level
+[2020-08-05 09:50:57,064] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /station/login/
+Traceback (most recent call last):
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/resolvers.py", line 498, in resolve
+    for pattern in self.url_patterns:
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/utils/functional.py", line 36, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/resolvers.py", line 540, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/utils/functional.py", line 36, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/resolvers.py", line 533, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/local/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/app/suzhou/Simulation/Simulation/urls.py", line 9, in <module>
+    path('opera/',include('opera.urls')),
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/conf.py", line 34, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/local/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/app/suzhou/Simulation/Simulation/apps/opera/urls.py", line 2, in <module>
+    from . import views
+  File "/opt/app/suzhou/Simulation/Simulation/apps/opera/views.py", line 361
+    period_list = period_list.split(" ")
+                                       ^
+IndentationError: unindent does not match any outer indentation level
+[2020-08-05 09:51:03,799] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /station/line/
+Traceback (most recent call last):
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/resolvers.py", line 498, in resolve
+    for pattern in self.url_patterns:
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/utils/functional.py", line 36, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/resolvers.py", line 540, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/utils/functional.py", line 36, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/resolvers.py", line 533, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/local/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/app/suzhou/Simulation/Simulation/urls.py", line 9, in <module>
+    path('opera/',include('opera.urls')),
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/conf.py", line 34, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/local/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/app/suzhou/Simulation/Simulation/apps/opera/urls.py", line 2, in <module>
+    from . import views
+  File "/opt/app/suzhou/Simulation/Simulation/apps/opera/views.py", line 361
+    period_list = period_list.split(" ")
+                                       ^
+IndentationError: unindent does not match any outer indentation level
+[2020-08-05 09:51:03,807] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /station/login/
+Traceback (most recent call last):
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/resolvers.py", line 498, in resolve
+    for pattern in self.url_patterns:
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/utils/functional.py", line 36, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/resolvers.py", line 540, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/utils/functional.py", line 36, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/resolvers.py", line 533, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/local/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/app/suzhou/Simulation/Simulation/urls.py", line 9, in <module>
+    path('opera/',include('opera.urls')),
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/conf.py", line 34, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/local/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/app/suzhou/Simulation/Simulation/apps/opera/urls.py", line 2, in <module>
+    from . import views
+  File "/opt/app/suzhou/Simulation/Simulation/apps/opera/views.py", line 361
+    period_list = period_list.split(" ")
+                                       ^
+IndentationError: unindent does not match any outer indentation level
+[2020-08-05 09:51:03,820] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /station/line/
+Traceback (most recent call last):
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/resolvers.py", line 498, in resolve
+    for pattern in self.url_patterns:
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/utils/functional.py", line 36, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/resolvers.py", line 540, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/utils/functional.py", line 36, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/resolvers.py", line 533, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/local/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/app/suzhou/Simulation/Simulation/urls.py", line 9, in <module>
+    path('opera/',include('opera.urls')),
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/conf.py", line 34, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/local/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/app/suzhou/Simulation/Simulation/apps/opera/urls.py", line 2, in <module>
+    from . import views
+  File "/opt/app/suzhou/Simulation/Simulation/apps/opera/views.py", line 361
+    period_list = period_list.split(" ")
+                                       ^
+IndentationError: unindent does not match any outer indentation level
+[2020-08-05 09:51:16,186] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /station/line/
+Traceback (most recent call last):
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/resolvers.py", line 498, in resolve
+    for pattern in self.url_patterns:
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/utils/functional.py", line 36, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/resolvers.py", line 540, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/utils/functional.py", line 36, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/resolvers.py", line 533, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/local/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/app/suzhou/Simulation/Simulation/urls.py", line 9, in <module>
+    path('opera/',include('opera.urls')),
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/conf.py", line 34, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/local/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/app/suzhou/Simulation/Simulation/apps/opera/urls.py", line 2, in <module>
+    from . import views
+  File "/opt/app/suzhou/Simulation/Simulation/apps/opera/views.py", line 361
+    period_list = period_list.split(" ")
+                                       ^
+IndentationError: unindent does not match any outer indentation level
+[2020-08-05 09:51:16,191] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /station/login/
+Traceback (most recent call last):
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/resolvers.py", line 498, in resolve
+    for pattern in self.url_patterns:
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/utils/functional.py", line 36, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/resolvers.py", line 540, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/utils/functional.py", line 36, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/resolvers.py", line 533, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/local/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/app/suzhou/Simulation/Simulation/urls.py", line 9, in <module>
+    path('opera/',include('opera.urls')),
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/conf.py", line 34, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/local/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/app/suzhou/Simulation/Simulation/apps/opera/urls.py", line 2, in <module>
+    from . import views
+  File "/opt/app/suzhou/Simulation/Simulation/apps/opera/views.py", line 361
+    period_list = period_list.split(" ")
+                                       ^
+IndentationError: unindent does not match any outer indentation level
+[2020-08-05 09:51:16,195] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /station/line/
+Traceback (most recent call last):
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/resolvers.py", line 498, in resolve
+    for pattern in self.url_patterns:
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/utils/functional.py", line 36, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/resolvers.py", line 540, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/utils/functional.py", line 36, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/resolvers.py", line 533, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/local/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/app/suzhou/Simulation/Simulation/urls.py", line 9, in <module>
+    path('opera/',include('opera.urls')),
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/conf.py", line 34, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/local/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/app/suzhou/Simulation/Simulation/apps/opera/urls.py", line 2, in <module>
+    from . import views
+  File "/opt/app/suzhou/Simulation/Simulation/apps/opera/views.py", line 361
+    period_list = period_list.split(" ")
+                                       ^
+IndentationError: unindent does not match any outer indentation level
+[2020-08-05 09:51:32,063] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /station/line/
+Traceback (most recent call last):
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/resolvers.py", line 498, in resolve
+    for pattern in self.url_patterns:
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/utils/functional.py", line 36, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/resolvers.py", line 540, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/utils/functional.py", line 36, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/resolvers.py", line 533, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/local/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/app/suzhou/Simulation/Simulation/urls.py", line 9, in <module>
+    path('opera/',include('opera.urls')),
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/conf.py", line 34, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/local/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/app/suzhou/Simulation/Simulation/apps/opera/urls.py", line 2, in <module>
+    from . import views
+  File "/opt/app/suzhou/Simulation/Simulation/apps/opera/views.py", line 361
+    period_list = period_list.split(" ")
+                                       ^
+IndentationError: unindent does not match any outer indentation level
+[2020-08-05 09:51:32,065] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /station/line/
+Traceback (most recent call last):
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/resolvers.py", line 498, in resolve
+    for pattern in self.url_patterns:
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/utils/functional.py", line 36, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/resolvers.py", line 540, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/utils/functional.py", line 36, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/resolvers.py", line 533, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/local/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/app/suzhou/Simulation/Simulation/urls.py", line 9, in <module>
+    path('opera/',include('opera.urls')),
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/conf.py", line 34, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/local/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/app/suzhou/Simulation/Simulation/apps/opera/urls.py", line 2, in <module>
+    from . import views
+  File "/opt/app/suzhou/Simulation/Simulation/apps/opera/views.py", line 361
+    period_list = period_list.split(" ")
+                                       ^
+IndentationError: unindent does not match any outer indentation level
+[2020-08-05 09:51:32,086] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /station/login/
+Traceback (most recent call last):
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/resolvers.py", line 498, in resolve
+    for pattern in self.url_patterns:
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/utils/functional.py", line 36, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/resolvers.py", line 540, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/utils/functional.py", line 36, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/resolvers.py", line 533, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/local/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/app/suzhou/Simulation/Simulation/urls.py", line 9, in <module>
+    path('opera/',include('opera.urls')),
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/conf.py", line 34, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/local/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/app/suzhou/Simulation/Simulation/apps/opera/urls.py", line 2, in <module>
+    from . import views
+  File "/opt/app/suzhou/Simulation/Simulation/apps/opera/views.py", line 361
+    period_list = period_list.split(" ")
+                                       ^
+IndentationError: unindent does not match any outer indentation level
+[2020-08-05 09:52:15,640] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /station/line/
+Traceback (most recent call last):
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/resolvers.py", line 498, in resolve
+    for pattern in self.url_patterns:
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/utils/functional.py", line 36, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/resolvers.py", line 540, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/utils/functional.py", line 36, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/resolvers.py", line 533, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/local/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/app/suzhou/Simulation/Simulation/urls.py", line 9, in <module>
+    path('opera/',include('opera.urls')),
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/conf.py", line 34, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/local/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/app/suzhou/Simulation/Simulation/apps/opera/urls.py", line 2, in <module>
+    from . import views
+  File "/opt/app/suzhou/Simulation/Simulation/apps/opera/views.py", line 361
+    period_list = period_list.split(" ")
+                                       ^
+IndentationError: unindent does not match any outer indentation level
+[2020-08-05 09:52:15,658] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /station/login/
+Traceback (most recent call last):
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/resolvers.py", line 498, in resolve
+    for pattern in self.url_patterns:
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/utils/functional.py", line 36, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/resolvers.py", line 540, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/utils/functional.py", line 36, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/resolvers.py", line 533, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/local/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/app/suzhou/Simulation/Simulation/urls.py", line 9, in <module>
+    path('opera/',include('opera.urls')),
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/conf.py", line 34, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/local/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/app/suzhou/Simulation/Simulation/apps/opera/urls.py", line 2, in <module>
+    from . import views
+  File "/opt/app/suzhou/Simulation/Simulation/apps/opera/views.py", line 361
+    period_list = period_list.split(" ")
+                                       ^
+IndentationError: unindent does not match any outer indentation level
+[2020-08-05 09:52:15,661] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /station/line/
+Traceback (most recent call last):
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/resolvers.py", line 498, in resolve
+    for pattern in self.url_patterns:
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/utils/functional.py", line 36, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/resolvers.py", line 540, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/utils/functional.py", line 36, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/resolvers.py", line 533, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/local/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/app/suzhou/Simulation/Simulation/urls.py", line 9, in <module>
+    path('opera/',include('opera.urls')),
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/conf.py", line 34, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/local/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/app/suzhou/Simulation/Simulation/apps/opera/urls.py", line 2, in <module>
+    from . import views
+  File "/opt/app/suzhou/Simulation/Simulation/apps/opera/views.py", line 361
+    period_list = period_list.split(" ")
+                                       ^
+IndentationError: unindent does not match any outer indentation level
+[2020-08-05 09:55:03,010] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /station/line/
+Traceback (most recent call last):
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/resolvers.py", line 498, in resolve
+    for pattern in self.url_patterns:
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/utils/functional.py", line 36, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/resolvers.py", line 540, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/utils/functional.py", line 36, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/resolvers.py", line 533, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/local/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/app/suzhou/Simulation/Simulation/urls.py", line 9, in <module>
+    path('opera/',include('opera.urls')),
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/conf.py", line 34, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/local/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/app/suzhou/Simulation/Simulation/apps/opera/urls.py", line 2, in <module>
+    from . import views
+  File "/opt/app/suzhou/Simulation/Simulation/apps/opera/views.py", line 23, in <module>
+    from kafka import KafkaProducer
+ModuleNotFoundError: No module named 'kafka'
+[2020-08-05 09:55:03,138] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /station/line/
+Traceback (most recent call last):
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/resolvers.py", line 498, in resolve
+    for pattern in self.url_patterns:
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/utils/functional.py", line 36, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/resolvers.py", line 540, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/utils/functional.py", line 36, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/resolvers.py", line 533, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/local/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/app/suzhou/Simulation/Simulation/urls.py", line 9, in <module>
+    path('opera/',include('opera.urls')),
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/conf.py", line 34, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/local/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/app/suzhou/Simulation/Simulation/apps/opera/urls.py", line 2, in <module>
+    from . import views
+  File "/opt/app/suzhou/Simulation/Simulation/apps/opera/views.py", line 23, in <module>
+    from kafka import KafkaProducer
+ModuleNotFoundError: No module named 'kafka'
+[2020-08-05 09:55:03,199] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /station/login/
+Traceback (most recent call last):
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/resolvers.py", line 498, in resolve
+    for pattern in self.url_patterns:
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/utils/functional.py", line 36, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/resolvers.py", line 540, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/utils/functional.py", line 36, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/resolvers.py", line 533, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/local/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/app/suzhou/Simulation/Simulation/urls.py", line 9, in <module>
+    path('opera/',include('opera.urls')),
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/conf.py", line 34, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/local/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/app/suzhou/Simulation/Simulation/apps/opera/urls.py", line 2, in <module>
+    from . import views
+  File "/opt/app/suzhou/Simulation/Simulation/apps/opera/views.py", line 23, in <module>
+    from kafka import KafkaProducer
+ModuleNotFoundError: No module named 'kafka'
+[2020-08-05 09:55:12,632] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /station/line/
+Traceback (most recent call last):
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/resolvers.py", line 498, in resolve
+    for pattern in self.url_patterns:
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/utils/functional.py", line 36, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/resolvers.py", line 540, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/utils/functional.py", line 36, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/resolvers.py", line 533, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/local/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/app/suzhou/Simulation/Simulation/urls.py", line 9, in <module>
+    path('opera/',include('opera.urls')),
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/conf.py", line 34, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/local/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/app/suzhou/Simulation/Simulation/apps/opera/urls.py", line 2, in <module>
+    from . import views
+  File "/opt/app/suzhou/Simulation/Simulation/apps/opera/views.py", line 23, in <module>
+    from kafka import KafkaProducer
+ModuleNotFoundError: No module named 'kafka'
+[2020-08-05 09:55:12,636] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /station/login/
+Traceback (most recent call last):
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/resolvers.py", line 498, in resolve
+    for pattern in self.url_patterns:
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/utils/functional.py", line 36, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/resolvers.py", line 540, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/utils/functional.py", line 36, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/resolvers.py", line 533, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/local/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/app/suzhou/Simulation/Simulation/urls.py", line 9, in <module>
+    path('opera/',include('opera.urls')),
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/conf.py", line 34, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/local/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/app/suzhou/Simulation/Simulation/apps/opera/urls.py", line 2, in <module>
+    from . import views
+  File "/opt/app/suzhou/Simulation/Simulation/apps/opera/views.py", line 23, in <module>
+    from kafka import KafkaProducer
+ModuleNotFoundError: No module named 'kafka'
+[2020-08-05 09:55:12,859] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /station/line/
+Traceback (most recent call last):
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/resolvers.py", line 498, in resolve
+    for pattern in self.url_patterns:
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/utils/functional.py", line 36, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/resolvers.py", line 540, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/utils/functional.py", line 36, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/resolvers.py", line 533, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/local/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/app/suzhou/Simulation/Simulation/urls.py", line 9, in <module>
+    path('opera/',include('opera.urls')),
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/conf.py", line 34, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/local/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/app/suzhou/Simulation/Simulation/apps/opera/urls.py", line 2, in <module>
+    from . import views
+  File "/opt/app/suzhou/Simulation/Simulation/apps/opera/views.py", line 23, in <module>
+    from kafka import KafkaProducer
+ModuleNotFoundError: No module named 'kafka'
+[2020-08-05 09:55:18,235] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /station/line/
+Traceback (most recent call last):
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/resolvers.py", line 498, in resolve
+    for pattern in self.url_patterns:
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/utils/functional.py", line 36, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/resolvers.py", line 540, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/utils/functional.py", line 36, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/resolvers.py", line 533, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/local/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/app/suzhou/Simulation/Simulation/urls.py", line 9, in <module>
+    path('opera/',include('opera.urls')),
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/conf.py", line 34, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/local/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/app/suzhou/Simulation/Simulation/apps/opera/urls.py", line 2, in <module>
+    from . import views
+  File "/opt/app/suzhou/Simulation/Simulation/apps/opera/views.py", line 23, in <module>
+    from kafka import KafkaProducer
+ModuleNotFoundError: No module named 'kafka'
+[2020-08-05 09:55:18,239] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /station/line/
+Traceback (most recent call last):
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/resolvers.py", line 498, in resolve
+    for pattern in self.url_patterns:
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/utils/functional.py", line 36, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/resolvers.py", line 540, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/utils/functional.py", line 36, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/resolvers.py", line 533, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/local/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/app/suzhou/Simulation/Simulation/urls.py", line 9, in <module>
+    path('opera/',include('opera.urls')),
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/conf.py", line 34, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/local/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/app/suzhou/Simulation/Simulation/apps/opera/urls.py", line 2, in <module>
+    from . import views
+  File "/opt/app/suzhou/Simulation/Simulation/apps/opera/views.py", line 23, in <module>
+    from kafka import KafkaProducer
+ModuleNotFoundError: No module named 'kafka'
+[2020-08-05 09:55:18,248] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /station/login/
+Traceback (most recent call last):
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/resolvers.py", line 498, in resolve
+    for pattern in self.url_patterns:
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/utils/functional.py", line 36, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/resolvers.py", line 540, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/utils/functional.py", line 36, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/resolvers.py", line 533, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/local/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/app/suzhou/Simulation/Simulation/urls.py", line 9, in <module>
+    path('opera/',include('opera.urls')),
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/conf.py", line 34, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/local/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/app/suzhou/Simulation/Simulation/apps/opera/urls.py", line 2, in <module>
+    from . import views
+  File "/opt/app/suzhou/Simulation/Simulation/apps/opera/views.py", line 23, in <module>
+    from kafka import KafkaProducer
+ModuleNotFoundError: No module named 'kafka'
+[2020-08-05 09:55:30,754] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /station/line/
+Traceback (most recent call last):
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/resolvers.py", line 498, in resolve
+    for pattern in self.url_patterns:
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/utils/functional.py", line 36, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/resolvers.py", line 540, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/utils/functional.py", line 36, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/resolvers.py", line 533, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/local/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/app/suzhou/Simulation/Simulation/urls.py", line 9, in <module>
+    path('opera/',include('opera.urls')),
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/conf.py", line 34, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/local/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/app/suzhou/Simulation/Simulation/apps/opera/urls.py", line 2, in <module>
+    from . import views
+  File "/opt/app/suzhou/Simulation/Simulation/apps/opera/views.py", line 23, in <module>
+    from kafka import KafkaProducer
+ModuleNotFoundError: No module named 'kafka'
+[2020-08-05 09:55:30,756] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /station/line/
+Traceback (most recent call last):
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/resolvers.py", line 498, in resolve
+    for pattern in self.url_patterns:
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/utils/functional.py", line 36, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/resolvers.py", line 540, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/utils/functional.py", line 36, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/resolvers.py", line 533, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/local/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/app/suzhou/Simulation/Simulation/urls.py", line 9, in <module>
+    path('opera/',include('opera.urls')),
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/conf.py", line 34, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/local/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/app/suzhou/Simulation/Simulation/apps/opera/urls.py", line 2, in <module>
+    from . import views
+  File "/opt/app/suzhou/Simulation/Simulation/apps/opera/views.py", line 23, in <module>
+    from kafka import KafkaProducer
+ModuleNotFoundError: No module named 'kafka'
+[2020-08-05 09:55:30,815] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /station/login/
+Traceback (most recent call last):
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/resolvers.py", line 498, in resolve
+    for pattern in self.url_patterns:
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/utils/functional.py", line 36, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/resolvers.py", line 540, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/utils/functional.py", line 36, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/resolvers.py", line 533, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/local/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/app/suzhou/Simulation/Simulation/urls.py", line 9, in <module>
+    path('opera/',include('opera.urls')),
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/conf.py", line 34, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/local/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/app/suzhou/Simulation/Simulation/apps/opera/urls.py", line 2, in <module>
+    from . import views
+  File "/opt/app/suzhou/Simulation/Simulation/apps/opera/views.py", line 23, in <module>
+    from kafka import KafkaProducer
+ModuleNotFoundError: No module named 'kafka'
+[2020-08-05 09:57:37,608] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /station/line/
+Traceback (most recent call last):
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/resolvers.py", line 498, in resolve
+    for pattern in self.url_patterns:
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/utils/functional.py", line 36, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/resolvers.py", line 540, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/utils/functional.py", line 36, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/resolvers.py", line 533, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/local/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/app/suzhou/Simulation/Simulation/urls.py", line 9, in <module>
+    path('opera/',include('opera.urls')),
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/conf.py", line 34, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/local/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/app/suzhou/Simulation/Simulation/apps/opera/urls.py", line 31, in <module>
+    path('sim/', views.SimAPIView.as_view()),
+AttributeError: module 'opera.views' has no attribute 'SimAPIView'
+[2020-08-05 09:57:37,686] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /station/line/
+Traceback (most recent call last):
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/resolvers.py", line 498, in resolve
+    for pattern in self.url_patterns:
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/utils/functional.py", line 36, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/resolvers.py", line 540, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/utils/functional.py", line 36, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/resolvers.py", line 533, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/local/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/app/suzhou/Simulation/Simulation/urls.py", line 9, in <module>
+    path('opera/',include('opera.urls')),
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/conf.py", line 34, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/local/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/app/suzhou/Simulation/Simulation/apps/opera/urls.py", line 31, in <module>
+    path('sim/', views.SimAPIView.as_view()),
+AttributeError: module 'opera.views' has no attribute 'SimAPIView'
+[2020-08-05 09:57:37,741] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /station/login/
+Traceback (most recent call last):
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/resolvers.py", line 498, in resolve
+    for pattern in self.url_patterns:
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/utils/functional.py", line 36, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/resolvers.py", line 540, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/utils/functional.py", line 36, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/resolvers.py", line 533, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/local/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/app/suzhou/Simulation/Simulation/urls.py", line 9, in <module>
+    path('opera/',include('opera.urls')),
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/conf.py", line 34, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/local/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/app/suzhou/Simulation/Simulation/apps/opera/urls.py", line 31, in <module>
+    path('sim/', views.SimAPIView.as_view()),
+AttributeError: module 'opera.views' has no attribute 'SimAPIView'
+[2020-08-05 09:57:43,836] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /station/line/
+Traceback (most recent call last):
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/resolvers.py", line 498, in resolve
+    for pattern in self.url_patterns:
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/utils/functional.py", line 36, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/resolvers.py", line 540, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/utils/functional.py", line 36, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/resolvers.py", line 533, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/local/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/app/suzhou/Simulation/Simulation/urls.py", line 9, in <module>
+    path('opera/',include('opera.urls')),
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/conf.py", line 34, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/local/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/app/suzhou/Simulation/Simulation/apps/opera/urls.py", line 31, in <module>
+    path('sim/', views.SimAPIView.as_view()),
+AttributeError: module 'opera.views' has no attribute 'SimAPIView'
+[2020-08-05 09:57:43,850] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /station/login/
+Traceback (most recent call last):
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/resolvers.py", line 498, in resolve
+    for pattern in self.url_patterns:
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/utils/functional.py", line 36, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/resolvers.py", line 540, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/utils/functional.py", line 36, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/resolvers.py", line 533, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/local/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/app/suzhou/Simulation/Simulation/urls.py", line 9, in <module>
+    path('opera/',include('opera.urls')),
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/conf.py", line 34, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/local/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/app/suzhou/Simulation/Simulation/apps/opera/urls.py", line 31, in <module>
+    path('sim/', views.SimAPIView.as_view()),
+AttributeError: module 'opera.views' has no attribute 'SimAPIView'
+[2020-08-05 09:57:44,050] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /station/line/
+Traceback (most recent call last):
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/resolvers.py", line 498, in resolve
+    for pattern in self.url_patterns:
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/utils/functional.py", line 36, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/resolvers.py", line 540, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/utils/functional.py", line 36, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/resolvers.py", line 533, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/local/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/app/suzhou/Simulation/Simulation/urls.py", line 9, in <module>
+    path('opera/',include('opera.urls')),
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/conf.py", line 34, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/local/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/app/suzhou/Simulation/Simulation/apps/opera/urls.py", line 31, in <module>
+    path('sim/', views.SimAPIView.as_view()),
+AttributeError: module 'opera.views' has no attribute 'SimAPIView'
+[2020-08-05 09:57:50,481] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /station/line/
+Traceback (most recent call last):
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/resolvers.py", line 498, in resolve
+    for pattern in self.url_patterns:
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/utils/functional.py", line 36, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/resolvers.py", line 540, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/utils/functional.py", line 36, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/resolvers.py", line 533, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/local/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/app/suzhou/Simulation/Simulation/urls.py", line 9, in <module>
+    path('opera/',include('opera.urls')),
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/conf.py", line 34, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/local/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/app/suzhou/Simulation/Simulation/apps/opera/urls.py", line 31, in <module>
+    path('sim/', views.SimAPIView.as_view()),
+AttributeError: module 'opera.views' has no attribute 'SimAPIView'
+[2020-08-05 09:57:50,488] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /station/line/
+Traceback (most recent call last):
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/resolvers.py", line 498, in resolve
+    for pattern in self.url_patterns:
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/utils/functional.py", line 36, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/resolvers.py", line 540, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/utils/functional.py", line 36, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/resolvers.py", line 533, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/local/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/app/suzhou/Simulation/Simulation/urls.py", line 9, in <module>
+    path('opera/',include('opera.urls')),
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/conf.py", line 34, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/local/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/app/suzhou/Simulation/Simulation/apps/opera/urls.py", line 31, in <module>
+    path('sim/', views.SimAPIView.as_view()),
+AttributeError: module 'opera.views' has no attribute 'SimAPIView'
+[2020-08-05 09:57:50,492] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /station/login/
+Traceback (most recent call last):
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/resolvers.py", line 498, in resolve
+    for pattern in self.url_patterns:
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/utils/functional.py", line 36, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/resolvers.py", line 540, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/utils/functional.py", line 36, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/resolvers.py", line 533, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/local/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/app/suzhou/Simulation/Simulation/urls.py", line 9, in <module>
+    path('opera/',include('opera.urls')),
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/conf.py", line 34, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/local/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/app/suzhou/Simulation/Simulation/apps/opera/urls.py", line 31, in <module>
+    path('sim/', views.SimAPIView.as_view()),
+AttributeError: module 'opera.views' has no attribute 'SimAPIView'
+[2020-08-05 09:58:08,180] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /station/line/
+Traceback (most recent call last):
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/resolvers.py", line 498, in resolve
+    for pattern in self.url_patterns:
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/utils/functional.py", line 36, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/resolvers.py", line 540, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/utils/functional.py", line 36, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/resolvers.py", line 533, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/local/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/app/suzhou/Simulation/Simulation/urls.py", line 9, in <module>
+    path('opera/',include('opera.urls')),
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/conf.py", line 34, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/local/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/app/suzhou/Simulation/Simulation/apps/opera/urls.py", line 31, in <module>
+    path('sim/', views.SimAPIView.as_view()),
+AttributeError: module 'opera.views' has no attribute 'SimAPIView'
+[2020-08-05 09:58:08,187] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /station/line/
+Traceback (most recent call last):
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/resolvers.py", line 498, in resolve
+    for pattern in self.url_patterns:
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/utils/functional.py", line 36, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/resolvers.py", line 540, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/utils/functional.py", line 36, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/resolvers.py", line 533, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/local/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/app/suzhou/Simulation/Simulation/urls.py", line 9, in <module>
+    path('opera/',include('opera.urls')),
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/conf.py", line 34, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/local/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/app/suzhou/Simulation/Simulation/apps/opera/urls.py", line 31, in <module>
+    path('sim/', views.SimAPIView.as_view()),
+AttributeError: module 'opera.views' has no attribute 'SimAPIView'
+[2020-08-05 09:58:08,193] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /station/login/
+Traceback (most recent call last):
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/resolvers.py", line 498, in resolve
+    for pattern in self.url_patterns:
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/utils/functional.py", line 36, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/resolvers.py", line 540, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/utils/functional.py", line 36, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/resolvers.py", line 533, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/local/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/app/suzhou/Simulation/Simulation/urls.py", line 9, in <module>
+    path('opera/',include('opera.urls')),
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/conf.py", line 34, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/local/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/app/suzhou/Simulation/Simulation/apps/opera/urls.py", line 31, in <module>
+    path('sim/', views.SimAPIView.as_view()),
+AttributeError: module 'opera.views' has no attribute 'SimAPIView'
+[2020-08-05 09:58:16,479] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /station/line/
+Traceback (most recent call last):
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/resolvers.py", line 498, in resolve
+    for pattern in self.url_patterns:
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/utils/functional.py", line 36, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/resolvers.py", line 540, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/utils/functional.py", line 36, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/resolvers.py", line 533, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/local/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/app/suzhou/Simulation/Simulation/urls.py", line 9, in <module>
+    path('opera/',include('opera.urls')),
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/conf.py", line 34, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/local/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/app/suzhou/Simulation/Simulation/apps/opera/urls.py", line 31, in <module>
+    path('sim/', views.SimAPIView.as_view()),
+AttributeError: module 'opera.views' has no attribute 'SimAPIView'
+[2020-08-05 09:58:16,484] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /station/login/
+Traceback (most recent call last):
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/resolvers.py", line 498, in resolve
+    for pattern in self.url_patterns:
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/utils/functional.py", line 36, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/resolvers.py", line 540, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/utils/functional.py", line 36, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/resolvers.py", line 533, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/local/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/app/suzhou/Simulation/Simulation/urls.py", line 9, in <module>
+    path('opera/',include('opera.urls')),
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/conf.py", line 34, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/local/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/app/suzhou/Simulation/Simulation/apps/opera/urls.py", line 31, in <module>
+    path('sim/', views.SimAPIView.as_view()),
+AttributeError: module 'opera.views' has no attribute 'SimAPIView'
+[2020-08-05 09:58:16,498] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /station/line/
+Traceback (most recent call last):
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/resolvers.py", line 498, in resolve
+    for pattern in self.url_patterns:
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/utils/functional.py", line 36, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/resolvers.py", line 540, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/utils/functional.py", line 36, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/resolvers.py", line 533, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/local/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/app/suzhou/Simulation/Simulation/urls.py", line 9, in <module>
+    path('opera/',include('opera.urls')),
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/conf.py", line 34, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/local/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/app/suzhou/Simulation/Simulation/apps/opera/urls.py", line 31, in <module>
+    path('sim/', views.SimAPIView.as_view()),
+AttributeError: module 'opera.views' has no attribute 'SimAPIView'
+[2020-08-05 09:58:22,690] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /station/line/
+Traceback (most recent call last):
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/resolvers.py", line 498, in resolve
+    for pattern in self.url_patterns:
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/utils/functional.py", line 36, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/resolvers.py", line 540, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/utils/functional.py", line 36, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/resolvers.py", line 533, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/local/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/app/suzhou/Simulation/Simulation/urls.py", line 9, in <module>
+    path('opera/',include('opera.urls')),
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/conf.py", line 34, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/local/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/app/suzhou/Simulation/Simulation/apps/opera/urls.py", line 31, in <module>
+    path('sim/', views.SimAPIView.as_view()),
+AttributeError: module 'opera.views' has no attribute 'SimAPIView'
+[2020-08-05 09:58:22,696] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /station/line/
+Traceback (most recent call last):
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/resolvers.py", line 498, in resolve
+    for pattern in self.url_patterns:
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/utils/functional.py", line 36, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/resolvers.py", line 540, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/utils/functional.py", line 36, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/resolvers.py", line 533, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/local/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/app/suzhou/Simulation/Simulation/urls.py", line 9, in <module>
+    path('opera/',include('opera.urls')),
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/conf.py", line 34, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/local/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/app/suzhou/Simulation/Simulation/apps/opera/urls.py", line 31, in <module>
+    path('sim/', views.SimAPIView.as_view()),
+AttributeError: module 'opera.views' has no attribute 'SimAPIView'
+[2020-08-05 09:58:22,702] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /station/login/
+Traceback (most recent call last):
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/resolvers.py", line 498, in resolve
+    for pattern in self.url_patterns:
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/utils/functional.py", line 36, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/resolvers.py", line 540, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/utils/functional.py", line 36, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/resolvers.py", line 533, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/local/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/app/suzhou/Simulation/Simulation/urls.py", line 9, in <module>
+    path('opera/',include('opera.urls')),
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/urls/conf.py", line 34, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/local/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/app/suzhou/Simulation/Simulation/apps/opera/urls.py", line 31, in <module>
+    path('sim/', views.SimAPIView.as_view()),
+AttributeError: module 'opera.views' has no attribute 'SimAPIView'
+[2020-08-05 10:44:56,699] [base.py:93] [base:get_response] [WARNING]- Not Found: /media/station/7892e3dc2234f1966a50ab55ff3a5ee.png
+[2020-08-05 13:30:27,842] [base.py:93] [base:get_response] [WARNING]- Not Found: /media/station/7892e3dc2234f1966a50ab55ff3a5ee.png
+[2020-08-05 13:30:28,121] [base.py:93] [base:get_response] [WARNING]- Not Found: /media/station/产品策略及用户研究.png
+[2020-08-05 14:51:24,280] [base.py:93] [base:get_response] [WARNING]- Not Found: /
+[2020-08-05 14:51:24,333] [base.py:93] [base:get_response] [WARNING]- Not Found: /
+[2020-08-05 14:51:24,351] [base.py:93] [base:get_response] [WARNING]- Not Found: /
+[2020-08-05 14:51:24,373] [base.py:93] [base:get_response] [WARNING]- Not Found: /
+[2020-08-05 14:51:26,246] [base.py:93] [base:get_response] [WARNING]- Not Found: /
+[2020-08-05 14:51:53,590] [base.py:93] [base:get_response] [WARNING]- Not Found: /
+[2020-08-05 14:51:54,524] [base.py:93] [base:get_response] [WARNING]- Not Found: /
+[2020-08-05 14:51:57,333] [base.py:93] [base:get_response] [WARNING]- Not Found: /
+[2020-08-05 14:51:57,988] [base.py:93] [base:get_response] [WARNING]- Not Found: /
+[2020-08-05 14:51:59,829] [base.py:93] [base:get_response] [WARNING]- Not Found: /
+[2020-08-05 14:56:36,691] [base.py:93] [base:get_response] [WARNING]- Not Found: /crossdomain.xml
+[2020-08-05 14:56:44,461] [base.py:93] [base:get_response] [WARNING]- Not Found: /
+[2020-08-05 14:56:44,468] [base.py:93] [base:get_response] [WARNING]- Not Found: /
+[2020-08-05 14:56:44,486] [base.py:93] [base:get_response] [WARNING]- Not Found: /
+[2020-08-05 14:56:44,501] [base.py:93] [base:get_response] [WARNING]- Not Found: /
+[2020-08-05 15:10:02,690] [base.py:93] [base:get_response] [WARNING]- Not Found: /
+[2020-08-05 15:10:03,029] [base.py:93] [base:get_response] [WARNING]- Not Found: /
+[2020-08-05 15:10:03,374] [base.py:93] [base:get_response] [WARNING]- Not Found: /
+[2020-08-05 15:10:03,750] [base.py:93] [base:get_response] [WARNING]- Not Found: /
+[2020-08-05 15:24:59,485] [base.py:93] [base:get_response] [WARNING]- Not Found: /
+[2020-08-05 15:24:59,577] [base.py:93] [base:get_response] [WARNING]- Not Found: /
+[2020-08-05 15:24:59,631] [base.py:93] [base:get_response] [WARNING]- Not Found: /
+[2020-08-05 15:24:59,668] [base.py:93] [base:get_response] [WARNING]- Not Found: /
+[2020-08-05 15:41:45,035] [base.py:93] [base:get_response] [WARNING]- Not Found: /
+[2020-08-05 15:41:45,160] [base.py:93] [base:get_response] [WARNING]- Not Found: /
+[2020-08-05 15:41:45,216] [base.py:93] [base:get_response] [WARNING]- Not Found: /
+[2020-08-05 15:41:45,253] [base.py:93] [base:get_response] [WARNING]- Not Found: /
+[2020-08-05 15:41:46,871] [base.py:93] [base:get_response] [WARNING]- Not Found: /
+[2020-08-05 15:41:49,728] [base.py:93] [base:get_response] [WARNING]- Not Found: /
+[2020-08-05 15:41:50,682] [base.py:93] [base:get_response] [WARNING]- Not Found: /
+[2020-08-05 15:41:51,388] [base.py:93] [base:get_response] [WARNING]- Not Found: /
+[2020-08-05 15:43:57,587] [base.py:93] [base:get_response] [WARNING]- Not Found: /
+[2020-08-05 15:43:57,615] [base.py:93] [base:get_response] [WARNING]- Not Found: /
+[2020-08-05 18:24:47,483] [base.py:93] [base:get_response] [WARNING]- Not Found: /media/station/7892e3dc2234f1966a50ab55ff3a5ee.png
+[2020-08-05 18:24:47,654] [base.py:93] [base:get_response] [WARNING]- Not Found: /media/station/产品策略及用户研究.png
+[2020-08-06 09:06:51,948] [base.py:93] [base:get_response] [WARNING]- Not Found: /
+[2020-08-06 09:06:52,269] [base.py:93] [base:get_response] [WARNING]- Not Found: /
+[2020-08-06 09:19:07,739] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /station/schemes/
+Traceback (most recent call last):
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.UndefinedColumn: column train_scheme.is_save does not exist
+LINE 1: ...rain_scheme"."edi_time", "train_scheme"."is_run", "train_sch...
+                                                             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/views/generic/base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/opt/app/suzhou/Simulation/Simulation/apps/station_info/views.py", line 185, in get
+    response = self.list(request,*args,**kwargs).data
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/rest_framework/mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/rest_framework/serializers.py", line 760, in data
+    ret = super().data
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/rest_framework/serializers.py", line 260, in data
+    self._data = self.to_representation(self.instance)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/rest_framework/serializers.py", line 678, in to_representation
+    self.child.to_representation(item) for item in iterable
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/db/models/query.py", line 272, in __iter__
+    self._fetch_all()
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/db/models/query.py", line 1179, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/db/models/query.py", line 53, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/db/models/sql/compiler.py", line 1068, in execute_sql
+    cursor.execute(sql, params)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/db/backends/utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/db/backends/utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/db/backends/utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/db/utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.ProgrammingError: column train_scheme.is_save does not exist
+LINE 1: ...rain_scheme"."edi_time", "train_scheme"."is_run", "train_sch...
+                                                             ^
+
+[2020-08-06 09:22:25,627] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /station/schemes/
+Traceback (most recent call last):
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.UndefinedColumn: column train_scheme.is_save does not exist
+LINE 1: ...rain_scheme"."edi_time", "train_scheme"."is_run", "train_sch...
+                                                             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/views/generic/base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/opt/app/suzhou/Simulation/Simulation/apps/station_info/views.py", line 185, in get
+    response = self.list(request,*args,**kwargs).data
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/rest_framework/mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/rest_framework/serializers.py", line 760, in data
+    ret = super().data
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/rest_framework/serializers.py", line 260, in data
+    self._data = self.to_representation(self.instance)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/rest_framework/serializers.py", line 678, in to_representation
+    self.child.to_representation(item) for item in iterable
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/db/models/query.py", line 272, in __iter__
+    self._fetch_all()
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/db/models/query.py", line 1179, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/db/models/query.py", line 53, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/db/models/sql/compiler.py", line 1068, in execute_sql
+    cursor.execute(sql, params)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/db/backends/utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/db/backends/utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/db/backends/utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/db/utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.ProgrammingError: column train_scheme.is_save does not exist
+LINE 1: ...rain_scheme"."edi_time", "train_scheme"."is_run", "train_sch...
+                                                             ^
+
+[2020-08-06 09:23:19,900] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /station/schemes/
+Traceback (most recent call last):
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.UndefinedColumn: column train_scheme.is_save does not exist
+LINE 1: ...rain_scheme"."edi_time", "train_scheme"."is_run", "train_sch...
+                                                             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/views/generic/base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/opt/app/suzhou/Simulation/Simulation/apps/station_info/views.py", line 185, in get
+    response = self.list(request,*args,**kwargs).data
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/rest_framework/mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/rest_framework/serializers.py", line 760, in data
+    ret = super().data
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/rest_framework/serializers.py", line 260, in data
+    self._data = self.to_representation(self.instance)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/rest_framework/serializers.py", line 678, in to_representation
+    self.child.to_representation(item) for item in iterable
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/db/models/query.py", line 272, in __iter__
+    self._fetch_all()
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/db/models/query.py", line 1179, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/db/models/query.py", line 53, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/db/models/sql/compiler.py", line 1068, in execute_sql
+    cursor.execute(sql, params)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/db/backends/utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/db/backends/utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/db/backends/utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/db/utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.ProgrammingError: column train_scheme.is_save does not exist
+LINE 1: ...rain_scheme"."edi_time", "train_scheme"."is_run", "train_sch...
+                                                             ^
+
+[2020-08-06 09:23:36,919] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /station/schemes/
+Traceback (most recent call last):
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.UndefinedColumn: column train_scheme.is_save does not exist
+LINE 1: ...rain_scheme"."edi_time", "train_scheme"."is_run", "train_sch...
+                                                             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/views/generic/base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/opt/app/suzhou/Simulation/Simulation/apps/station_info/views.py", line 185, in get
+    response = self.list(request,*args,**kwargs).data
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/rest_framework/mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/rest_framework/serializers.py", line 760, in data
+    ret = super().data
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/rest_framework/serializers.py", line 260, in data
+    self._data = self.to_representation(self.instance)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/rest_framework/serializers.py", line 678, in to_representation
+    self.child.to_representation(item) for item in iterable
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/db/models/query.py", line 272, in __iter__
+    self._fetch_all()
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/db/models/query.py", line 1179, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/db/models/query.py", line 53, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/db/models/sql/compiler.py", line 1068, in execute_sql
+    cursor.execute(sql, params)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/db/backends/utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/db/backends/utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/db/backends/utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/db/utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.ProgrammingError: column train_scheme.is_save does not exist
+LINE 1: ...rain_scheme"."edi_time", "train_scheme"."is_run", "train_sch...
+                                                             ^
+
+[2020-08-06 09:23:41,184] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /station/schemes/
+Traceback (most recent call last):
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.UndefinedColumn: column train_scheme.is_save does not exist
+LINE 1: ...rain_scheme"."edi_time", "train_scheme"."is_run", "train_sch...
+                                                             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/views/generic/base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/opt/app/suzhou/Simulation/Simulation/apps/station_info/views.py", line 185, in get
+    response = self.list(request,*args,**kwargs).data
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/rest_framework/mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/rest_framework/serializers.py", line 760, in data
+    ret = super().data
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/rest_framework/serializers.py", line 260, in data
+    self._data = self.to_representation(self.instance)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/rest_framework/serializers.py", line 678, in to_representation
+    self.child.to_representation(item) for item in iterable
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/db/models/query.py", line 272, in __iter__
+    self._fetch_all()
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/db/models/query.py", line 1179, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/db/models/query.py", line 53, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/db/models/sql/compiler.py", line 1068, in execute_sql
+    cursor.execute(sql, params)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/db/backends/utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/db/backends/utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/db/backends/utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/db/utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/opt/app/suzhou/suzhou/lib/python3.7/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.ProgrammingError: column train_scheme.is_save does not exist
+LINE 1: ...rain_scheme"."edi_time", "train_scheme"."is_run", "train_sch...
+                                                             ^
+

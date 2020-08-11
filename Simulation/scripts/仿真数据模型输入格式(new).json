@@ -1,0 +1,279 @@
+{
+    // 仿真方案的数据
+    "Sheme_id": "hsuadhasdia",  // 方案id
+    "StartTime": "2020-06-12 07:00:00",  // 开始时间
+    "EndTime": "2020-06-12 09:00:00",  // 结束时间
+
+    "Per_time_unit": 900,  // 属性
+    "isInsertDB": true,  // 是否为2D仿真
+    "isInsert3D_DB": false,  // 是否为3D仿真
+    "runParams": [
+        {
+            "senceId": "方案1",
+            "pParam": {
+                "male_rate": "50.00",
+                "female_rate": "50.00",
+                "personal_rate": "50.00",
+                "team_rate": "50.00",
+                "older_rate": "76.00",
+                "adult_rate": "20.00",
+                "child_rate": "4.00",
+                "no_bag_rate": "3.00",
+                "small_bag_rate": "47.00",
+                "big_bag_rate": "50.00",
+                "mo_speed": "1.31",
+                "mo_space": "0.365",
+                "ma_speed": "1.62",
+                "ma_space": "0.378",
+                "mc_speed": "0.78",
+                "mc_space": "0.258",
+                "fo_speed": "0.98",
+                "fo_space": "0.302",
+                "fa_speed": "1.31",
+                "fa_space": "0.455",
+                "fc_speed": "0.72",
+                "fc_space": "0.172"
+            },
+            "eParam": {
+                "sc_fast_rate": 50,
+                "sc_big_bag_time": "8.0",
+                "sc_small_bag_time": "6.0",
+                "sc_fast_time": "4.0",
+                "tvm_use_rate": 65,
+                "tvm_tickets_rate": 50,
+                "tvm_tickets_time": "10.0",
+                "tvm_recharge_rate": 50,
+                "tvm_recharge_time": "10.0",
+                "bom_use_rate": 35,
+                "bom_tickets_rate": 45,
+                "bom_tickets_time": "5.0",
+                "bom_recharge_rate": 55,
+                "bom_recharge_time": "2.0",
+                "gate_normal_time": "4.0",
+                "gate_big_bag_time": "4.0"
+            },
+            "eStaus": [
+                {
+                    "eq_id": "F0121010102B",
+                    "eq_status": "01"
+                },
+                {
+                    "eq_id": "F0121010103B",
+                    "eq_status": "02"
+                }
+
+            ],
+            "eRate": [
+                {
+                    "eq_id": "F0521010101B",
+                    "out_rate": "32.00",
+                    "in_rate": "18.00"
+                },
+
+                {
+                    "eq_id": "F0621010111B",
+                    "board_rate": "25.00",
+                    "getoff_rate": "25.00"
+                },
+                {
+                    "eq_id": "F0621010102B",
+                    "board_rate": "25.00",
+                    "getoff_rate": "25.00"
+                },
+                {
+                    "eq_id": "F0621010103B",
+                    "board_rate": "32.00",
+                    "getoff_rate": "18.00"
+                }
+            ]
+        }
+    ],
+    "AccinParams": [
+        {
+            "id": 1,
+            "line_id": "02",
+            "dir": "01",
+            "stat_tm": "2020-06-12 14:15:00",
+            "entry_quantity": 500
+        },
+        {
+            "id": 1,
+            "line_id": "02",
+            "dir": "02",
+            "stat_tm": "2020-06-12 14:20:00",
+            "entry_quantity": 500
+        },
+        {
+            "id": 1,
+            "line_id": "04",
+            "dir": "01",
+            "stat_tm": "2020-06-12 14:20:00",
+            "entry_quantity": 500
+        },
+        {
+            "id": 1,
+            "line_id": "04",
+            "dir": "02",
+            "stat_tm": "2020-06-12 14:20:00",
+            "entry_quantity": 500
+        }
+    ],
+    "AccoutParams": [
+        {
+            "id": 1,
+            "line_id": "02",
+            "dir": "01",
+            "stat_tm": "2020-06-12 14:15:00",
+            "exit_quantity": 500
+        },
+        {
+            "id": 1,
+            "line_id": "02",
+            "dir": "02",
+            "stat_tm": "2020-06-12 14:20:00",
+            "exit_quantity": 500
+        },
+        {
+            "id": 1,
+            "line_id": "04",
+            "dir": "01",
+            "stat_tm": "2020-06-12 14:20:00",
+            "exit_quantity": 500
+        },
+        {
+            "id": 1,
+            "line_id": "04",
+            "dir": "02",
+            "stat_tm": "2020-06-12 14:20:00",
+            "exit_quantity": 500
+        }
+    ],
+    "AccTransParams": [
+        {
+            "id": 1,
+            "from_line_id": "02",
+            "from_drct_cd": "01",
+            "to_line_id": "04",
+            "to_drct_cd": "01",
+            "stat_tm": "2020-06-12 14:15:00",
+            "quantity": 500
+        },
+        {
+            "id": 2,
+            "from_line_id": "02",
+            "from_drct_cd": "01",
+            "to_line_id": "04",
+            "to_drct_cd": "02",
+            "stat_tm": "2020-06-12 14:30:00",
+            "quantity": 500
+        },
+        {
+            "id": 1,
+            "from_line_id": "02",
+            "from_drct_cd": "02",
+            "to_line_id": "04",
+            "to_drct_cd": "01",
+            "stat_tm": "2020-06-12 14:1500",
+            "quantity": 500
+        },
+        {
+            "id": 2,
+            "from_line_id": "02",
+            "from_drct_cd": "02",
+            "to_line_id": "04",
+            "to_drct_cd": "02",
+            "stat_tm": "2020-06-12 14:30:00",
+            "quantity": 500
+        },
+        {
+            "id": 2,
+            "from_line_id": "04",
+            "from_drct_cd": "01",
+            "to_line_id": "02",
+            "to_drct_cd": "01",
+            "stat_tm": "2020-06-12 14:30:00",
+            "quantity": 500
+        },
+        {
+            "id": 2,
+            "from_line_id": "04",
+            "from_drct_cd": "01",
+            "to_line_id": "02",
+            "to_drct_cd": "02",
+            "stat_tm": "2020-06-12 14:30:00",
+            "quantity": 500
+        },
+        {
+            "id": 2,
+            "from_line_id": "04",
+            "from_drct_cd": "02",
+            "to_line_id": "02",
+            "to_drct_cd": "01",
+            "stat_tm": "2020-06-12 14:30:00",
+            "quantity": 500
+        },
+        {
+            "id": 2,
+            "from_line_id": "04",
+            "from_drct_cd": "02",
+            "to_line_id": "02",
+            "to_drct_cd": "02",
+            "stat_tm": "2020-06-12 14:30:00",
+            "quantity": 500
+        }
+    ],
+    "TrainParams": [
+        {
+            "id": 1,
+            "line_id": "02",
+            "global_code": "1001",
+            "dir": "1",
+            "arrive_time": "2020-06-12 14:19:05",
+            "depart_time": "2020-06-12 14:19:45",
+            "ride_time": 40,
+            "up_number": 46,
+            "down_number": 37,
+            "arrive_load_rate": 58,
+            "depart_load_rate": 32
+        },
+        {
+            "id": 1,
+            "line_id": "02",
+            "global_code": "1002",
+            "dir": "2",
+            "arrive_time": "2020-06-12 14:29:05",
+            "depart_time": "2020-06-12 14:29:45",
+            "ride_time": 40,
+            "up_number": 46,
+            "down_number": 37,
+            "arrive_load_rate": 58,
+            "depart_load_rate": 32
+        },
+        {
+            "id": 1,
+            "line_id": "04",
+            "global_code": "1002",
+            "dir": "1",
+            "arrive_time": "2020-06-12 14:29:05",
+            "depart_time": "2020-06-12 14:29:45",
+            "ride_time": 40,
+            "up_number": 46,
+            "down_number": 37,
+            "arrive_load_rate": 58,
+            "depart_load_rate": 32
+        },
+        {
+            "id": 1,
+            "line_id": "04",
+            "global_code": "1002",
+            "dir": "2",
+            "arrive_time": "2020-06-12 14:29:05",
+            "depart_time": "2020-06-12 14:29:45",
+            "ride_time": 40,
+            "up_number": 46,
+            "down_number": 37,
+            "arrive_load_rate": 58,
+            "depart_load_rate": 32
+        }
+    ]
+}

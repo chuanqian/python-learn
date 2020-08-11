@@ -1,0 +1,295 @@
+[2020-07-31 08:56:10,987] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /opera/psreqes/
+Traceback (most recent call last):
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "D:\Virtualenvs\Simulation\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\work\code\苏州仿真\Simulation\Simulation\apps\opera\views.py", line 57, in get
+    stat_end_time = models.BaseStatIndexCd.objects.filter(belong_fif_min_index_cd=belong_fif_min_index_cd).last().stat_end_time
+AttributeError: 'BaseStatIndexCd' object has no attribute 'stat_end_time'
+[2020-07-31 08:56:11,125] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /opera/psreqes/?date=2020-07-01&scheme_id=262&station_type=%E9%9D%9E%E6%8D%A2%E4%B9%98%E8%BD%A6%E7%AB%99&station_id=0108&period_list=07:00%2008:00 HTTP/1.1" 500 19813
+[2020-07-31 09:00:11,598] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /opera/psreqes/?date=2020-07-01&scheme_id=262&station_type=%E9%9D%9E%E6%8D%A2%E4%B9%98%E8%BD%A6%E7%AB%99&station_id=0108&period_list=07:00%2008:00 HTTP/1.1" 200 42
+[2020-07-31 09:01:20,066] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /opera/psreqes/?date=2020-07-01&scheme_id=262&station_type=%E9%9D%9E%E6%8D%A2%E4%B9%98%E8%BD%A6%E7%AB%99&station_id=0108&period_list=07:00%2008:00 HTTP/1.1" 200 52
+[2020-07-31 09:01:29,933] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /opera/psreqes/?date=2020-07-01&scheme_id=262&station_type=%E9%9D%9E%E6%8D%A2%E4%B9%98%E8%BD%A6%E7%AB%99&station_id=0108&period_list=06:00%2008:00 HTTP/1.1" 200 52
+[2020-07-31 09:14:10,306] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /opera/psreqes/?date=2020-07-01&scheme_id=262&station_type=%E9%9D%9E%E6%8D%A2%E4%B9%98%E8%BD%A6%E7%AB%99&station_id=0108&period_list=06:00%2008:00 HTTP/1.1" 200 59
+[2020-07-31 11:00:54,773] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /opera/psreqes/
+Traceback (most recent call last):
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "D:\Virtualenvs\Simulation\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\work\code\苏州仿真\Simulation\Simulation\apps\opera\views.py", line 70, in get
+    flow_query = FlowInOut15m.objects.using("slave").filter(data_dt=date,station_id__in=station_list,stat_index_cd__in=belong_fif_min_index_cd_list).values("line_id","station_id",Sum("entry_quantity"),Sum("exit_quantity")).annotate('stat_index_cd')
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\db\models\query.py", line 742, in values
+    clone = self._values(*fields, **expressions)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\db\models\query.py", line 737, in _values
+    clone.query.set_values(fields)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\db\models\sql\query.py", line 1935, in set_values
+    self.add_fields(field_names, True)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\db\models\sql\query.py", line 1683, in add_fields
+    join_info = self.setup_joins(name.split(LOOKUP_SEP), opts, alias, allow_many=allow_m2m)
+AttributeError: 'Sum' object has no attribute 'split'
+[2020-07-31 11:00:55,110] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /opera/psreqes/?date=2020-07-01&scheme_id=262&station_type=%E9%9D%9E%E6%8D%A2%E4%B9%98%E8%BD%A6%E7%AB%99&station_id=0108&period_list=06:00%2008:00 HTTP/1.1" 500 20528
+[2020-07-31 11:44:01,407] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /opera/psreqes/
+Traceback (most recent call last):
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "D:\Virtualenvs\Simulation\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\work\code\苏州仿真\Simulation\Simulation\apps\opera\views.py", line 77, in get
+    "line_id":flow.line_id,
+AttributeError: 'dict' object has no attribute 'line_id'
+[2020-07-31 11:44:01,550] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /opera/psreqes/?date=2020-07-01&scheme_id=262&station_type=%E9%9D%9E%E6%8D%A2%E4%B9%98%E8%BD%A6%E7%AB%99&station_id=0108&period_list=06:00%2008:00 HTTP/1.1" 500 19683
+[2020-07-31 11:46:21,783] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /opera/psreqes/
+Traceback (most recent call last):
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "D:\Virtualenvs\Simulation\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\work\code\苏州仿真\Simulation\Simulation\apps\opera\views.py", line 79, in get
+    "stat_tm":date+" "+base_index_dic.get(f"{flow.stat_index_cd}"),
+AttributeError: 'dict' object has no attribute 'stat_index_cd'
+[2020-07-31 11:46:21,949] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /opera/psreqes/?date=2020-07-01&scheme_id=262&station_type=%E9%9D%9E%E6%8D%A2%E4%B9%98%E8%BD%A6%E7%AB%99&station_id=0108&period_list=06:00%2008:00 HTTP/1.1" 500 19735
+[2020-07-31 11:47:46,058] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /opera/psreqes/?date=2020-07-01&scheme_id=262&station_type=%E9%9D%9E%E6%8D%A2%E4%B9%98%E8%BD%A6%E7%AB%99&station_id=0108&period_list=06:00%2008:00 HTTP/1.1" 200 59
+[2020-07-31 11:53:20,595] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /opera/psreqes/
+Traceback (most recent call last):
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "D:\Virtualenvs\Simulation\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\work\code\苏州仿真\Simulation\Simulation\apps\opera\views.py", line 79, in get
+    "stat_tm":date+" "+base_index_dic.get(f'{flow.get("stat_index_cd")}'),
+TypeError: can only concatenate str (not "NoneType") to str
+[2020-07-31 11:53:20,720] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /opera/psreqes/?date=2020-07-01&scheme_id=263&station_type=%E9%9D%9E%E6%8D%A2%E4%B9%98%E8%BD%A6%E7%AB%99&station_id=0109&period_list=07:00%2008:00 HTTP/1.1" 500 19736
+[2020-07-31 11:54:19,672] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /opera/psreqes/?date=2020-07-01&scheme_id=263&station_type=%E9%9D%9E%E6%8D%A2%E4%B9%98%E8%BD%A6%E7%AB%99&station_id=0109&period_list=07:00%2008:00 HTTP/1.1" 200 59
+[2020-07-31 12:00:21,013] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /opera/psreqes/?date=2020-07-01&scheme_id=250&station_type=%E6%8D%A2%E4%B9%98%E8%BD%A6%E7%AB%99&station_id=0120&period_list=07:00%2008:00 HTTP/1.1" 200 54
+[2020-07-31 12:32:32,449] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /opera/psreqes/
+Traceback (most recent call last):
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "D:\Virtualenvs\Simulation\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\work\code\苏州仿真\Simulation\Simulation\apps\opera\views.py", line 115, in get
+    flow_tran_query = FlowTran15m.objects.using("slave").filter(data_dt=date, station_id__in=station_list,stat_index__cd=belong_fif_min_index_cd_list).values("stat_index_cd").annotate(entry=Sum('entry_quantity'),exit=Sum('exit_quantity')).values('from_line_id','to_line_id','from_drct_cd','to_drct_cd','quantity','station_id','stat_index_cd')
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\db\models\query.py", line 836, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\db\models\query.py", line 854, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\db\models\sql\query.py", line 1253, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\db\models\sql\query.py", line 1277, in _add_q
+    split_subq=split_subq,
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\db\models\sql\query.py", line 1153, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\db\models\sql\query.py", line 1015, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\db\models\sql\query.py", line 1379, in names_to_path
+    "Choices are: %s" % (name, ", ".join(available)))
+django.core.exceptions.FieldError: Cannot resolve keyword 'stat_index' into field. Choices are: create_ts, data_dt, from_drct_cd, from_line_id, id, quantity, stat_index_cd, station_id, ticket_type, to_drct_cd, to_line_id
+[2020-07-31 12:32:32,659] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /opera/psreqes/?date=2020-07-01&scheme_id=250&station_type=%E6%8D%A2%E4%B9%98%E8%BD%A6%E7%AB%99&station_id=0118&period_list=07:00%2008:00 HTTP/1.1" 500 21442
+[2020-07-31 12:34:17,303] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /opera/psreqes/
+Traceback (most recent call last):
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "D:\Virtualenvs\Simulation\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\work\code\苏州仿真\Simulation\Simulation\apps\opera\views.py", line 115, in get
+    flow_tran_query = FlowTran15m.objects.using("slave").filter(data_dt=date, station_id__in=station_list,stat_index__cd=belong_fif_min_index_cd_list).values("stat_index_cd").annotate(quant=Sum('quantity')).values('from_line_id','to_line_id','from_drct_cd','to_drct_cd','quant','station_id','stat_index_cd')
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\db\models\query.py", line 836, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\db\models\query.py", line 854, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\db\models\sql\query.py", line 1253, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\db\models\sql\query.py", line 1277, in _add_q
+    split_subq=split_subq,
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\db\models\sql\query.py", line 1153, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\db\models\sql\query.py", line 1015, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\db\models\sql\query.py", line 1379, in names_to_path
+    "Choices are: %s" % (name, ", ".join(available)))
+django.core.exceptions.FieldError: Cannot resolve keyword 'stat_index' into field. Choices are: create_ts, data_dt, from_drct_cd, from_line_id, id, quantity, stat_index_cd, station_id, ticket_type, to_drct_cd, to_line_id
+[2020-07-31 12:34:17,512] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /opera/psreqes/?date=2020-07-01&scheme_id=250&station_type=%E6%8D%A2%E4%B9%98%E8%BD%A6%E7%AB%99&station_id=0118&period_list=07:00%2008:00 HTTP/1.1" 500 21408
+[2020-07-31 12:38:08,192] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /opera/psreqes/
+Traceback (most recent call last):
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "D:\Virtualenvs\Simulation\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\work\code\苏州仿真\Simulation\Simulation\apps\opera\views.py", line 115, in get
+    flow_tran_query = FlowTran15m.objects.using("slave").filter(data_dt=date, station_id__in=station_list,stat_index__cd=belong_fif_min_index_cd_list).values("stat_index_cd").annotate(quant=Sum('quantity')).values('from_line_id','to_line_id','from_drct_cd','to_drct_cd','quant','station_id','stat_index_cd')
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\db\models\query.py", line 836, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\db\models\query.py", line 854, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\db\models\sql\query.py", line 1253, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\db\models\sql\query.py", line 1277, in _add_q
+    split_subq=split_subq,
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\db\models\sql\query.py", line 1153, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\db\models\sql\query.py", line 1015, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\db\models\sql\query.py", line 1379, in names_to_path
+    "Choices are: %s" % (name, ", ".join(available)))
+django.core.exceptions.FieldError: Cannot resolve keyword 'stat_index' into field. Choices are: create_ts, data_dt, from_drct_cd, from_line_id, id, quantity, stat_index_cd, station_id, ticket_type, to_drct_cd, to_line_id
+[2020-07-31 12:38:08,455] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /opera/psreqes/?date=2020-07-01&scheme_id=250&station_type=%E6%8D%A2%E4%B9%98%E8%BD%A6%E7%AB%99&station_id=0118&period_list=07:00%2008:00 HTTP/1.1" 500 21407
+[2020-07-31 12:43:03,047] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /opera/psreqes/
+Traceback (most recent call last):
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "D:\Virtualenvs\Simulation\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\work\code\苏州仿真\Simulation\Simulation\apps\opera\views.py", line 115, in get
+    flow_tran_query = FlowTran15m.objects.using("slave").filter(data_dt=date, station_id__in=station_list,stat_index__cd=belong_fif_min_index_cd_list).values("stat_index_cd").annotate(quant=Sum('quantity')).values('stat_index_cd','from_line_id','to_line_id','from_drct_cd','to_drct_cd','quant','station_id')
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\db\models\query.py", line 836, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\db\models\query.py", line 854, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\db\models\sql\query.py", line 1253, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\db\models\sql\query.py", line 1277, in _add_q
+    split_subq=split_subq,
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\db\models\sql\query.py", line 1153, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\db\models\sql\query.py", line 1015, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\db\models\sql\query.py", line 1379, in names_to_path
+    "Choices are: %s" % (name, ", ".join(available)))
+django.core.exceptions.FieldError: Cannot resolve keyword 'stat_index' into field. Choices are: create_ts, data_dt, from_drct_cd, from_line_id, id, quantity, stat_index_cd, station_id, ticket_type, to_drct_cd, to_line_id
+[2020-07-31 12:43:03,283] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /opera/psreqes/?date=2020-07-01&scheme_id=250&station_type=%E6%8D%A2%E4%B9%98%E8%BD%A6%E7%AB%99&station_id=0118&period_list=07:00%2008:00 HTTP/1.1" 500 21407
+[2020-07-31 12:45:09,882] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /opera/psreqes/?date=2020-07-01&scheme_id=250&station_type=%E6%8D%A2%E4%B9%98%E8%BD%A6%E7%AB%99&station_id=0118&period_list=07:00%2008:00 HTTP/1.1" 200 59
+[2020-07-31 12:53:31,045] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /opera/psreqes/?date=2020-07-01&scheme_id=250&station_type=%E6%8D%A2%E4%B9%98%E8%BD%A6%E7%AB%99&station_id=0118&period_list=07:00%2008:00 HTTP/1.1" 200 59
+[2020-07-31 12:55:22,869] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /opera/psreqes/?date=2020-07-01&scheme_id=250&station_type=%E6%8D%A2%E4%B9%98%E8%BD%A6%E7%AB%99&station_id=0118&period_list=07:00%2008:00 HTTP/1.1" 200 59
+[2020-07-31 13:35:36,960] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /opera/psreqes/?date=2020-07-01&scheme_id=747&station_type=%E6%8D%A2%E4%B9%98%E8%BD%A6%E7%AB%99&station_id=0112&period_list=06:00%2007:00 HTTP/1.1" 200 59
+[2020-07-31 14:29:20,054] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /opera/drreqes/ HTTP/1.1" 200 55
+[2020-07-31 14:30:53,447] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /opera/psreqes/ HTTP/1.1" 200 57
+[2020-07-31 14:32:30,690] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /opera/drreqes/ HTTP/1.1" 200 39
+[2020-07-31 14:53:52,336] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /opera/drimport/ HTTP/1.1" 200 52

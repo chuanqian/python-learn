@@ -1,0 +1,341 @@
+[2020-07-24 08:42:30,350] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /station/models/ HTTP/1.1" 200 621
+[2020-07-24 08:44:29,070] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /station/models/?station_id=0102 HTTP/1.1" 200 36
+[2020-07-24 08:44:33,541] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /station/models/?station_id=0101 HTTP/1.1" 200 621
+[2020-07-24 08:49:41,826] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /station/models/ HTTP/1.1" 200 621
+[2020-07-24 08:52:37,932] [basehttp.py:124] [basehttp:log_message] [INFO]- "PUT /station/models/ HTTP/1.1" 200 1518
+[2020-07-24 08:56:20,955] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /station/models/ HTTP/1.1" 200 621
+[2020-07-24 08:56:49,649] [basehttp.py:124] [basehttp:log_message] [INFO]- "DELETE /station/models/8/ HTTP/1.1" 200 113
+[2020-07-24 08:59:45,179] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /station/images/ HTTP/1.1" 200 496
+[2020-07-24 09:00:01,047] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /station/images/?station_id=0101 HTTP/1.1" 200 496
+[2020-07-24 09:07:01,959] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /station/images/ HTTP/1.1" 200 281
+[2020-07-24 09:15:03,388] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /station/images/?station_id=0101 HTTP/1.1" 200 743
+[2020-07-24 09:17:25,563] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /media/station/900x600_B734ABQF4T8E0001.jpg HTTP/1.1" 200 106562
+[2020-07-24 09:17:39,237] [basehttp.py:124] [basehttp:log_message] [INFO]- "PUT /station/models/ HTTP/1.1" 200 46
+[2020-07-24 09:21:08,025] [basehttp.py:124] [basehttp:log_message] [INFO]- "PUT /station/models/ HTTP/1.1" 200 46
+[2020-07-24 09:23:26,847] [basehttp.py:124] [basehttp:log_message] [INFO]- "PUT /station/models/ HTTP/1.1" 200 46
+[2020-07-24 09:24:37,527] [basehttp.py:124] [basehttp:log_message] [INFO]- "PUT /station/images/ HTTP/1.1" 200 1526
+[2020-07-24 09:27:12,448] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /station/images/?station_id=0101 HTTP/1.1" 200 758
+[2020-07-24 09:27:36,702] [basehttp.py:124] [basehttp:log_message] [INFO]- "DELETE /station/images/2/ HTTP/1.1" 200 127
+[2020-07-24 09:59:28,890] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /station/login/?tk=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1OTU1OTEzOTAsInVzZXJfbmFtZSI6Ijk1MjciLCJhdXRob3JpdGllcyI6WyJST0xFX1VTRVIiXSwianRpIjoiNmZmYmM2NzktMjdhMi00ZmZjLTk4MmItMjc1MzY5Nzg1NWM3IiwiY2xpZW50X2lkIjoiZm9vQ2xpZW50SWRQYXNzd29yZCIsInNjb3BlIjpbImZvbyIsInJlYWQiLCJ3cml0ZSJdfQ.UhvtMjUY7JjmxTCg9sk2wb0q8pVLxbY-7vwuoNjz26gD4dMn66Y_oTmtW2vIzoefTbgRhSuVWHTcIC1nXk1UfTUwM88v1YsbtIq3gFkAWsV3HTxYg01P7c4NMHK_gfDMg2Jt3ghE7mj49QZ0Rcrt6y2LN6njtK0175jfCgGJ-8M84tOGoPMA-euYD31pUZKpHvgdEE5KX97_FxL-afdE23sEpBXd8nW2XaeY5nPXwc_rQtnx25ibZGE6CK7kiebplM7hxFz8iWgN7XoxFSScaR0MT1_bCA-A5cOK-7FKBM2aFOlyyj0b6HB6YPRN4QWUrWqHDz60FObEIGZGMk21yw HTTP/1.1" 200 246
+[2020-07-24 10:08:43,342] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /pasic/trainpart/?station_id=0118&station_type=%E6%8D%A2%E4%B9%98%E8%BD%A6%E7%AB%99&ps_pare_type=%E5%B7%A5%E4%BD%9C%E6%97%A5%E5%B9%B3%E5%B3%B0 HTTP/1.1" 200 2607
+[2020-07-24 10:15:47,123] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /pasic/trainpart/?station_id=0101&station_type=%E9%9D%9E%E6%8D%A2%E4%B9%98%E8%BD%A6%E7%AB%99&ps_pare_type=%E5%B7%A5%E4%BD%9C%E6%97%A5%E5%B9%B3%E5%B3%B0 HTTP/1.1" 200 1849
+[2020-07-24 10:16:26,669] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /pasic/trainpart/?station_id=0118&station_type=%E6%8D%A2%E4%B9%98%E8%BD%A6%E7%AB%99&ps_pare_type=%E5%B7%A5%E4%BD%9C%E6%97%A5%E5%B9%B3%E5%B3%B0 HTTP/1.1" 200 2607
+[2020-07-24 10:16:41,489] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /pasic/trainpart/?station_id=0110&station_type=%E9%9D%9E%E6%8D%A2%E4%B9%98%E8%BD%A6%E7%AB%99&ps_pare_type=%E5%B7%A5%E4%BD%9C%E6%97%A5%E5%B9%B3%E5%B3%B0 HTTP/1.1" 200 1861
+[2020-07-24 10:26:09,909] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /pasic/trainpart/?station_id=0118&station_type=%E6%8D%A2%E4%B9%98%E8%BD%A6%E7%AB%99&ps_pare_type=%E5%B7%A5%E4%BD%9C%E6%97%A5%E5%B9%B3%E5%B3%B0 HTTP/1.1" 200 2607
+[2020-07-24 10:29:07,431] [basehttp.py:124] [basehttp:log_message] [INFO]- "PUT /pasic/trainpart/ HTTP/1.1" 200 337
+[2020-07-24 10:31:15,625] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /pasic/trainpart/?station_id=0118&station_type=%E6%8D%A2%E4%B9%98%E8%BD%A6%E7%AB%99&ps_pare_type=%E5%B7%A5%E4%BD%9C%E6%97%A5%E5%B9%B3%E5%B3%B0 HTTP/1.1" 200 2607
+[2020-07-24 10:32:25,075] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /pasic/inout/?station_id=0118&ps_pare_type=%E5%B7%A5%E4%BD%9C%E6%97%A5%E5%B9%B3%E5%B3%B0 HTTP/1.1" 200 1040
+[2020-07-24 10:38:25,772] [basehttp.py:124] [basehttp:log_message] [INFO]- "PUT /pasic/inout/ HTTP/1.1" 200 283
+[2020-07-24 10:44:57,869] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /pasic/psfac/?station_id=0118&ps_pare_type=%E5%B7%A5%E4%BD%9C%E6%97%A5%E5%B9%B3%E5%B3%B0 HTTP/1.1" 200 373
+[2020-07-24 10:56:52,348] [basehttp.py:124] [basehttp:log_message] [INFO]- "PUT /pasic/psfac/ HTTP/1.1" 200 373
+[2020-07-24 10:57:00,960] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /pasic/psfac/?station_id=0118&ps_pare_type=%E5%B7%A5%E4%BD%9C%E6%97%A5%E5%B9%B3%E5%B3%B0 HTTP/1.1" 200 373
+[2020-07-24 10:58:52,157] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /pasic/psequ/?station_id=0118&ps_pare_type=%E5%B7%A5%E4%BD%9C%E6%97%A5%E5%B9%B3%E5%B3%B0 HTTP/1.1" 200 482
+[2020-07-24 11:03:38,976] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /pasic/pscomp/?station_id=0118&ps_pare_type=%E5%B7%A5%E4%BD%9C%E6%97%A5%E5%B9%B3%E5%B3%B0 HTTP/1.1" 200 535
+[2020-07-24 11:06:14,422] [basehttp.py:124] [basehttp:log_message] [INFO]- "PUT /pasic/pscomp/ HTTP/1.1" 200 535
+[2020-07-24 11:06:20,961] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /pasic/pscomp/?station_id=0118&ps_pare_type=%E5%B7%A5%E4%BD%9C%E6%97%A5%E5%B9%B3%E5%B3%B0 HTTP/1.1" 200 535
+[2020-07-24 11:08:44,262] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /pasic/way/?station_id=0118&ps_pare_type=%E5%B7%A5%E4%BD%9C%E6%97%A5%E5%B9%B3%E5%B3%B0 HTTP/1.1" 200 967
+[2020-07-24 11:15:06,015] [basehttp.py:124] [basehttp:log_message] [INFO]- "PATCH /pasic/way/ HTTP/1.1" 200 502
+[2020-07-24 11:15:12,303] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /pasic/way/?station_id=0118&ps_pare_type=%E5%B7%A5%E4%BD%9C%E6%97%A5%E5%B9%B3%E5%B3%B0 HTTP/1.1" 200 968
+[2020-07-24 11:16:28,517] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /pasic/fen/?station_id=0118&ps_pare_type=%E5%B7%A5%E4%BD%9C%E6%97%A5%E5%B9%B3%E5%B3%B0 HTTP/1.1" 200 1243
+[2020-07-24 11:19:37,023] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /pasic/way/
+Traceback (most recent call last):
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "D:\Virtualenvs\Simulation\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\work\code\苏州仿真\Simulation\Simulation\apps\passbasic\views.py", line 105, in patch
+    length = len(way_list)
+TypeError: object of type 'NoneType' has no len()
+[2020-07-24 11:19:37,141] [basehttp.py:124] [basehttp:log_message] [ERROR]- "PATCH /pasic/way/ HTTP/1.1" 500 19081
+[2020-07-24 11:20:47,482] [basehttp.py:124] [basehttp:log_message] [INFO]- "PATCH /pasic/fen/ HTTP/1.1" 200 184
+[2020-07-24 11:22:05,895] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /pasic/fen/?station_id=0118&ps_pare_type=%E5%B7%A5%E4%BD%9C%E6%97%A5%E5%B9%B3%E5%B3%B0 HTTP/1.1" 200 1243
+[2020-07-24 11:22:15,102] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /pasic/es/?station_id=0118&ps_pare_type=%E5%B7%A5%E4%BD%9C%E6%97%A5%E5%B9%B3%E5%B3%B0 HTTP/1.1" 200 2719
+[2020-07-24 11:25:01,911] [basehttp.py:124] [basehttp:log_message] [INFO]- "PATCH /pasic/es/ HTTP/1.1" 200 182
+[2020-07-24 11:25:50,649] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /pasic/es/?station_id=0118&ps_pare_type=%E5%B7%A5%E4%BD%9C%E6%97%A5%E5%B9%B3%E5%B3%B0 HTTP/1.1" 200 2719
+[2020-07-24 11:26:04,001] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /pasic/gate/?station_id=0118&ps_pare_type=%E5%B7%A5%E4%BD%9C%E6%97%A5%E5%B9%B3%E5%B3%B0 HTTP/1.1" 200 923
+[2020-07-24 11:27:45,250] [basehttp.py:124] [basehttp:log_message] [INFO]- "PATCH /pasic/gate/ HTTP/1.1" 200 181
+[2020-07-24 11:34:04,240] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /opera/emugate/?ps_pare_type=%E5%B7%A5%E4%BD%9C%E6%97%A5%E5%B9%B3%E5%B3%B0&scheme_id=%E6%96%B9%E6%A1%881&station_id=0118 HTTP/1.1" 200 911
+[2020-07-24 11:38:57,999] [basehttp.py:124] [basehttp:log_message] [INFO]- "PATCH /opera/emugate/ HTTP/1.1" 200 179
+[2020-07-24 11:40:01,237] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /opera/emues/?ps_pare_type=%E5%B7%A5%E4%BD%9C%E6%97%A5%E5%B9%B3%E5%B3%B0&scheme_id=%E6%96%B9%E6%A1%881&station_id=0118 HTTP/1.1" 200 2674
+[2020-07-24 11:43:06,462] [basehttp.py:124] [basehttp:log_message] [INFO]- "PATCH /opera/emues/ HTTP/1.1" 200 179
+[2020-07-24 11:44:11,136] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /opera/emufen/?ps_pare_type=%E5%B7%A5%E4%BD%9C%E6%97%A5%E5%B9%B3%E5%B3%B0&scheme_id=%E6%96%B9%E6%A1%881&station_id=0118 HTTP/1.1" 200 1227
+[2020-07-24 11:46:18,388] [basehttp.py:124] [basehttp:log_message] [INFO]- "PATCH /opera/emufen/ HTTP/1.1" 200 182
+[2020-07-24 11:46:23,051] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /opera/emufen/?ps_pare_type=%E5%B7%A5%E4%BD%9C%E6%97%A5%E5%B9%B3%E5%B3%B0&scheme_id=%E6%96%B9%E6%A1%881&station_id=0118 HTTP/1.1" 200 1227
+[2020-07-24 11:47:35,349] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /opera/emuway/?ps_pare_type=%E5%B7%A5%E4%BD%9C%E6%97%A5%E5%B9%B3%E5%B3%B0&scheme_id=%E6%96%B9%E6%A1%881&station_id=0118 HTTP/1.1" 200 960
+[2020-07-24 11:52:14,839] [basehttp.py:124] [basehttp:log_message] [WARNING]- "PATCH /opera/emuway/ HTTP/1.1" 405 47
+[2020-07-24 11:52:21,569] [basehttp.py:124] [basehttp:log_message] [WARNING]- "PUT /opera/emuway/ HTTP/1.1" 400 321
+[2020-07-24 11:54:33,450] [basehttp.py:124] [basehttp:log_message] [INFO]- "PUT /opera/emuway/ HTTP/1.1" 200 497
+[2020-07-24 11:54:41,205] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /opera/emuway/?ps_pare_type=%E5%B7%A5%E4%BD%9C%E6%97%A5%E5%B9%B3%E5%B3%B0&scheme_id=%E6%96%B9%E6%A1%881&station_id=0118 HTTP/1.1" 200 959
+[2020-07-24 13:33:48,119] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /opera/emuway/?ps_pare_type=%E5%B7%A5%E4%BD%9C%E6%97%A5%E5%B9%B3%E5%B3%B0&scheme_id=%E6%96%B9%E6%A1%881&station_id=0118 HTTP/1.1" 200 959
+[2020-07-24 13:35:20,866] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /opera/emupscomp/?ps_pare_type=%E5%B7%A5%E4%BD%9C%E6%97%A5%E5%B9%B3%E5%B3%B0&scheme_id=%E6%96%B9%E6%A1%881&station_id=0118 HTTP/1.1" 200 534
+[2020-07-24 13:38:40,597] [basehttp.py:124] [basehttp:log_message] [INFO]- "PUT /opera/emupscomp/ HTTP/1.1" 200 534
+[2020-07-24 13:39:53,228] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /opera/emupscomp/?ps_pare_type=%E5%B7%A5%E4%BD%9C%E6%97%A5%E5%B9%B3%E5%B3%B0&scheme_id=%E6%96%B9%E6%A1%881&station_id=0118 HTTP/1.1" 200 534
+[2020-07-24 13:40:16,039] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /opera/emupsequ/
+Traceback (most recent call last):
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.NotNullViolation: null value in column "sc_fast_rate" violates not-null constraint
+DETAIL:  Failing row contains (1, 是, 0118, 工作日平峰, 10.0, 10.0, 5.0, 5.0, 8.0, 6.0, 4.0, null, 4.0, 3.0, 65, 35, 0, 50, 50, 45, 55, 方案1).
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "D:\Virtualenvs\Simulation\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\work\code\苏州仿真\Simulation\Simulation\apps\opera\views.py", line 859, in get
+    emequ_obj = models.EmuPsEquipment.objects.create(**equ_dic)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\db\models\query.py", line 417, in create
+    obj.save(force_insert=True, using=self.db)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\db\models\base.py", line 729, in save
+    force_update=force_update, update_fields=update_fields)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\db\models\base.py", line 759, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\db\models\base.py", line 842, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\db\models\base.py", line 880, in _do_insert
+    using=using, raw=raw)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\db\models\query.py", line 1125, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\db\models\sql\compiler.py", line 1285, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\db\backends\utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\db\backends\utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\db\backends\utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\db\utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.IntegrityError: null value in column "sc_fast_rate" violates not-null constraint
+DETAIL:  Failing row contains (1, 是, 0118, 工作日平峰, 10.0, 10.0, 5.0, 5.0, 8.0, 6.0, 4.0, null, 4.0, 3.0, 65, 35, 0, 50, 50, 45, 55, 方案1).
+
+[2020-07-24 13:40:16,332] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /opera/emupsequ/?ps_pare_type=%E5%B7%A5%E4%BD%9C%E6%97%A5%E5%B9%B3%E5%B3%B0&scheme_id=%E6%96%B9%E6%A1%881&station_id=0118 HTTP/1.1" 500 22703
+[2020-07-24 13:42:13,060] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /opera/emupsequ/
+Traceback (most recent call last):
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.NotNullViolation: null value in column "sc_fast_rate" violates not-null constraint
+DETAIL:  Failing row contains (2, 是, 0118, 工作日平峰, 10.0, 10.0, 5.0, 5.0, 8.0, 6.0, 4.0, null, 4.0, 3.0, 65, 35, 0, 50, 50, 45, 55, 方案1).
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "D:\Virtualenvs\Simulation\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\work\code\苏州仿真\Simulation\Simulation\apps\opera\views.py", line 859, in get
+    emequ_obj = models.EmuPsEquipment.objects.create(**equ_dic)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\db\models\query.py", line 417, in create
+    obj.save(force_insert=True, using=self.db)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\db\models\base.py", line 729, in save
+    force_update=force_update, update_fields=update_fields)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\db\models\base.py", line 759, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\db\models\base.py", line 842, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\db\models\base.py", line 880, in _do_insert
+    using=using, raw=raw)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\db\models\query.py", line 1125, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\db\models\sql\compiler.py", line 1285, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\db\backends\utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\db\backends\utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\db\backends\utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\db\utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.IntegrityError: null value in column "sc_fast_rate" violates not-null constraint
+DETAIL:  Failing row contains (2, 是, 0118, 工作日平峰, 10.0, 10.0, 5.0, 5.0, 8.0, 6.0, 4.0, null, 4.0, 3.0, 65, 35, 0, 50, 50, 45, 55, 方案1).
+
+[2020-07-24 13:42:13,498] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /opera/emupsequ/?ps_pare_type=%E5%B7%A5%E4%BD%9C%E6%97%A5%E5%B9%B3%E5%B3%B0&scheme_id=%E6%96%B9%E6%A1%881&station_id=0118 HTTP/1.1" 500 22702
+[2020-07-24 13:44:52,347] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /opera/emupsequ/?ps_pare_type=%E5%B7%A5%E4%BD%9C%E6%97%A5%E5%B9%B3%E5%B3%B0&scheme_id=%E6%96%B9%E6%A1%881&station_id=0118 HTTP/1.1" 200 481
+[2020-07-24 13:50:01,513] [basehttp.py:124] [basehttp:log_message] [INFO]- "PUT /opera/emupsequ/ HTTP/1.1" 200 481
+[2020-07-24 13:50:06,224] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /opera/emupsequ/?ps_pare_type=%E5%B7%A5%E4%BD%9C%E6%97%A5%E5%B9%B3%E5%B3%B0&scheme_id=%E6%96%B9%E6%A1%881&station_id=0118 HTTP/1.1" 200 481
+[2020-07-24 13:52:32,458] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /opera/emupsfac/?ps_pare_type=%E5%B7%A5%E4%BD%9C%E6%97%A5%E5%B9%B3%E5%B3%B0&scheme_id=%E6%96%B9%E6%A1%881&station_id=0118 HTTP/1.1" 200 372
+[2020-07-24 13:56:16,440] [basehttp.py:124] [basehttp:log_message] [INFO]- "PUT /opera/emupsfac/ HTTP/1.1" 200 372
+[2020-07-24 13:57:01,290] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /opera/emupsfac/?ps_pare_type=%E5%B7%A5%E4%BD%9C%E6%97%A5%E5%B9%B3%E5%B3%B0&scheme_id=%E6%96%B9%E6%A1%881&station_id=0118 HTTP/1.1" 200 372
+[2020-07-24 13:58:17,890] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /opera/emuinout/
+Traceback (most recent call last):
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "D:\Virtualenvs\Simulation\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\work\code\苏州仿真\Simulation\Simulation\apps\opera\views.py", line 970, in get
+    "eq_id":inout_query.fac_id,
+AttributeError: 'InOutRate' object has no attribute 'fac_id'
+[2020-07-24 13:58:18,046] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /opera/emuinout/?ps_pare_type=%E5%B7%A5%E4%BD%9C%E6%97%A5%E5%B9%B3%E5%B3%B0&scheme_id=%E6%96%B9%E6%A1%881&station_id=0118 HTTP/1.1" 500 19390
+[2020-07-24 13:59:08,085] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /opera/emuinout/?ps_pare_type=%E5%B7%A5%E4%BD%9C%E6%97%A5%E5%B9%B3%E5%B3%B0&scheme_id=%E6%96%B9%E6%A1%881&station_id=0118 HTTP/1.1" 200 1024
+[2020-07-24 14:04:02,905] [basehttp.py:124] [basehttp:log_message] [WARNING]- "PUT /opera/emupsfac/ HTTP/1.1" 400 612
+[2020-07-24 14:04:28,474] [basehttp.py:124] [basehttp:log_message] [INFO]- "PUT /opera/emuinout/ HTTP/1.1" 200 279
+[2020-07-24 14:07:03,489] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /opera/emutrainpart/
+Traceback (most recent call last):
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "D:\Virtualenvs\Simulation\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\work\code\苏州仿真\Simulation\Simulation\apps\opera\views.py", line 1104, in get
+    for train_obj in train:
+TypeError: 'TrainPartRate' object is not iterable
+[2020-07-24 14:07:03,609] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /opera/emutrainpart/?ps_pare_type=%E5%B7%A5%E4%BD%9C%E6%97%A5%E5%B9%B3%E5%B3%B0&station_type=%E6%8D%A2%E4%B9%98%E8%BD%A6%E7%AB%99&scheme_id=%E6%96%B9%E6%A1%881&station_id=0118 HTTP/1.1" 500 19511
+[2020-07-24 14:09:54,929] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /opera/emutrainpart/?ps_pare_type=%E5%B7%A5%E4%BD%9C%E6%97%A5%E5%B9%B3%E5%B3%B0&station_type=%E6%8D%A2%E4%B9%98%E8%BD%A6%E7%AB%99&scheme_id=%E6%96%B9%E6%A1%881&station_id=0118 HTTP/1.1" 200 2576
+[2020-07-24 14:14:15,517] [basehttp.py:124] [basehttp:log_message] [INFO]- "PUT /opera/emutrainpart/ HTTP/1.1" 200 333
+[2020-07-24 14:15:38,029] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /opera/emutrainpart/?ps_pare_type=%E5%B7%A5%E4%BD%9C%E6%97%A5%E5%B9%B3%E5%B3%B0&station_type=%E6%8D%A2%E4%B9%98%E8%BD%A6%E7%AB%99&scheme_id=%E6%96%B9%E6%A1%881&station_id=0118 HTTP/1.1" 200 2576
+[2020-07-24 14:19:41,304] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /opera/passflows/?station_type=%E6%8D%A2%E4%B9%98%E8%BD%A6%E7%AB%99&scheme_id=%E6%96%B9%E6%A1%881&station_id=0101 HTTP/1.1" 200 53
+[2020-07-24 14:19:54,324] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /opera/passflows/?scheme_id=%E6%96%B9%E6%A1%881&station_id=0101&station_type=%E9%9D%9E%E6%8D%A2%E4%B9%98%E8%BD%A6%E7%AB%99 HTTP/1.1" 200 7040
+[2020-07-24 14:36:48,486] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /opera/passflows/?scheme_id=%E6%96%B9%E6%A1%881&station_id=0101&station_type=%E9%9D%9E%E6%8D%A2%E4%B9%98%E8%BD%A6%E7%AB%99 HTTP/1.1" 200 7040
+[2020-07-24 14:38:45,587] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /opera/passflows/
+Traceback (most recent call last):
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "D:\Virtualenvs\Simulation\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\work\code\苏州仿真\Simulation\Simulation\apps\opera\views.py", line 340, in patch
+    flow_ser.is_valid(raise_exception=True)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\rest_framework\serializers.py", line 228, in is_valid
+    'Cannot call `.is_valid()` as no `data=` keyword argument was '
+AssertionError: Cannot call `.is_valid()` as no `data=` keyword argument was passed when instantiating the serializer instance.
+[2020-07-24 14:38:45,722] [basehttp.py:124] [basehttp:log_message] [ERROR]- "PATCH /opera/passflows/ HTTP/1.1" 500 19455
+[2020-07-24 14:46:22,670] [basehttp.py:124] [basehttp:log_message] [INFO]- "PATCH /opera/passflows/ HTTP/1.1" 200 142
+[2020-07-24 14:49:20,805] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /opera/drivings/?scheme_id=%E6%96%B9%E6%A1%881&station_id=0101&station_type=%E9%9D%9E%E6%8D%A2%E4%B9%98%E8%BD%A6%E7%AB%99 HTTP/1.1" 200 17347
+[2020-07-24 14:57:05,975] [basehttp.py:124] [basehttp:log_message] [INFO]- "PATCH /opera/drivings/ HTTP/1.1" 200 231
+[2020-07-24 14:57:40,935] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /opera/drivings/?scheme_id=%E6%96%B9%E6%A1%881&station_id=0101&station_type=%E9%9D%9E%E6%8D%A2%E4%B9%98%E8%BD%A6%E7%AB%99 HTTP/1.1" 200 17347
+[2020-07-24 15:00:28,694] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /station/schemes/ HTTP/1.1" 200 1276
+[2020-07-24 15:00:41,588] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /station/schemes/?station_id=0101 HTTP/1.1" 200 863
+[2020-07-24 15:11:41,897] [basehttp.py:124] [basehttp:log_message] [WARNING]- "PATCH /station/schemes/ HTTP/1.1" 400 69
+[2020-07-24 15:15:43,411] [basehttp.py:124] [basehttp:log_message] [INFO]- "PATCH /station/schemes/ HTTP/1.1" 200 39
+[2020-07-24 15:16:13,660] [basehttp.py:124] [basehttp:log_message] [INFO]- "PATCH /station/schemes/ HTTP/1.1" 200 39
+[2020-07-24 15:16:25,908] [basehttp.py:124] [basehttp:log_message] [INFO]- "PATCH /station/schemes/ HTTP/1.1" 200 39
+[2020-07-24 15:17:36,120] [basehttp.py:124] [basehttp:log_message] [INFO]- "PATCH /station/schemes/ HTTP/1.1" 200 39
+[2020-07-24 15:19:55,817] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /station/schemes/?station_id=0101 HTTP/1.1" 200 939
+[2020-07-24 15:21:45,495] [basehttp.py:124] [basehttp:log_message] [INFO]- "PATCH /station/schemes/ HTTP/1.1" 200 39
+[2020-07-24 15:22:48,660] [basehttp.py:124] [basehttp:log_message] [INFO]- "PATCH /station/schemes/ HTTP/1.1" 200 39
+[2020-07-24 15:25:47,217] [basehttp.py:124] [basehttp:log_message] [INFO]- "PATCH /station/schemes/ HTTP/1.1" 200 501
+[2020-07-24 15:27:37,276] [basehttp.py:124] [basehttp:log_message] [INFO]- "PATCH /station/schemes/ HTTP/1.1" 200 534
+[2020-07-24 15:28:17,321] [basehttp.py:124] [basehttp:log_message] [INFO]- "PATCH /station/schemes/ HTTP/1.1" 200 534
+[2020-07-24 15:29:26,948] [basehttp.py:124] [basehttp:log_message] [INFO]- "PATCH /station/schemes/ HTTP/1.1" 200 535
+[2020-07-24 15:29:38,189] [basehttp.py:124] [basehttp:log_message] [INFO]- "PATCH /station/schemes/ HTTP/1.1" 200 535
+[2020-07-24 15:30:06,360] [basehttp.py:124] [basehttp:log_message] [INFO]- "PATCH /station/schemes/ HTTP/1.1" 200 41
+[2020-07-24 15:31:26,871] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /station/schemes/?station_id=0101 HTTP/1.1" 200 1007
+[2020-07-24 15:31:42,146] [basehttp.py:124] [basehttp:log_message] [INFO]- "PATCH /station/schemes/ HTTP/1.1" 200 538
+[2020-07-24 15:32:06,091] [basehttp.py:124] [basehttp:log_message] [INFO]- "PATCH /station/schemes/ HTTP/1.1" 200 538
+[2020-07-24 15:32:19,146] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /station/schemes/?station_id=0101 HTTP/1.1" 200 1013
+[2020-07-24 15:33:16,226] [base.py:93] [base:get_response] [WARNING]- Not Found: /station/simation/
+[2020-07-24 15:33:16,227] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /station/simation/?scheme_id=%E4%BB%BF%E7%9C%9F%E6%96%B9%E6%A1%881 HTTP/1.1" 404 3722
+[2020-07-24 15:33:43,447] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /opera/simation/?scheme_id=%E4%BB%BF%E7%9C%9F%E6%96%B9%E6%A1%881 HTTP/1.1" 405 45
+[2020-07-24 15:34:12,708] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /opera/simation/?scheme_id=%E4%BB%BF%E7%9C%9F%E6%96%B9%E6%A1%881 HTTP/1.1" 200 39
+[2020-07-24 15:34:29,667] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /opera/simation/?scheme_id=%E4%BB%BF%E7%9C%9F%E6%96%B9%E6%A1%881 HTTP/1.1" 200 38990
+[2020-07-24 15:52:28,771] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /opera/drivings/?scheme_id=%E6%96%B9%E6%A1%881&station_id=0101&station_type=%E9%9D%9E%E6%8D%A2%E4%B9%98%E8%BD%A6%E7%AB%99 HTTP/1.1" 200 17347
+[2020-07-24 16:09:58,858] [base.py:93] [base:get_response] [WARNING]- Not Found: /opera/station/0101/
+[2020-07-24 16:09:58,860] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /opera/station/0101/ HTTP/1.1" 404 4763
+[2020-07-24 16:10:15,712] [base.py:93] [base:get_response] [WARNING]- Not Found: /station/station/0101/
+[2020-07-24 16:10:15,713] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /station/station/0101/ HTTP/1.1" 404 3686
+[2020-07-24 16:10:35,381] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /station/0101/ HTTP/1.1" 200 1525
+[2020-07-24 16:10:49,348] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /station/models/ HTTP/1.1" 200 452

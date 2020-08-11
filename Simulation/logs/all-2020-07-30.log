@@ -1,0 +1,678 @@
+[2020-07-30 09:05:58,220] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /opera/psreqes/ HTTP/1.1" 200 48
+[2020-07-30 10:20:04,721] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /opera/psreqes/ HTTP/1.1" 200 38
+[2020-07-30 10:59:04,881] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /opera/psreqes/
+Traceback (most recent call last):
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "D:\Virtualenvs\Simulation\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\work\code\苏州仿真\Simulation\Simulation\apps\opera\views.py", line 327, in post
+    models.FlowTranDetail.objects.create(**trans_data)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\db\models\query.py", line 415, in create
+    obj = self.model(**kwargs)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\db\models\base.py", line 495, in __init__
+    raise TypeError("'%s' is an invalid keyword argument for this function" % kwarg)
+TypeError: 'entry_quantity' is an invalid keyword argument for this function
+[2020-07-30 10:59:06,180] [basehttp.py:124] [basehttp:log_message] [ERROR]- "POST /opera/psreqes/ HTTP/1.1" 500 19826
+[2020-07-30 11:01:18,558] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /opera/psreqes/
+Traceback (most recent call last):
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "D:\Virtualenvs\Simulation\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\work\code\苏州仿真\Simulation\Simulation\apps\opera\views.py", line 327, in post
+    models.FlowTranDetail.objects.create(**trans_data)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\db\models\query.py", line 415, in create
+    obj = self.model(**kwargs)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\db\models\base.py", line 495, in __init__
+    raise TypeError("'%s' is an invalid keyword argument for this function" % kwarg)
+TypeError: 'entry_quantity' is an invalid keyword argument for this function
+[2020-07-30 11:01:18,776] [basehttp.py:124] [basehttp:log_message] [ERROR]- "POST /opera/psreqes/ HTTP/1.1" 500 19826
+[2020-07-30 11:05:03,388] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /opera/psreqes/ HTTP/1.1" 200 57
+[2020-07-30 11:13:23,267] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /opera/psreqes/ HTTP/1.1" 200 57
+[2020-07-30 11:19:07,364] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /opera/drreqes/
+Traceback (most recent call last):
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.StringDataRightTruncation: value too long for type character varying(4)
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "D:\Virtualenvs\Simulation\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\work\code\苏州仿真\Simulation\Simulation\apps\opera\views.py", line 590, in post
+    models.TrainData.objects.create(**data_dic)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\db\models\query.py", line 417, in create
+    obj.save(force_insert=True, using=self.db)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\db\models\base.py", line 729, in save
+    force_update=force_update, update_fields=update_fields)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\db\models\base.py", line 759, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\db\models\base.py", line 842, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\db\models\base.py", line 880, in _do_insert
+    using=using, raw=raw)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\db\models\query.py", line 1125, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\db\models\sql\compiler.py", line 1285, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\db\backends\utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\db\backends\utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\db\backends\utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\db\utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.DataError: value too long for type character varying(4)
+
+[2020-07-30 11:19:07,678] [basehttp.py:124] [basehttp:log_message] [ERROR]- "POST /opera/drreqes/ HTTP/1.1" 500 22049
+[2020-07-30 11:39:03,401] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /opera/drreqes/
+Traceback (most recent call last):
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.StringDataRightTruncation: value too long for type character varying(4)
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "D:\Virtualenvs\Simulation\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\work\code\苏州仿真\Simulation\Simulation\apps\opera\views.py", line 592, in post
+    models.TrainData.objects.create(**data_dic)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\db\models\query.py", line 417, in create
+    obj.save(force_insert=True, using=self.db)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\db\models\base.py", line 729, in save
+    force_update=force_update, update_fields=update_fields)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\db\models\base.py", line 759, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\db\models\base.py", line 842, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\db\models\base.py", line 880, in _do_insert
+    using=using, raw=raw)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\db\models\query.py", line 1125, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\db\models\sql\compiler.py", line 1285, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\db\backends\utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\db\backends\utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\db\backends\utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\db\utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.DataError: value too long for type character varying(4)
+
+[2020-07-30 11:39:03,728] [basehttp.py:124] [basehttp:log_message] [ERROR]- "POST /opera/drreqes/ HTTP/1.1" 500 22048
+[2020-07-30 11:48:06,080] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /opera/drreqes/
+Traceback (most recent call last):
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.StringDataRightTruncation: value too long for type character varying(4)
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "D:\Virtualenvs\Simulation\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\work\code\苏州仿真\Simulation\Simulation\apps\opera\views.py", line 593, in post
+    models.TrainData.objects.create(**data_dic)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\db\models\query.py", line 417, in create
+    obj.save(force_insert=True, using=self.db)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\db\models\base.py", line 729, in save
+    force_update=force_update, update_fields=update_fields)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\db\models\base.py", line 759, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\db\models\base.py", line 842, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\db\models\base.py", line 880, in _do_insert
+    using=using, raw=raw)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\db\models\query.py", line 1125, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\db\models\sql\compiler.py", line 1285, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\db\backends\utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\db\backends\utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\db\backends\utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\db\utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.DataError: value too long for type character varying(4)
+
+[2020-07-30 11:48:06,474] [basehttp.py:124] [basehttp:log_message] [ERROR]- "POST /opera/drreqes/ HTTP/1.1" 500 22048
+[2020-07-30 11:53:55,972] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /opera/drreqes/
+Traceback (most recent call last):
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.StringDataRightTruncation: value too long for type character varying(4)
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "D:\Virtualenvs\Simulation\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\work\code\苏州仿真\Simulation\Simulation\apps\opera\views.py", line 593, in post
+    models.TrainData.objects.create(**data_dic)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\db\models\query.py", line 417, in create
+    obj.save(force_insert=True, using=self.db)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\db\models\base.py", line 729, in save
+    force_update=force_update, update_fields=update_fields)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\db\models\base.py", line 759, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\db\models\base.py", line 842, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\db\models\base.py", line 880, in _do_insert
+    using=using, raw=raw)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\db\models\query.py", line 1125, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\db\models\sql\compiler.py", line 1285, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\db\backends\utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\db\backends\utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\db\backends\utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\db\utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.DataError: value too long for type character varying(4)
+
+[2020-07-30 11:53:56,416] [basehttp.py:124] [basehttp:log_message] [ERROR]- "POST /opera/drreqes/ HTTP/1.1" 500 22048
+[2020-07-30 11:55:19,809] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /opera/drreqes/ HTTP/1.1" 200 39
+[2020-07-30 12:30:34,659] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /opera/drreqes/ HTTP/1.1" 200 39
+[2020-07-30 12:32:50,488] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /opera/psimport/ HTTP/1.1" 200 11199
+[2020-07-30 14:01:04,843] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /opera/psimport/
+Traceback (most recent call last):
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "D:\Virtualenvs\Simulation\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\work\code\苏州仿真\Simulation\Simulation\apps\opera\views.py", line 644, in post
+    res = read_inout_excel()
+  File "E:\work\code\苏州仿真\Simulation\Simulation\apps\opera\views.py", line 623, in read_inout_excel
+    book = xlrd.open_workbook(filename=name)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\xlrd\__init__.py", line 111, in open_workbook
+    with open(filename, "rb") as f:
+OSError: [Errno 22] Invalid argument: '客流数据模板1.xlsx"'
+[2020-07-30 14:01:05,045] [basehttp.py:124] [basehttp:log_message] [ERROR]- "POST /opera/psimport/ HTTP/1.1" 500 19804
+[2020-07-30 14:03:22,148] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /opera/psimport/
+Traceback (most recent call last):
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "D:\Virtualenvs\Simulation\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\work\code\苏州仿真\Simulation\Simulation\apps\opera\views.py", line 645, in post
+    res = read_inout_excel()
+  File "E:\work\code\苏州仿真\Simulation\Simulation\apps\opera\views.py", line 624, in read_inout_excel
+    book = xlrd.open_workbook(filename=name)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\xlrd\__init__.py", line 111, in open_workbook
+    with open(filename, "rb") as f:
+OSError: [Errno 22] Invalid argument: '客流数据模板1.xlsx"'
+[2020-07-30 14:03:22,297] [basehttp.py:124] [basehttp:log_message] [ERROR]- "POST /opera/psimport/ HTTP/1.1" 500 19804
+[2020-07-30 14:04:56,547] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /opera/psimport/
+Traceback (most recent call last):
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "D:\Virtualenvs\Simulation\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\work\code\苏州仿真\Simulation\Simulation\apps\opera\views.py", line 645, in post
+    res = read_inout_excel()
+  File "E:\work\code\苏州仿真\Simulation\Simulation\apps\opera\views.py", line 624, in read_inout_excel
+    book = xlrd.open_workbook(filename=name)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\xlrd\__init__.py", line 111, in open_workbook
+    with open(filename, "rb") as f:
+OSError: [Errno 22] Invalid argument: '客流数据模板1.xlsx"'
+[2020-07-30 14:04:56,677] [basehttp.py:124] [basehttp:log_message] [ERROR]- "POST /opera/psimport/ HTTP/1.1" 500 19804
+[2020-07-30 14:05:35,256] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /opera/psimport/
+Traceback (most recent call last):
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "D:\Virtualenvs\Simulation\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\work\code\苏州仿真\Simulation\Simulation\apps\opera\views.py", line 645, in post
+    res = read_inout_excel()
+  File "E:\work\code\苏州仿真\Simulation\Simulation\apps\opera\views.py", line 624, in read_inout_excel
+    book = xlrd.open_workbook(filename=name)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\xlrd\__init__.py", line 111, in open_workbook
+    with open(filename, "rb") as f:
+OSError: [Errno 22] Invalid argument: '客流数据模板1.xlsx"'
+[2020-07-30 14:05:35,510] [basehttp.py:124] [basehttp:log_message] [ERROR]- "POST /opera/psimport/ HTTP/1.1" 500 19805
+[2020-07-30 14:07:01,676] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /opera/psimport/
+Traceback (most recent call last):
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "D:\Virtualenvs\Simulation\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\work\code\苏州仿真\Simulation\Simulation\apps\opera\views.py", line 646, in post
+    res = read_inout_excel()
+  File "E:\work\code\苏州仿真\Simulation\Simulation\apps\opera\views.py", line 625, in read_inout_excel
+    book = xlrd.open_workbook(filename=name)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\xlrd\__init__.py", line 111, in open_workbook
+    with open(filename, "rb") as f:
+OSError: [Errno 22] Invalid argument: '客流数据模板1.xlsx"'
+[2020-07-30 14:07:01,806] [basehttp.py:124] [basehttp:log_message] [ERROR]- "POST /opera/psimport/ HTTP/1.1" 500 19804
+[2020-07-30 14:33:41,097] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /opera/psimport/
+Traceback (most recent call last):
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "D:\Virtualenvs\Simulation\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\work\code\苏州仿真\Simulation\Simulation\apps\opera\views.py", line 623, in post
+    f = open(filepath,'wb')
+OSError: [Errno 22] Invalid argument: 'E:\\work\\code\\苏州仿真\\Simulation\\Simulation\\media\\upload\\客流数据模板1.xlsx"'
+[2020-07-30 14:33:41,243] [basehttp.py:124] [basehttp:log_message] [ERROR]- "POST /opera/psimport/ HTTP/1.1" 500 19652
+[2020-07-30 14:34:09,088] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /opera/psimport/
+Traceback (most recent call last):
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "D:\Virtualenvs\Simulation\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\work\code\苏州仿真\Simulation\Simulation\apps\opera\views.py", line 624, in post
+    f = open(filepath,'wb')
+OSError: [Errno 22] Invalid argument: 'E:\\work\\code\\苏州仿真\\Simulation\\Simulation\\media\\upload\\客流数据模板1.xlsx"'
+[2020-07-30 14:34:09,306] [basehttp.py:124] [basehttp:log_message] [ERROR]- "POST /opera/psimport/ HTTP/1.1" 500 19652
+[2020-07-30 14:40:25,403] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /opera/psimport/
+Traceback (most recent call last):
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\core\handlers\base.py", line 158, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\core\handlers\base.py", line 156, in _get_response
+    response = response.render()
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\template\response.py", line 106, in render
+    self.content = self.rendered_content
+  File "D:\Virtualenvs\Simulation\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\rest_framework\renderers.py", line 103, in render
+    allow_nan=not self.strict, separators=separators
+  File "D:\Virtualenvs\Simulation\lib\site-packages\rest_framework\utils\json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "D:\Program Files\python3.7\lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "D:\Program Files\python3.7\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "D:\Program Files\python3.7\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\rest_framework\utils\encoders.py", line 50, in default
+    return obj.decode()
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0x87 in position 10: invalid start byte
+[2020-07-30 14:40:25,723] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /opera/psimport/ HTTP/1.1" 500 140686
+[2020-07-30 14:43:26,995] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /opera/psimport/
+Traceback (most recent call last):
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\core\handlers\base.py", line 158, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\core\handlers\base.py", line 156, in _get_response
+    response = response.render()
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\template\response.py", line 106, in render
+    self.content = self.rendered_content
+  File "D:\Virtualenvs\Simulation\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\rest_framework\renderers.py", line 103, in render
+    allow_nan=not self.strict, separators=separators
+  File "D:\Virtualenvs\Simulation\lib\site-packages\rest_framework\utils\json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "D:\Program Files\python3.7\lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "D:\Program Files\python3.7\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "D:\Program Files\python3.7\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\rest_framework\utils\encoders.py", line 50, in default
+    return obj.decode()
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0x87 in position 10: invalid start byte
+[2020-07-30 14:43:27,229] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /opera/psimport/ HTTP/1.1" 500 140686
+[2020-07-30 14:44:28,118] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /opera/psimport/
+Traceback (most recent call last):
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "D:\Virtualenvs\Simulation\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\work\code\苏州仿真\Simulation\Simulation\apps\opera\views.py", line 607, in get
+    data = f.read()
+  File "D:\Program Files\python3.7\lib\codecs.py", line 322, in decode
+    (result, consumed) = self._buffer_decode(data, self.errors, final)
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0x87 in position 10: invalid start byte
+[2020-07-30 14:44:28,384] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /opera/psimport/ HTTP/1.1" 500 19452
+[2020-07-30 14:44:57,924] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /opera/psimport/
+Traceback (most recent call last):
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\core\handlers\base.py", line 158, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\core\handlers\base.py", line 156, in _get_response
+    response = response.render()
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\template\response.py", line 106, in render
+    self.content = self.rendered_content
+  File "D:\Virtualenvs\Simulation\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\rest_framework\renderers.py", line 103, in render
+    allow_nan=not self.strict, separators=separators
+  File "D:\Virtualenvs\Simulation\lib\site-packages\rest_framework\utils\json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "D:\Program Files\python3.7\lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "D:\Program Files\python3.7\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "D:\Program Files\python3.7\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\rest_framework\utils\encoders.py", line 50, in default
+    return obj.decode()
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0x87 in position 10: invalid start byte
+[2020-07-30 14:44:58,177] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /opera/psimport/ HTTP/1.1" 500 140686
+[2020-07-30 14:53:31,975] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /opera/psimport/ HTTP/1.1" 200 51
+[2020-07-30 15:02:10,255] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /opera/psimport/ HTTP/1.1" 200 130
+[2020-07-30 15:04:52,644] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /opera/psimport/ HTTP/1.1" 200 74
+[2020-07-30 15:08:14,205] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /opera/psimport/ HTTP/1.1" 200 74
+[2020-07-30 15:08:35,803] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /opera/psimport/ HTTP/1.1" 200 96
+[2020-07-30 15:08:52,337] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /media/download/%E5%AE%A2%E6%B5%81%E6%95%B0%E6%8D%AE%E6%A8%A1%E6%9D%BF.xlsx HTTP/1.1" 200 16059
+[2020-07-30 15:30:30,830] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /opera/drreqes/?date=2020-07-01&scheme_id=9527&station_type=%E9%9D%9E%E6%8D%A2%E4%B9%98%E8%BD%A6%E7%AB%99&station_id=0119&type=%E8%AE%A1%E5%88%92%E6%95%B0%E6%8D%AE HTTP/1.1" 200 55
+[2020-07-30 15:38:12,448] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /opera/drreqes/?date=2020-07-01&scheme_id=9527&station_type=%E9%9D%9E%E6%8D%A2%E4%B9%98%E8%BD%A6%E7%AB%99&station_id=0119&type=%E8%AE%A1%E5%88%92%E6%95%B0%E6%8D%AE&period_list=08:00%2009:00 HTTP/1.1" 200 46
+[2020-07-30 15:39:08,121] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /opera/drreqes/?date=2020-07-01&scheme_id=9527&station_type=%E9%9D%9E%E6%8D%A2%E4%B9%98%E8%BD%A6%E7%AB%99&station_id=0119&type=%E8%AE%A1%E5%88%92%E6%95%B0%E6%8D%AE&period_list=08:00%2009:00 HTTP/1.1" 200 54
+[2020-07-30 15:40:11,507] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /opera/drreqes/?date=2020-07-01&scheme_id=9527&station_type=%E9%9D%9E%E6%8D%A2%E4%B9%98%E8%BD%A6%E7%AB%99&station_id=0119&type=%E8%AE%A1%E5%88%92%E6%95%B0%E6%8D%AE&period_list=08:00%2009:00 HTTP/1.1" 200 54
+[2020-07-30 15:41:32,695] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /opera/drreqes/?date=2020-07-01&scheme_id=9527&station_type=%E9%9D%9E%E6%8D%A2%E4%B9%98%E8%BD%A6%E7%AB%99&station_id=0119&type=%E8%AE%A1%E5%88%92%E6%95%B0%E6%8D%AE&period_list=06:00%2008:00 HTTP/1.1" 200 54
+[2020-07-30 15:41:37,041] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /opera/drreqes/?date=2020-07-01&scheme_id=9527&station_type=%E9%9D%9E%E6%8D%A2%E4%B9%98%E8%BD%A6%E7%AB%99&station_id=0119&type=%E8%AE%A1%E5%88%92%E6%95%B0%E6%8D%AE&period_list=06:00%2008:00 HTTP/1.1" 200 54
+[2020-07-30 15:43:09,573] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /opera/drreqes/?date=2020-07-01&scheme_id=9527&station_type=%E9%9D%9E%E6%8D%A2%E4%B9%98%E8%BD%A6%E7%AB%99&station_id=0119&type=%E8%AE%A1%E5%88%92%E6%95%B0%E6%8D%AE&period_list=06:00%2008:00 HTTP/1.1" 200 57
+[2020-07-30 15:45:20,163] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /opera/drreqes/?date=2020-07-01&scheme_id=9528&station_type=%E9%9D%9E%E6%8D%A2%E4%B9%98%E8%BD%A6%E7%AB%99&station_id=0119&type=%E5%AE%9E%E9%99%85%E6%95%B0%E6%8D%AE&period_list=06:00%2008:00 HTTP/1.1" 200 57
+[2020-07-30 15:46:38,651] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /opera/drreqes/
+Traceback (most recent call last):
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "D:\Virtualenvs\Simulation\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\work\code\苏州仿真\Simulation\Simulation\apps\opera\views.py", line 472, in get
+    for reality in reality_query:
+TypeError: 'TrainReality' object is not iterable
+[2020-07-30 15:46:38,809] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /opera/drreqes/?date=2020-07-01&scheme_id=9529&station_type=%E6%8D%A2%E4%B9%98%E8%BD%A6%E7%AB%99&station_id=0112&type=%E5%AE%9E%E9%99%85%E6%95%B0%E6%8D%AE&period_list=06:00%2008:00 HTTP/1.1" 500 19759
+[2020-07-30 15:49:35,157] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /opera/drreqes/?date=2020-07-01&scheme_id=9529&station_type=%E6%8D%A2%E4%B9%98%E8%BD%A6%E7%AB%99&station_id=0112&type=%E5%AE%9E%E9%99%85%E6%95%B0%E6%8D%AE&period_list=06:00%2008:00 HTTP/1.1" 200 57
+[2020-07-30 15:56:17,255] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /opera/drreqes/
+Traceback (most recent call last):
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\Virtualenvs\Simulation\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "D:\Virtualenvs\Simulation\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\work\code\苏州仿真\Simulation\Simulation\apps\opera\views.py", line 443, in get
+    for plan in plan_query:
+TypeError: 'TrainPlan' object is not iterable
+[2020-07-30 15:56:17,390] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /opera/drreqes/?date=2020-07-01&scheme_id=9529&station_type=%E6%8D%A2%E4%B9%98%E8%BD%A6%E7%AB%99&station_id=0112&type=%E8%AE%A1%E5%88%92%E6%95%B0%E6%8D%AE&period_list=06:00%2008:00 HTTP/1.1" 500 19750
+[2020-07-30 15:58:32,234] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /opera/drreqes/?date=2020-07-01&scheme_id=9529&station_type=%E6%8D%A2%E4%B9%98%E8%BD%A6%E7%AB%99&station_id=0112&type=%E8%AE%A1%E5%88%92%E6%95%B0%E6%8D%AE&period_list=06:00%2008:00 HTTP/1.1" 200 57
+[2020-07-30 16:00:56,091] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /opera/drreqes/?date=2020-07-01&scheme_id=9529&station_type=%E6%8D%A2%E4%B9%98%E8%BD%A6%E7%AB%99&station_id=0112&type=%E8%AE%A1%E5%88%92%E6%95%B0%E6%8D%AE&period_list=06:00%2008:00 HTTP/1.1" 200 57
+[2020-07-30 16:03:58,232] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /opera/drreqes/?date=2020-07-01&scheme_id=9530&station_type=%E6%8D%A2%E4%B9%98%E8%BD%A6%E7%AB%99&station_id=0112&type=%E5%AE%9E%E9%99%85%E6%95%B0%E6%8D%AE&period_list=06:00%2008:00 HTTP/1.1" 200 57
+[2020-07-30 16:09:13,677] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /opera/drreqes/?date=2020-07-01&scheme_id=9530&station_type=%E6%8D%A2%E4%B9%98%E8%BD%A6%E7%AB%99&station_id=0112&type=%E5%AE%9E%E9%99%85%E6%95%B0%E6%8D%AE&period_list=06:00%2008:00 HTTP/1.1" 200 57

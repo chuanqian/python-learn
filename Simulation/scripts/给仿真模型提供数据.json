@@ -1,0 +1,2376 @@
+{
+    "Sheme_id": "方案1",
+    "StartTime": "2020-06-30 07:00:00",
+    "EndTime": "2020-06-30 09:00:00",
+    "Per_time_unit": 900,
+    "isInsertDB": true,
+    "isInsert3D_DB": false,
+    "runParams": [
+        {
+            "senceId": "方案1",
+            "pParam": {
+                "male_rate": "50.00",
+                "female_rate": "50.00",
+                "personal_rate": "50.00",
+                "team_rate": "50.00",
+                "older_rate": "76.00",
+                "adult_rate": "20.00",
+                "child_rate": "4.00",
+                "no_bag_rate": "3.00",
+                "small_bag_rate": "47.00",
+                "big_bag_rate": "50.00",
+                "mo_speed": "1.31",
+                "mo_space": "0.365",
+                "ma_speed": "1.62",
+                "ma_space": "0.378",
+                "mc_speed": "0.78",
+                "mc_space": "0.258",
+                "fo_speed": "0.98",
+                "fo_space": "0.302",
+                "fa_speed": "1.31",
+                "fa_space": "0.455",
+                "fc_speed": "0.72",
+                "fc_space": "0.172"
+            },
+            "eParam": {
+                "sc_fast_rate": 50,
+                "sc_big_bag_time": "8.0",
+                "sc_small_bag_time": "6.0",
+                "sc_fast_time": "4.0",
+                "tvm_use_rate": 65,
+                "tvm_tickets_rate": 50,
+                "tvm_tickets_time": "10.0",
+                "tvm_recharge_rate": 50,
+                "tvm_recharge_time": "10.0",
+                "bom_use_rate": 35,
+                "bom_tickets_rate": 45,
+                "bom_tickets_time": "5.0",
+                "bom_recharge_rate": 55,
+                "bom_recharge_time": "2.0",
+                "gate_normal_time": "4.0",
+                "gate_big_bag_time": "4.0"
+            },
+            "eStaus": [
+                {
+                    "eq_id": "F0121010102B",
+                    "eq_status": "01"
+                },
+                {
+                    "eq_id": "F0121010103B",
+                    "eq_status": "02"
+                },
+                {
+                    "eq_id": "F0121010104B",
+                    "eq_status": "01"
+                },
+                {
+                    "eq_id": "F0121010105B",
+                    "eq_status": "02"
+                },
+                {
+                    "eq_id": "F0121010101B",
+                    "eq_status": "02"
+                },
+                {
+                    "eq_id": "F0121010100B",
+                    "eq_status": "02"
+                },
+                {
+                    "eq_id": "F0221010102B",
+                    "eq_status": "01"
+                },
+                {
+                    "eq_id": "F0221010103B",
+                    "eq_status": "02"
+                },
+                {
+                    "eq_id": "F0221010104B",
+                    "eq_status": "01"
+                },
+                {
+                    "eq_id": "F0221010105B",
+                    "eq_status": "02"
+                },
+                {
+                    "eq_id": "F0221010106B",
+                    "eq_status": "05"
+                },
+                {
+                    "eq_id": "F0221010107B",
+                    "eq_status": "06"
+                },
+                {
+                    "eq_id": "F0221010108B",
+                    "eq_status": "05"
+                },
+                {
+                    "eq_id": "F0221010109B",
+                    "eq_status": "06"
+                },
+                {
+                    "eq_id": "F0221010110B",
+                    "eq_status": "05"
+                },
+                {
+                    "eq_id": "F0221010111B",
+                    "eq_status": "06"
+                },
+                {
+                    "eq_id": "F0221010112B",
+                    "eq_status": "05"
+                },
+                {
+                    "eq_id": "F0221010113B",
+                    "eq_status": "06"
+                },
+                {
+                    "eq_id": "F0221010114B",
+                    "eq_status": "05"
+                },
+                {
+                    "eq_id": "F0221010115B",
+                    "eq_status": "06"
+                },
+                {
+                    "eq_id": "F0221010116B",
+                    "eq_status": "05"
+                },
+                {
+                    "eq_id": "F0221010117B",
+                    "eq_status": "06"
+                },
+                {
+                    "eq_id": "F0221010100B",
+                    "eq_status": "02"
+                },
+                {
+                    "eq_id": "F0221010101B",
+                    "eq_status": "01"
+                },
+                {
+                    "eq_id": "F0321010102B",
+                    "eq_status": "08"
+                },
+                {
+                    "eq_id": "F0321010103B",
+                    "eq_status": "08"
+                },
+                {
+                    "eq_id": "F0321010104B",
+                    "eq_status": "09"
+                },
+                {
+                    "eq_id": "F0321010105B",
+                    "eq_status": "09"
+                },
+                {
+                    "eq_id": "F0321010106B",
+                    "eq_status": "09"
+                },
+                {
+                    "eq_id": "F0321010107B",
+                    "eq_status": "09"
+                },
+                {
+                    "eq_id": "F0321010100B",
+                    "eq_status": "09"
+                },
+                {
+                    "eq_id": "F0321010101B",
+                    "eq_status": "09"
+                },
+                {
+                    "eq_id": "F0421010102B",
+                    "eq_status": "03"
+                },
+                {
+                    "eq_id": "F0421010103B",
+                    "eq_status": "11"
+                },
+                {
+                    "eq_id": "F0421010101B",
+                    "eq_status": "02"
+                },
+                {
+                    "eq_id": "F0421010100B",
+                    "eq_status": "01"
+                }
+            ],
+            "eRate": [
+                {
+                    "eq_id": "F0521010101B",
+                    "out_rate": "32.00",
+                    "in_rate": "18.00"
+                },
+                {
+                    "eq_id": "F0521010100B",
+                    "out_rate": "18.00",
+                    "in_rate": "32.00"
+                },
+                {
+                    "eq_id": "F0521010102B",
+                    "out_rate": "32.00",
+                    "in_rate": "18.00"
+
+                },
+                {
+                    "eq_id": "F0521010103B",
+                    "out_rate": "18.00",
+                    "in_rate": "32.00"
+                },
+                {
+                    "eq_id": "F0621010104B",
+                    "board_rate": "25.00",
+                    "getoff_rate": "25.00"
+                },
+                {
+                    "eq_id": "F0621010105B",
+                    "board_rate": "25.00",
+                    "getoff_rate": "25.00"
+                },
+                {
+                    "eq_id": "F0621010106B",
+                    "board_rate": "25.00",
+                    "getoff_rate": "25.00"
+                },
+                {
+                    "eq_id": "F0621010107B",
+                    "board_rate": "25.00",
+                    "getoff_rate": "25.00"
+                },
+                {
+                    "eq_id": "F0621010108B",
+                    "board_rate": "25.00",
+                    "getoff_rate": "25.00"
+                },
+                {
+                    "eq_id": "F0621010109B",
+                    "board_rate": "25.00",
+                    "getoff_rate": "25.00"
+                },
+                {
+                    "eq_id": "F0621010110B",
+                    "board_rate": "25.00",
+                    "getoff_rate": "25.00"
+                },
+                {
+                    "eq_id": "F0621010111B",
+                    "board_rate": "25.00",
+                    "getoff_rate": "25.00"
+                },
+                {
+                    "eq_id": "F0621010101B",
+                    "board_rate": "18.00",
+                    "getoff_rate": "32.00"
+                },
+                {
+                    "eq_id": "F0621010100B",
+                    "board_rate": "25.00",
+                    "getoff_rate": "25.00"
+                },
+                {
+                    "eq_id": "F0621010101B",
+                    "board_rate": "25.00",
+                    "getoff_rate": "25.00"
+                },
+                {
+                    "eq_id": "F0621010102B",
+                    "board_rate": "25.00",
+                    "getoff_rate": "25.00"
+                },
+                {
+                    "eq_id": "F0621010103B",
+                    "board_rate": "25.00",
+                    "getoff_rate": "25.00"
+                },
+                {
+                    "eq_id": "F0621010104B",
+                    "board_rate": "25.00",
+                    "getoff_rate": "25.00"
+                },
+                {
+                    "eq_id": "F0621010100B",
+                    "board_rate": "32.00",
+                    "getoff_rate": "18.00"
+                },
+                {
+                    "eq_id": "F0621010102B",
+                    "board_rate": "18.00",
+                    "getoff_rate": "32.00"
+                },
+                {
+                    "eq_id": "F0621010103B",
+                    "board_rate": "32.00",
+                    "getoff_rate": "18.00"
+                }
+            ]
+        }
+    ],
+    "AccinParams": [
+        {
+            "id": 13,
+            "line_id": "02",
+            "dir": "02",
+            "stat_tm": "2020-06-12 15:15:00",
+            "entry_quantity": 500
+        },
+        {
+            "id": 14,
+            "line_id": "02",
+            "dir": "02",
+            "stat_tm": "2020-06-12 15:30:00",
+            "entry_quantity": 500
+        },
+        {
+            "id": 15,
+            "line_id": "02",
+            "dir": "02",
+            "stat_tm": "2020-06-12 15:45:00",
+            "entry_quantity": 500
+        },
+        {
+            "id": 16,
+            "line_id": "02",
+            "dir": "02",
+            "stat_tm": "2020-06-12 16:00:00",
+            "entry_quantity": 500
+        },
+        {
+            "id": 17,
+            "line_id": "04",
+            "dir": "01",
+            "stat_tm": "2020-06-12 14:15:00",
+            "entry_quantity": 500
+        },
+        {
+            "id": 18,
+            "line_id": "04",
+            "dir": "01",
+            "stat_tm": "2020-06-12 14:30:00",
+            "entry_quantity": 500
+        },
+        {
+            "id": 19,
+            "line_id": "04",
+            "dir": "01",
+            "stat_tm": "2020-06-12 14:45:00",
+            "entry_quantity": 500
+        },
+        {
+            "id": 20,
+            "line_id": "04",
+            "dir": "01",
+            "stat_tm": "2020-06-12 15:00:00",
+            "entry_quantity": 500
+        },
+        {
+            "id": 21,
+            "line_id": "04",
+            "dir": "01",
+            "stat_tm": "2020-06-12 15:15:00",
+            "entry_quantity": 500
+        },
+        {
+            "id": 22,
+            "line_id": "04",
+            "dir": "01",
+            "stat_tm": "2020-06-12 15:30:00",
+            "entry_quantity": 500
+        },
+        {
+            "id": 23,
+            "line_id": "04",
+            "dir": "01",
+            "stat_tm": "2020-06-12 15:45:00",
+            "entry_quantity": 500
+        },
+        {
+            "id": 24,
+            "line_id": "04",
+            "dir": "01",
+            "stat_tm": "2020-06-12 16:00:00",
+            "entry_quantity": 500
+        },
+        {
+            "id": 25,
+            "line_id": "04",
+            "dir": "02",
+            "stat_tm": "2020-06-12 14:15:00",
+            "entry_quantity": 500
+        },
+        {
+            "id": 26,
+            "line_id": "04",
+            "dir": "02",
+            "stat_tm": "2020-06-12 14:30:00",
+            "entry_quantity": 500
+        },
+        {
+            "id": 27,
+            "line_id": "04",
+            "dir": "02",
+            "stat_tm": "2020-06-12 14:45:00",
+            "entry_quantity": 500
+        },
+        {
+            "id": 28,
+            "line_id": "04",
+            "dir": "02",
+            "stat_tm": "2020-06-12 15:00:00",
+            "entry_quantity": 500
+        },
+        {
+            "id": 29,
+            "line_id": "04",
+            "dir": "02",
+            "stat_tm": "2020-06-12 15:15:00",
+            "entry_quantity": 500
+        },
+        {
+            "id": 30,
+            "line_id": "04",
+            "dir": "02",
+            "stat_tm": "2020-06-12 15:30:00",
+            "entry_quantity": 500
+        },
+        {
+            "id": 31,
+            "line_id": "04",
+            "dir": "02",
+            "stat_tm": "2020-06-12 15:45:00",
+            "entry_quantity": 500
+        },
+        {
+            "id": 32,
+            "line_id": "04",
+            "dir": "02",
+            "stat_tm": "2020-06-12 16:00:00",
+            "entry_quantity": 500
+        },
+        {
+            "id": 1,
+            "line_id": "02",
+            "dir": "01",
+            "stat_tm": "2020-06-12 14:15:00",
+            "entry_quantity": 500
+        },
+        {
+            "id": 2,
+            "line_id": "02",
+            "dir": "01",
+            "stat_tm": "2020-06-12 14:30:00",
+            "entry_quantity": 500
+        },
+        {
+            "id": 3,
+            "line_id": "02",
+            "dir": "01",
+            "stat_tm": "2020-06-12 14:45:00",
+            "entry_quantity": 500
+        },
+        {
+            "id": 4,
+            "line_id": "02",
+            "dir": "01",
+            "stat_tm": "2020-06-12 15:00:00",
+            "entry_quantity": 500
+        },
+        {
+            "id": 5,
+            "line_id": "02",
+            "dir": "01",
+            "stat_tm": "2020-06-12 15:15:00",
+            "entry_quantity": 500
+        },
+        {
+            "id": 6,
+            "line_id": "02",
+            "dir": "01",
+            "stat_tm": "2020-06-12 15:30:00",
+            "entry_quantity": 500
+        },
+        {
+            "id": 7,
+            "line_id": "02",
+            "dir": "01",
+            "stat_tm": "2020-06-12 15:45:00",
+            "entry_quantity": 500
+        },
+        {
+            "id": 8,
+            "line_id": "02",
+            "dir": "01",
+            "stat_tm": "2020-06-12 16:00:00",
+            "entry_quantity": 500
+        },
+        {
+            "id": 9,
+            "line_id": "02",
+            "dir": "02",
+            "stat_tm": "2020-06-12 14:15:00",
+            "entry_quantity": 500
+        },
+        {
+            "id": 10,
+            "line_id": "02",
+            "dir": "02",
+            "stat_tm": "2020-06-12 14:30:00",
+            "entry_quantity": 500
+        },
+        {
+            "id": 11,
+            "line_id": "02",
+            "dir": "02",
+            "stat_tm": "2020-06-12 14:45:00",
+            "entry_quantity": 500
+        },
+        {
+            "id": 12,
+            "line_id": "02",
+            "dir": "02",
+            "stat_tm": "2020-06-12 15:00:00",
+            "entry_quantity": 700
+        }
+    ],
+    "AccoutParams": [
+        {
+            "id": 13,
+            "line_id": "02",
+            "dir": "02",
+            "stat_tm": "2020-06-12 15:15:00",
+            "exit_quantity": 500
+        },
+        {
+            "id": 14,
+            "line_id": "02",
+            "dir": "02",
+            "stat_tm": "2020-06-12 15:30:00",
+            "exit_quantity": 500
+        },
+        {
+            "id": 15,
+            "line_id": "02",
+            "dir": "02",
+            "stat_tm": "2020-06-12 15:45:00",
+            "exit_quantity": 500
+        },
+        {
+            "id": 16,
+            "line_id": "02",
+            "dir": "02",
+            "stat_tm": "2020-06-12 16:00:00",
+            "exit_quantity": 500
+        },
+        {
+            "id": 17,
+            "line_id": "04",
+            "dir": "01",
+            "stat_tm": "2020-06-12 14:15:00",
+            "exit_quantity": 500
+        },
+        {
+            "id": 18,
+            "line_id": "04",
+            "dir": "01",
+            "stat_tm": "2020-06-12 14:30:00",
+            "exit_quantity": 500
+        },
+        {
+            "id": 19,
+            "line_id": "04",
+            "dir": "01",
+            "stat_tm": "2020-06-12 14:45:00",
+            "exit_quantity": 500
+        },
+        {
+            "id": 20,
+            "line_id": "04",
+            "dir": "01",
+            "stat_tm": "2020-06-12 15:00:00",
+            "exit_quantity": 500
+        },
+        {
+            "id": 21,
+            "line_id": "04",
+            "dir": "01",
+            "stat_tm": "2020-06-12 15:15:00",
+            "exit_quantity": 500
+        },
+        {
+            "id": 22,
+            "line_id": "04",
+            "dir": "01",
+            "stat_tm": "2020-06-12 15:30:00",
+            "exit_quantity": 500
+        },
+        {
+            "id": 23,
+            "line_id": "04",
+            "dir": "01",
+            "stat_tm": "2020-06-12 15:45:00",
+            "exit_quantity": 500
+        },
+        {
+            "id": 24,
+            "line_id": "04",
+            "dir": "01",
+            "stat_tm": "2020-06-12 16:00:00",
+            "exit_quantity": 500
+        },
+        {
+            "id": 25,
+            "line_id": "04",
+            "dir": "02",
+            "stat_tm": "2020-06-12 14:15:00",
+            "exit_quantity": 500
+        },
+        {
+            "id": 26,
+            "line_id": "04",
+            "dir": "02",
+            "stat_tm": "2020-06-12 14:30:00",
+            "exit_quantity": 500
+        },
+        {
+            "id": 27,
+            "line_id": "04",
+            "dir": "02",
+            "stat_tm": "2020-06-12 14:45:00",
+            "exit_quantity": 500
+        },
+        {
+            "id": 28,
+            "line_id": "04",
+            "dir": "02",
+            "stat_tm": "2020-06-12 15:00:00",
+            "exit_quantity": 500
+        },
+        {
+            "id": 29,
+            "line_id": "04",
+            "dir": "02",
+            "stat_tm": "2020-06-12 15:15:00",
+            "exit_quantity": 500
+        },
+        {
+            "id": 30,
+            "line_id": "04",
+            "dir": "02",
+            "stat_tm": "2020-06-12 15:30:00",
+            "exit_quantity": 500
+        },
+        {
+            "id": 31,
+            "line_id": "04",
+            "dir": "02",
+            "stat_tm": "2020-06-12 15:45:00",
+            "exit_quantity": 500
+        },
+        {
+            "id": 32,
+            "line_id": "04",
+            "dir": "02",
+            "stat_tm": "2020-06-12 16:00:00",
+            "exit_quantity": 500
+        },
+        {
+            "id": 1,
+            "line_id": "02",
+            "dir": "01",
+            "stat_tm": "2020-06-12 14:15:00",
+            "exit_quantity": 500
+        },
+        {
+            "id": 2,
+            "line_id": "02",
+            "dir": "01",
+            "stat_tm": "2020-06-12 14:30:00",
+            "exit_quantity": 500
+        },
+        {
+            "id": 3,
+            "line_id": "02",
+            "dir": "01",
+            "stat_tm": "2020-06-12 14:45:00",
+            "exit_quantity": 500
+        },
+        {
+            "id": 4,
+            "line_id": "02",
+            "dir": "01",
+            "stat_tm": "2020-06-12 15:00:00",
+            "exit_quantity": 500
+        },
+        {
+            "id": 5,
+            "line_id": "02",
+            "dir": "01",
+            "stat_tm": "2020-06-12 15:15:00",
+            "exit_quantity": 500
+        },
+        {
+            "id": 6,
+            "line_id": "02",
+            "dir": "01",
+            "stat_tm": "2020-06-12 15:30:00",
+            "exit_quantity": 500
+        },
+        {
+            "id": 7,
+            "line_id": "02",
+            "dir": "01",
+            "stat_tm": "2020-06-12 15:45:00",
+            "exit_quantity": 500
+        },
+        {
+            "id": 8,
+            "line_id": "02",
+            "dir": "01",
+            "stat_tm": "2020-06-12 16:00:00",
+            "exit_quantity": 500
+        },
+        {
+            "id": 9,
+            "line_id": "02",
+            "dir": "02",
+            "stat_tm": "2020-06-12 14:15:00",
+            "exit_quantity": 500
+        },
+        {
+            "id": 10,
+            "line_id": "02",
+            "dir": "02",
+            "stat_tm": "2020-06-12 14:30:00",
+            "exit_quantity": 500
+        },
+        {
+            "id": 11,
+            "line_id": "02",
+            "dir": "02",
+            "stat_tm": "2020-06-12 14:45:00",
+            "exit_quantity": 500
+        },
+        {
+            "id": 12,
+            "line_id": "02",
+            "dir": "02",
+            "stat_tm": "2020-06-12 15:00:00",
+            "exit_quantity": 500
+        }
+    ],
+    "AccTransParams": [
+        {
+            "id": 16,
+            "from_line_id": "02",
+            "to_line_id": "04",
+            "from_drct_cd": "02",
+            "to_drct_cd": "01",
+            "stat_tm": "2020-06-12 14:15:00",
+            "quantity": 500
+        },
+        {
+            "id": 17,
+            "from_line_id": "02",
+            "to_line_id": "04",
+            "from_drct_cd": "02",
+            "to_drct_cd": "01",
+            "stat_tm": "2020-06-12 14:30:00",
+            "quantity": 500
+        },
+        {
+            "id": 18,
+            "from_line_id": "02",
+            "to_line_id": "04",
+            "from_drct_cd": "02",
+            "to_drct_cd": "01",
+            "stat_tm": "2020-06-12 14:45:00",
+            "quantity": 500
+        },
+        {
+            "id": 19,
+            "from_line_id": "02",
+            "to_line_id": "04",
+            "from_drct_cd": "02",
+            "to_drct_cd": "01",
+            "stat_tm": "2020-06-12 15:00:00",
+            "quantity": 500
+        },
+        {
+            "id": 20,
+            "from_line_id": "02",
+            "to_line_id": "04",
+            "from_drct_cd": "02",
+            "to_drct_cd": "01",
+            "stat_tm": "2020-06-12 15:15:00",
+            "quantity": 500
+        },
+        {
+            "id": 21,
+            "from_line_id": "02",
+            "to_line_id": "04",
+            "from_drct_cd": "02",
+            "to_drct_cd": "01",
+            "stat_tm": "2020-06-12 15:30:00",
+            "quantity": 500
+        },
+        {
+            "id": 22,
+            "from_line_id": "02",
+            "to_line_id": "04",
+            "from_drct_cd": "02",
+            "to_drct_cd": "01",
+            "stat_tm": "2020-06-12 15:45:00",
+            "quantity": 500
+        },
+        {
+            "id": 23,
+            "from_line_id": "02",
+            "to_line_id": "04",
+            "from_drct_cd": "02",
+            "to_drct_cd": "01",
+            "stat_tm": "2020-06-12 16:00:00",
+            "quantity": 500
+        },
+        {
+            "id": 24,
+            "from_line_id": "02",
+            "to_line_id": "04",
+            "from_drct_cd": "02",
+            "to_drct_cd": "02",
+            "stat_tm": "2020-06-12 14:15:00",
+            "quantity": 500
+        },
+        {
+            "id": 25,
+            "from_line_id": "02",
+            "to_line_id": "04",
+            "from_drct_cd": "02",
+            "to_drct_cd": "02",
+            "stat_tm": "2020-06-12 14:30:00",
+            "quantity": 500
+        },
+        {
+            "id": 26,
+            "from_line_id": "02",
+            "to_line_id": "04",
+            "from_drct_cd": "02",
+            "to_drct_cd": "02",
+            "stat_tm": "2020-06-12 14:45:00",
+            "quantity": 500
+        },
+        {
+            "id": 27,
+            "from_line_id": "02",
+            "to_line_id": "04",
+            "from_drct_cd": "02",
+            "to_drct_cd": "02",
+            "stat_tm": "2020-06-12 15:00:00",
+            "quantity": 500
+        },
+        {
+            "id": 28,
+            "from_line_id": "02",
+            "to_line_id": "04",
+            "from_drct_cd": "02",
+            "to_drct_cd": "02",
+            "stat_tm": "2020-06-12 15:15:00",
+            "quantity": 500
+        },
+        {
+            "id": 29,
+            "from_line_id": "02",
+            "to_line_id": "04",
+            "from_drct_cd": "02",
+            "to_drct_cd": "02",
+            "stat_tm": "2020-06-12 15:30:00",
+            "quantity": 500
+        },
+        {
+            "id": 30,
+            "from_line_id": "02",
+            "to_line_id": "04",
+            "from_drct_cd": "02",
+            "to_drct_cd": "02",
+            "stat_tm": "2020-06-12 15:45:00",
+            "quantity": 500
+        },
+        {
+            "id": 31,
+            "from_line_id": "02",
+            "to_line_id": "04",
+            "from_drct_cd": "02",
+            "to_drct_cd": "02",
+            "stat_tm": "2020-06-12 16:00:00",
+            "quantity": 500
+        },
+        {
+            "id": 32,
+            "from_line_id": "04",
+            "to_line_id": "02",
+            "from_drct_cd": "01",
+            "to_drct_cd": "01",
+            "stat_tm": "2020-06-12 14:15:00",
+            "quantity": 500
+        },
+        {
+            "id": 33,
+            "from_line_id": "04",
+            "to_line_id": "02",
+            "from_drct_cd": "01",
+            "to_drct_cd": "01",
+            "stat_tm": "2020-06-12 14:30:00",
+            "quantity": 500
+        },
+        {
+            "id": 34,
+            "from_line_id": "04",
+            "to_line_id": "02",
+            "from_drct_cd": "01",
+            "to_drct_cd": "01",
+            "stat_tm": "2020-06-12 14:45:00",
+            "quantity": 500
+        },
+        {
+            "id": 35,
+            "from_line_id": "04",
+            "to_line_id": "02",
+            "from_drct_cd": "01",
+            "to_drct_cd": "01",
+            "stat_tm": "2020-06-12 15:00:00",
+            "quantity": 500
+        },
+        {
+            "id": 36,
+            "from_line_id": "04",
+            "to_line_id": "02",
+            "from_drct_cd": "01",
+            "to_drct_cd": "01",
+            "stat_tm": "2020-06-12 15:15:00",
+            "quantity": 500
+        },
+        {
+            "id": 37,
+            "from_line_id": "04",
+            "to_line_id": "02",
+            "from_drct_cd": "01",
+            "to_drct_cd": "01",
+            "stat_tm": "2020-06-12 15:30:00",
+            "quantity": 500
+        },
+        {
+            "id": 38,
+            "from_line_id": "04",
+            "to_line_id": "02",
+            "from_drct_cd": "01",
+            "to_drct_cd": "01",
+            "stat_tm": "2020-06-12 15:45:00",
+            "quantity": 500
+        },
+        {
+            "id": 39,
+            "from_line_id": "04",
+            "to_line_id": "02",
+            "from_drct_cd": "01",
+            "to_drct_cd": "01",
+            "stat_tm": "2020-06-12 16:00:00",
+            "quantity": 500
+        },
+        {
+            "id": 40,
+            "from_line_id": "04",
+            "to_line_id": "02",
+            "from_drct_cd": "01",
+            "to_drct_cd": "02",
+            "stat_tm": "2020-06-12 14:15:00",
+            "quantity": 500
+        },
+        {
+            "id": 41,
+            "from_line_id": "04",
+            "to_line_id": "02",
+            "from_drct_cd": "01",
+            "to_drct_cd": "02",
+            "stat_tm": "2020-06-12 14:30:00",
+            "quantity": 500
+        },
+        {
+            "id": 42,
+            "from_line_id": "04",
+            "to_line_id": "02",
+            "from_drct_cd": "01",
+            "to_drct_cd": "02",
+            "stat_tm": "2020-06-12 14:45:00",
+            "quantity": 500
+        },
+        {
+            "id": 43,
+            "from_line_id": "04",
+            "to_line_id": "02",
+            "from_drct_cd": "01",
+            "to_drct_cd": "02",
+            "stat_tm": "2020-06-12 15:00:00",
+            "quantity": 500
+        },
+        {
+            "id": 44,
+            "from_line_id": "04",
+            "to_line_id": "02",
+            "from_drct_cd": "01",
+            "to_drct_cd": "02",
+            "stat_tm": "2020-06-12 15:15:00",
+            "quantity": 500
+        },
+        {
+            "id": 45,
+            "from_line_id": "04",
+            "to_line_id": "02",
+            "from_drct_cd": "01",
+            "to_drct_cd": "02",
+            "stat_tm": "2020-06-12 15:30:00",
+            "quantity": 500
+        },
+        {
+            "id": 46,
+            "from_line_id": "04",
+            "to_line_id": "02",
+            "from_drct_cd": "01",
+            "to_drct_cd": "02",
+            "stat_tm": "2020-06-12 15:45:00",
+            "quantity": 500
+        },
+        {
+            "id": 47,
+            "from_line_id": "04",
+            "to_line_id": "02",
+            "from_drct_cd": "01",
+            "to_drct_cd": "02",
+            "stat_tm": "2020-06-12 16:00:00",
+            "quantity": 500
+        },
+        {
+            "id": 48,
+            "from_line_id": "04",
+            "to_line_id": "02",
+            "from_drct_cd": "02",
+            "to_drct_cd": "01",
+            "stat_tm": "2020-06-12 14:15:00",
+            "quantity": 500
+        },
+        {
+            "id": 49,
+            "from_line_id": "04",
+            "to_line_id": "02",
+            "from_drct_cd": "02",
+            "to_drct_cd": "01",
+            "stat_tm": "2020-06-12 14:30:00",
+            "quantity": 500
+        },
+        {
+            "id": 50,
+            "from_line_id": "04",
+            "to_line_id": "02",
+            "from_drct_cd": "02",
+            "to_drct_cd": "01",
+            "stat_tm": "2020-06-12 14:45:00",
+            "quantity": 500
+        },
+        {
+            "id": 51,
+            "from_line_id": "04",
+            "to_line_id": "02",
+            "from_drct_cd": "02",
+            "to_drct_cd": "01",
+            "stat_tm": "2020-06-12 15:00:00",
+            "quantity": 500
+        },
+        {
+            "id": 52,
+            "from_line_id": "04",
+            "to_line_id": "02",
+            "from_drct_cd": "02",
+            "to_drct_cd": "01",
+            "stat_tm": "2020-06-12 15:15:00",
+            "quantity": 500
+        },
+        {
+            "id": 53,
+            "from_line_id": "04",
+            "to_line_id": "02",
+            "from_drct_cd": "02",
+            "to_drct_cd": "01",
+            "stat_tm": "2020-06-12 15:30:00",
+            "quantity": 500
+        },
+        {
+            "id": 54,
+            "from_line_id": "04",
+            "to_line_id": "02",
+            "from_drct_cd": "02",
+            "to_drct_cd": "01",
+            "stat_tm": "2020-06-12 15:45:00",
+            "quantity": 500
+        },
+        {
+            "id": 55,
+            "from_line_id": "04",
+            "to_line_id": "02",
+            "from_drct_cd": "02",
+            "to_drct_cd": "01",
+            "stat_tm": "2020-06-12 16:00:00",
+            "quantity": 500
+        },
+        {
+            "id": 56,
+            "from_line_id": "04",
+            "to_line_id": "02",
+            "from_drct_cd": "02",
+            "to_drct_cd": "02",
+            "stat_tm": "2020-06-12 14:15:00",
+            "quantity": 500
+        },
+        {
+            "id": 57,
+            "from_line_id": "04",
+            "to_line_id": "02",
+            "from_drct_cd": "02",
+            "to_drct_cd": "02",
+            "stat_tm": "2020-06-12 14:30:00",
+            "quantity": 500
+        },
+        {
+            "id": 58,
+            "from_line_id": "04",
+            "to_line_id": "02",
+            "from_drct_cd": "02",
+            "to_drct_cd": "02",
+            "stat_tm": "2020-06-12 14:45:00",
+            "quantity": 500
+        },
+        {
+            "id": 59,
+            "from_line_id": "04",
+            "to_line_id": "02",
+            "from_drct_cd": "02",
+            "to_drct_cd": "02",
+            "stat_tm": "2020-06-12 15:00:00",
+            "quantity": 500
+        },
+        {
+            "id": 60,
+            "from_line_id": "04",
+            "to_line_id": "02",
+            "from_drct_cd": "02",
+            "to_drct_cd": "02",
+            "stat_tm": "2020-06-12 15:15:00",
+            "quantity": 500
+        },
+        {
+            "id": 61,
+            "from_line_id": "04",
+            "to_line_id": "02",
+            "from_drct_cd": "02",
+            "to_drct_cd": "02",
+            "stat_tm": "2020-06-12 15:30:00",
+            "quantity": 500
+        },
+        {
+            "id": 62,
+            "from_line_id": "04",
+            "to_line_id": "02",
+            "from_drct_cd": "02",
+            "to_drct_cd": "02",
+            "stat_tm": "2020-06-12 15:45:00",
+            "quantity": 500
+        },
+        {
+            "id": 63,
+            "from_line_id": "04",
+            "to_line_id": "02",
+            "from_drct_cd": "02",
+            "to_drct_cd": "02",
+            "stat_tm": "2020-06-12 16:00:00",
+            "quantity": 500
+        },
+        {
+            "id": 1,
+            "from_line_id": "02",
+            "to_line_id": "04",
+            "from_drct_cd": "01",
+            "to_drct_cd": "01",
+            "stat_tm": "2020-06-12 14:30:00",
+            "quantity": 500
+        },
+        {
+            "id": 2,
+            "from_line_id": "02",
+            "to_line_id": "04",
+            "from_drct_cd": "01",
+            "to_drct_cd": "01",
+            "stat_tm": "2020-06-12 14:45:00",
+            "quantity": 500
+        },
+        {
+            "id": 3,
+            "from_line_id": "02",
+            "to_line_id": "04",
+            "from_drct_cd": "01",
+            "to_drct_cd": "01",
+            "stat_tm": "2020-06-12 15:00:00",
+            "quantity": 500
+        },
+        {
+            "id": 4,
+            "from_line_id": "02",
+            "to_line_id": "04",
+            "from_drct_cd": "01",
+            "to_drct_cd": "01",
+            "stat_tm": "2020-06-12 15:15:00",
+            "quantity": 500
+        },
+        {
+            "id": 5,
+            "from_line_id": "02",
+            "to_line_id": "04",
+            "from_drct_cd": "01",
+            "to_drct_cd": "01",
+            "stat_tm": "2020-06-12 15:30:00",
+            "quantity": 500
+        },
+        {
+            "id": 6,
+            "from_line_id": "02",
+            "to_line_id": "04",
+            "from_drct_cd": "01",
+            "to_drct_cd": "01",
+            "stat_tm": "2020-06-12 15:45:00",
+            "quantity": 500
+        },
+        {
+            "id": 7,
+            "from_line_id": "02",
+            "to_line_id": "04",
+            "from_drct_cd": "01",
+            "to_drct_cd": "01",
+            "stat_tm": "2020-06-12 16:00:00",
+            "quantity": 500
+        },
+        {
+            "id": 8,
+            "from_line_id": "02",
+            "to_line_id": "04",
+            "from_drct_cd": "01",
+            "to_drct_cd": "02",
+            "stat_tm": "2020-06-12 14:15:00",
+            "quantity": 500
+        },
+        {
+            "id": 9,
+            "from_line_id": "02",
+            "to_line_id": "04",
+            "from_drct_cd": "01",
+            "to_drct_cd": "02",
+            "stat_tm": "2020-06-12 14:30:00",
+            "quantity": 500
+        },
+        {
+            "id": 10,
+            "from_line_id": "02",
+            "to_line_id": "04",
+            "from_drct_cd": "01",
+            "to_drct_cd": "02",
+            "stat_tm": "2020-06-12 14:45:00",
+            "quantity": 500
+        },
+        {
+            "id": 11,
+            "from_line_id": "02",
+            "to_line_id": "04",
+            "from_drct_cd": "01",
+            "to_drct_cd": "02",
+            "stat_tm": "2020-06-12 15:00:00",
+            "quantity": 500
+        },
+        {
+            "id": 12,
+            "from_line_id": "02",
+            "to_line_id": "04",
+            "from_drct_cd": "01",
+            "to_drct_cd": "02",
+            "stat_tm": "2020-06-12 15:15:00",
+            "quantity": 500
+        },
+        {
+            "id": 13,
+            "from_line_id": "02",
+            "to_line_id": "04",
+            "from_drct_cd": "01",
+            "to_drct_cd": "02",
+            "stat_tm": "2020-06-12 15:30:00",
+            "quantity": 500
+        },
+        {
+            "id": 14,
+            "from_line_id": "02",
+            "to_line_id": "04",
+            "from_drct_cd": "01",
+            "to_drct_cd": "02",
+            "stat_tm": "2020-06-12 15:45:00",
+            "quantity": 500
+        },
+        {
+            "id": 15,
+            "from_line_id": "02",
+            "to_line_id": "04",
+            "from_drct_cd": "01",
+            "to_drct_cd": "02",
+            "stat_tm": "2020-06-12 16:00:00",
+            "quantity": 500
+        }
+    ],
+    "TrainParams": [
+        {
+            "id": 2,
+            "line_id": "02",
+            "global_code": "1003",
+            "dir": "2",
+            "arrive_time": "2020-06-12 14:30:15",
+            "depart_time": "2020-06-12 14:30:55",
+            "ride_time": 40,
+            "up_number": 87,
+            "down_number": 48,
+            "arrive_load_rate": 52.0
+        },
+        {
+            "id": 3,
+            "line_id": "02",
+            "global_code": "1004",
+            "dir": "2",
+            "arrive_time": "2020-06-12 14:35:50",
+            "depart_time": "2020-06-12 14:36:30",
+            "ride_time": 40,
+            "up_number": 35,
+            "down_number": 64,
+            "arrive_load_rate": 26.0
+        },
+        {
+            "id": 4,
+            "line_id": "02",
+            "global_code": "1005",
+            "dir": "2",
+            "arrive_time": "2020-06-12 14:41:25",
+            "depart_time": "2020-06-12 14:42:05",
+            "ride_time": 40,
+            "up_number": 80,
+            "down_number": 37,
+            "arrive_load_rate": 64.0
+        },
+        {
+            "id": 5,
+            "line_id": "02",
+            "global_code": "1006",
+            "dir": "2",
+            "arrive_time": "2020-06-12 14:47:04",
+            "depart_time": "2020-06-12 14:47:44",
+            "ride_time": 40,
+            "up_number": 69,
+            "down_number": 12,
+            "arrive_load_rate": 68.0
+        },
+        {
+            "id": 6,
+            "line_id": "02",
+            "global_code": "1007",
+            "dir": "2",
+            "arrive_time": "2020-06-12 14:52:39",
+            "depart_time": "2020-06-12 14:53:19",
+            "ride_time": 40,
+            "up_number": 84,
+            "down_number": 14,
+            "arrive_load_rate": 18.0
+        },
+        {
+            "id": 7,
+            "line_id": "02",
+            "global_code": "1008",
+            "dir": "2",
+            "arrive_time": "2020-06-12 14:58:14",
+            "depart_time": "2020-06-12 14:58:54",
+            "ride_time": 40,
+            "up_number": 10,
+            "down_number": 30,
+            "arrive_load_rate": 25.0
+        },
+        {
+            "id": 8,
+            "line_id": "02",
+            "global_code": "1009",
+            "dir": "2",
+            "arrive_time": "2020-06-12 15:03:49",
+            "depart_time": "2020-06-12 15:04:29",
+            "ride_time": 40,
+            "up_number": 44,
+            "down_number": 101,
+            "arrive_load_rate": 26.0
+        },
+        {
+            "id": 9,
+            "line_id": "02",
+            "global_code": "1010",
+            "dir": "2",
+            "arrive_time": "2020-06-12 15:09:24",
+            "depart_time": "2020-06-12 15:10:04",
+            "ride_time": 40,
+            "up_number": 50,
+            "down_number": 48,
+            "arrive_load_rate": 47.0
+        },
+        {
+            "id": 10,
+            "line_id": "02",
+            "global_code": "1011",
+            "dir": "2",
+            "arrive_time": "2020-06-12 15:14:59",
+            "depart_time": "2020-06-12 15:15:39",
+            "ride_time": 40,
+            "up_number": 93,
+            "down_number": 17,
+            "arrive_load_rate": 68.0
+        },
+        {
+            "id": 11,
+            "line_id": "02",
+            "global_code": "1012",
+            "dir": "2",
+            "arrive_time": "2020-06-12 15:20:34",
+            "depart_time": "2020-06-12 15:21:14",
+            "ride_time": 40,
+            "up_number": 78,
+            "down_number": 65,
+            "arrive_load_rate": 56.0
+        },
+        {
+            "id": 12,
+            "line_id": "02",
+            "global_code": "1013",
+            "dir": "2",
+            "arrive_time": "2020-06-12 15:26:09",
+            "depart_time": "2020-06-12 15:26:49",
+            "ride_time": 40,
+            "up_number": 57,
+            "down_number": 69,
+            "arrive_load_rate": 58.0
+        },
+        {
+            "id": 13,
+            "line_id": "02",
+            "global_code": "1014",
+            "dir": "2",
+            "arrive_time": "2020-06-12 15:31:44",
+            "depart_time": "2020-06-12 15:32:24",
+            "ride_time": 40,
+            "up_number": 32,
+            "down_number": 87,
+            "arrive_load_rate": 18.0
+        },
+        {
+            "id": 14,
+            "line_id": "02",
+            "global_code": "1015",
+            "dir": "2",
+            "arrive_time": "2020-06-12 15:37:19",
+            "depart_time": "2020-06-12 15:37:59",
+            "ride_time": 40,
+            "up_number": 13,
+            "down_number": 58,
+            "arrive_load_rate": 46.0
+        },
+        {
+            "id": 15,
+            "line_id": "02",
+            "global_code": "1016",
+            "dir": "2",
+            "arrive_time": "2020-06-12 15:42:54",
+            "depart_time": "2020-06-12 15:43:34",
+            "ride_time": 40,
+            "up_number": 18,
+            "down_number": 60,
+            "arrive_load_rate": 31.0
+        },
+        {
+            "id": 16,
+            "line_id": "02",
+            "global_code": "1017",
+            "dir": "2",
+            "arrive_time": "2020-06-12 15:48:29",
+            "depart_time": "2020-06-12 15:49:09",
+            "ride_time": 40,
+            "up_number": 40,
+            "down_number": 68,
+            "arrive_load_rate": 64.0
+        },
+        {
+            "id": 17,
+            "line_id": "02",
+            "global_code": "1018",
+            "dir": "2",
+            "arrive_time": "2020-06-12 15:54:04",
+            "depart_time": "2020-06-12 15:54:44",
+            "ride_time": 40,
+            "up_number": 93,
+            "down_number": 19,
+            "arrive_load_rate": 41.0
+        },
+        {
+            "id": 18,
+            "line_id": "02",
+            "global_code": "1019",
+            "dir": "2",
+            "arrive_time": "2020-06-12 15:59:39",
+            "depart_time": "2020-06-12 16:00:19",
+            "ride_time": 40,
+            "up_number": 66,
+            "down_number": 63,
+            "arrive_load_rate": 36.0
+        },
+        {
+            "id": 19,
+            "line_id": "02",
+            "global_code": "1020",
+            "dir": "2",
+            "arrive_time": "2020-06-12 16:05:14",
+            "depart_time": "2020-06-12 16:05:54",
+            "ride_time": 40,
+            "up_number": 99,
+            "down_number": 64,
+            "arrive_load_rate": 21.0
+        },
+        {
+            "id": 20,
+            "line_id": "02",
+            "global_code": "1021",
+            "dir": "2",
+            "arrive_time": "2020-06-12 16:10:49",
+            "depart_time": "2020-06-12 16:11:29",
+            "ride_time": 40,
+            "up_number": 80,
+            "down_number": 35,
+            "arrive_load_rate": 49.0
+        },
+        {
+            "id": 21,
+            "line_id": "02",
+            "global_code": "1022",
+            "dir": "2",
+            "arrive_time": "2020-06-12 16:16:24",
+            "depart_time": "2020-06-12 16:17:04",
+            "ride_time": 40,
+            "up_number": 20,
+            "down_number": 97,
+            "arrive_load_rate": 24.0
+        },
+        {
+            "id": 22,
+            "line_id": "02",
+            "global_code": "2001",
+            "dir": "1",
+            "arrive_time": "2020-06-12 14:19:05",
+            "depart_time": "2020-06-12 14:19:45",
+            "ride_time": 40,
+            "up_number": 81,
+            "down_number": 53,
+            "arrive_load_rate": 18.0
+        },
+        {
+            "id": 23,
+            "line_id": "02",
+            "global_code": "2002",
+            "dir": "1",
+            "arrive_time": "2020-06-12 14:24:40",
+            "depart_time": "2020-06-12 14:25:20",
+            "ride_time": 40,
+            "up_number": 11,
+            "down_number": 56,
+            "arrive_load_rate": 45.0
+        },
+        {
+            "id": 24,
+            "line_id": "02",
+            "global_code": "2003",
+            "dir": "1",
+            "arrive_time": "2020-06-12 14:30:15",
+            "depart_time": "2020-06-12 14:30:55",
+            "ride_time": 40,
+            "up_number": 92,
+            "down_number": 31,
+            "arrive_load_rate": 50.0
+        },
+        {
+            "id": 25,
+            "line_id": "02",
+            "global_code": "2004",
+            "dir": "1",
+            "arrive_time": "2020-06-12 14:35:50",
+            "depart_time": "2020-06-12 14:36:30",
+            "ride_time": 40,
+            "up_number": 49,
+            "down_number": 74,
+            "arrive_load_rate": 31.0
+        },
+        {
+            "id": 26,
+            "line_id": "02",
+            "global_code": "2005",
+            "dir": "1",
+            "arrive_time": "2020-06-12 14:41:25",
+            "depart_time": "2020-06-12 14:42:05",
+            "ride_time": 40,
+            "up_number": 13,
+            "down_number": 6,
+            "arrive_load_rate": 60.0
+        },
+        {
+            "id": 27,
+            "line_id": "02",
+            "global_code": "2006",
+            "dir": "1",
+            "arrive_time": "2020-06-12 14:47:04",
+            "depart_time": "2020-06-12 14:47:44",
+            "ride_time": 40,
+            "up_number": 49,
+            "down_number": 60,
+            "arrive_load_rate": 35.0
+        },
+        {
+            "id": 28,
+            "line_id": "02",
+            "global_code": "2007",
+            "dir": "1",
+            "arrive_time": "2020-06-12 14:52:39",
+            "depart_time": "2020-06-12 14:53:19",
+            "ride_time": 40,
+            "up_number": 81,
+            "down_number": 28,
+            "arrive_load_rate": 39.0
+        },
+        {
+            "id": 29,
+            "line_id": "02",
+            "global_code": "2008",
+            "dir": "1",
+            "arrive_time": "2020-06-12 14:58:14",
+            "depart_time": "2020-06-12 14:58:54",
+            "ride_time": 40,
+            "up_number": 88,
+            "down_number": 87,
+            "arrive_load_rate": 36.0
+        },
+        {
+            "id": 30,
+            "line_id": "02",
+            "global_code": "2009",
+            "dir": "1",
+            "arrive_time": "2020-06-12 15:03:49",
+            "depart_time": "2020-06-12 15:04:29",
+            "ride_time": 40,
+            "up_number": 88,
+            "down_number": 4,
+            "arrive_load_rate": 19.0
+        },
+        {
+            "id": 31,
+            "line_id": "02",
+            "global_code": "2010",
+            "dir": "1",
+            "arrive_time": "2020-06-12 15:09:24",
+            "depart_time": "2020-06-12 15:10:04",
+            "ride_time": 40,
+            "up_number": 99,
+            "down_number": 90,
+            "arrive_load_rate": 31.0
+        },
+        {
+            "id": 32,
+            "line_id": "02",
+            "global_code": "2011",
+            "dir": "1",
+            "arrive_time": "2020-06-12 15:14:59",
+            "depart_time": "2020-06-12 15:15:39",
+            "ride_time": 40,
+            "up_number": 64,
+            "down_number": 72,
+            "arrive_load_rate": 25.0
+        },
+        {
+            "id": 33,
+            "line_id": "02",
+            "global_code": "2012",
+            "dir": "1",
+            "arrive_time": "2020-06-12 15:20:34",
+            "depart_time": "2020-06-12 15:21:14",
+            "ride_time": 40,
+            "up_number": 12,
+            "down_number": 27,
+            "arrive_load_rate": 49.0
+        },
+        {
+            "id": 34,
+            "line_id": "02",
+            "global_code": "2013",
+            "dir": "1",
+            "arrive_time": "2020-06-12 15:26:09",
+            "depart_time": "2020-06-12 15:26:49",
+            "ride_time": 40,
+            "up_number": 37,
+            "down_number": 79,
+            "arrive_load_rate": 19.0
+        },
+        {
+            "id": 35,
+            "line_id": "02",
+            "global_code": "2014",
+            "dir": "1",
+            "arrive_time": "2020-06-12 15:31:44",
+            "depart_time": "2020-06-12 15:32:24",
+            "ride_time": 40,
+            "up_number": 49,
+            "down_number": 52,
+            "arrive_load_rate": 51.0
+        },
+        {
+            "id": 36,
+            "line_id": "02",
+            "global_code": "2015",
+            "dir": "1",
+            "arrive_time": "2020-06-12 15:37:19",
+            "depart_time": "2020-06-12 15:37:59",
+            "ride_time": 40,
+            "up_number": 45,
+            "down_number": 118,
+            "arrive_load_rate": 43.0
+        },
+        {
+            "id": 37,
+            "line_id": "02",
+            "global_code": "2016",
+            "dir": "1",
+            "arrive_time": "2020-06-12 15:42:54",
+            "depart_time": "2020-06-12 15:43:34",
+            "ride_time": 40,
+            "up_number": 17,
+            "down_number": 73,
+            "arrive_load_rate": 28.0
+        },
+        {
+            "id": 38,
+            "line_id": "02",
+            "global_code": "2017",
+            "dir": "1",
+            "arrive_time": "2020-06-12 15:48:29",
+            "depart_time": "2020-06-12 15:49:09",
+            "ride_time": 40,
+            "up_number": 86,
+            "down_number": 59,
+            "arrive_load_rate": 50.0
+        },
+        {
+            "id": 39,
+            "line_id": "02",
+            "global_code": "2018",
+            "dir": "1",
+            "arrive_time": "2020-06-12 15:54:04",
+            "depart_time": "2020-06-12 15:54:44",
+            "ride_time": 40,
+            "up_number": 32,
+            "down_number": 71,
+            "arrive_load_rate": 21.0
+        },
+        {
+            "id": 40,
+            "line_id": "02",
+            "global_code": "2019",
+            "dir": "1",
+            "arrive_time": "2020-06-12 15:59:39",
+            "depart_time": "2020-06-12 16:00:19",
+            "ride_time": 40,
+            "up_number": 86,
+            "down_number": 112,
+            "arrive_load_rate": 43.0
+        },
+        {
+            "id": 41,
+            "line_id": "02",
+            "global_code": "2020",
+            "dir": "1",
+            "arrive_time": "2020-06-12 16:05:14",
+            "depart_time": "2020-06-12 16:05:54",
+            "ride_time": 40,
+            "up_number": 21,
+            "down_number": 27,
+            "arrive_load_rate": 32.0
+        },
+        {
+            "id": 42,
+            "line_id": "02",
+            "global_code": "2021",
+            "dir": "1",
+            "arrive_time": "2020-06-12 16:10:49",
+            "depart_time": "2020-06-12 16:11:29",
+            "ride_time": 40,
+            "up_number": 57,
+            "down_number": 81,
+            "arrive_load_rate": 52.0
+        },
+        {
+            "id": 43,
+            "line_id": "02",
+            "global_code": "2022",
+            "dir": "1",
+            "arrive_time": "2020-06-12 16:16:24",
+            "depart_time": "2020-06-12 16:17:04",
+            "ride_time": 40,
+            "up_number": 75,
+            "down_number": 75,
+            "arrive_load_rate": 26.0
+        },
+        {
+            "id": 44,
+            "line_id": "04",
+            "global_code": "1067",
+            "dir": "2",
+            "arrive_time": "2020-06-12 14:19:05",
+            "depart_time": "2020-06-12 14:19:45",
+            "ride_time": 40,
+            "up_number": 51,
+            "down_number": 32,
+            "arrive_load_rate": 63.0
+        },
+        {
+            "id": 45,
+            "line_id": "04",
+            "global_code": "1068",
+            "dir": "2",
+            "arrive_time": "2020-06-12 14:24:40",
+            "depart_time": "2020-06-12 14:25:20",
+            "ride_time": 40,
+            "up_number": 38,
+            "down_number": 64,
+            "arrive_load_rate": 46.0
+        },
+        {
+            "id": 46,
+            "line_id": "04",
+            "global_code": "1069",
+            "dir": "2",
+            "arrive_time": "2020-06-12 14:30:15",
+            "depart_time": "2020-06-12 14:30:55",
+            "ride_time": 40,
+            "up_number": 91,
+            "down_number": 4,
+            "arrive_load_rate": 64.0
+        },
+        {
+            "id": 47,
+            "line_id": "04",
+            "global_code": "1070",
+            "dir": "2",
+            "arrive_time": "2020-06-12 14:35:50",
+            "depart_time": "2020-06-12 14:36:30",
+            "ride_time": 40,
+            "up_number": 90,
+            "down_number": 29,
+            "arrive_load_rate": 23.0
+        },
+        {
+            "id": 48,
+            "line_id": "04",
+            "global_code": "1071",
+            "dir": "2",
+            "arrive_time": "2020-06-12 14:41:25",
+            "depart_time": "2020-06-12 14:42:05",
+            "ride_time": 40,
+            "up_number": 73,
+            "down_number": 71,
+            "arrive_load_rate": 64.0
+        },
+        {
+            "id": 49,
+            "line_id": "04",
+            "global_code": "1072",
+            "dir": "2",
+            "arrive_time": "2020-06-12 14:47:04",
+            "depart_time": "2020-06-12 14:47:44",
+            "ride_time": 40,
+            "up_number": 26,
+            "down_number": 65,
+            "arrive_load_rate": 17.0
+        },
+        {
+            "id": 50,
+            "line_id": "04",
+            "global_code": "1073",
+            "dir": "2",
+            "arrive_time": "2020-06-12 14:52:39",
+            "depart_time": "2020-06-12 14:53:19",
+            "ride_time": 40,
+            "up_number": 11,
+            "down_number": 33,
+            "arrive_load_rate": 27.0
+        },
+        {
+            "id": 51,
+            "line_id": "04",
+            "global_code": "1074",
+            "dir": "2",
+            "arrive_time": "2020-06-12 14:58:14",
+            "depart_time": "2020-06-12 14:58:54",
+            "ride_time": 40,
+            "up_number": 79,
+            "down_number": 40,
+            "arrive_load_rate": 26.0
+        },
+        {
+            "id": 52,
+            "line_id": "04",
+            "global_code": "1075",
+            "dir": "2",
+            "arrive_time": "2020-06-12 15:03:49",
+            "depart_time": "2020-06-12 15:04:29",
+            "ride_time": 40,
+            "up_number": 70,
+            "down_number": 13,
+            "arrive_load_rate": 30.0
+        },
+        {
+            "id": 53,
+            "line_id": "04",
+            "global_code": "1076",
+            "dir": "2",
+            "arrive_time": "2020-06-12 15:09:24",
+            "depart_time": "2020-06-12 15:10:04",
+            "ride_time": 40,
+            "up_number": 20,
+            "down_number": 116,
+            "arrive_load_rate": 26.0
+        },
+        {
+            "id": 54,
+            "line_id": "04",
+            "global_code": "1077",
+            "dir": "2",
+            "arrive_time": "2020-06-12 15:14:59",
+            "depart_time": "2020-06-12 15:15:39",
+            "ride_time": 40,
+            "up_number": 30,
+            "down_number": 16,
+            "arrive_load_rate": 64.0
+        },
+        {
+            "id": 55,
+            "line_id": "04",
+            "global_code": "1078",
+            "dir": "2",
+            "arrive_time": "2020-06-12 15:20:34",
+            "depart_time": "2020-06-12 15:21:14",
+            "ride_time": 40,
+            "up_number": 62,
+            "down_number": 29,
+            "arrive_load_rate": 19.0
+        },
+        {
+            "id": 56,
+            "line_id": "04",
+            "global_code": "1079",
+            "dir": "2",
+            "arrive_time": "2020-06-12 15:26:09",
+            "depart_time": "2020-06-12 15:26:49",
+            "ride_time": 40,
+            "up_number": 29,
+            "down_number": 101,
+            "arrive_load_rate": 47.0
+        },
+        {
+            "id": 57,
+            "line_id": "04",
+            "global_code": "1080",
+            "dir": "2",
+            "arrive_time": "2020-06-12 15:31:44",
+            "depart_time": "2020-06-12 15:32:24",
+            "ride_time": 40,
+            "up_number": 52,
+            "down_number": 100,
+            "arrive_load_rate": 30.0
+        },
+        {
+            "id": 58,
+            "line_id": "04",
+            "global_code": "1081",
+            "dir": "2",
+            "arrive_time": "2020-06-12 15:37:19",
+            "depart_time": "2020-06-12 15:37:59",
+            "ride_time": 40,
+            "up_number": 67,
+            "down_number": 107,
+            "arrive_load_rate": 60.0
+        },
+        {
+            "id": 59,
+            "line_id": "04",
+            "global_code": "1082",
+            "dir": "2",
+            "arrive_time": "2020-06-12 15:42:54",
+            "depart_time": "2020-06-12 15:43:34",
+            "ride_time": 40,
+            "up_number": 66,
+            "down_number": 72,
+            "arrive_load_rate": 57.0
+        },
+        {
+            "id": 60,
+            "line_id": "04",
+            "global_code": "1083",
+            "dir": "2",
+            "arrive_time": "2020-06-12 15:48:29",
+            "depart_time": "2020-06-12 15:49:09",
+            "ride_time": 40,
+            "up_number": 23,
+            "down_number": 13,
+            "arrive_load_rate": 42.0
+        },
+        {
+            "id": 61,
+            "line_id": "04",
+            "global_code": "1084",
+            "dir": "2",
+            "arrive_time": "2020-06-12 15:54:04",
+            "depart_time": "2020-06-12 15:54:44",
+            "ride_time": 40,
+            "up_number": 78,
+            "down_number": 10,
+            "arrive_load_rate": 41.0
+        },
+        {
+            "id": 62,
+            "line_id": "04",
+            "global_code": "1085",
+            "dir": "2",
+            "arrive_time": "2020-06-12 15:59:39",
+            "depart_time": "2020-06-12 16:00:19",
+            "ride_time": 40,
+            "up_number": 28,
+            "down_number": 34,
+            "arrive_load_rate": 17.0
+        },
+        {
+            "id": 63,
+            "line_id": "04",
+            "global_code": "1086",
+            "dir": "2",
+            "arrive_time": "2020-06-12 16:05:14",
+            "depart_time": "2020-06-12 16:05:54",
+            "ride_time": 40,
+            "up_number": 22,
+            "down_number": 50,
+            "arrive_load_rate": 49.0
+        },
+        {
+            "id": 64,
+            "line_id": "04",
+            "global_code": "1087",
+            "dir": "2",
+            "arrive_time": "2020-06-12 16:10:49",
+            "depart_time": "2020-06-12 16:11:29",
+            "ride_time": 40,
+            "up_number": 38,
+            "down_number": 33,
+            "arrive_load_rate": 20.0
+        },
+        {
+            "id": 65,
+            "line_id": "04",
+            "global_code": "1088",
+            "dir": "2",
+            "arrive_time": "2020-06-12 16:16:24",
+            "depart_time": "2020-06-12 16:17:04",
+            "ride_time": 40,
+            "up_number": 30,
+            "down_number": 93,
+            "arrive_load_rate": 35.0
+        },
+        {
+            "id": 66,
+            "line_id": "04",
+            "global_code": "2067",
+            "dir": "1",
+            "arrive_time": "2020-06-12 14:19:05",
+            "depart_time": "2020-06-12 14:19:45",
+            "ride_time": 40,
+            "up_number": 53,
+            "down_number": 51,
+            "arrive_load_rate": 47.0
+        },
+        {
+            "id": 67,
+            "line_id": "04",
+            "global_code": "2068",
+            "dir": "1",
+            "arrive_time": "2020-06-12 14:24:40",
+            "depart_time": "2020-06-12 14:25:20",
+            "ride_time": 40,
+            "up_number": 50,
+            "down_number": 92,
+            "arrive_load_rate": 59.0
+        },
+        {
+            "id": 68,
+            "line_id": "04",
+            "global_code": "2069",
+            "dir": "1",
+            "arrive_time": "2020-06-12 14:30:15",
+            "depart_time": "2020-06-12 14:30:55",
+            "ride_time": 40,
+            "up_number": 81,
+            "down_number": 42,
+            "arrive_load_rate": 55.0
+        },
+        {
+            "id": 69,
+            "line_id": "04",
+            "global_code": "2070",
+            "dir": "1",
+            "arrive_time": "2020-06-12 14:35:50",
+            "depart_time": "2020-06-12 14:36:30",
+            "ride_time": 40,
+            "up_number": 97,
+            "down_number": 35,
+            "arrive_load_rate": 66.0
+        },
+        {
+            "id": 70,
+            "line_id": "04",
+            "global_code": "2071",
+            "dir": "1",
+            "arrive_time": "2020-06-12 14:41:25",
+            "depart_time": "2020-06-12 14:42:05",
+            "ride_time": 40,
+            "up_number": 28,
+            "down_number": 49,
+            "arrive_load_rate": 40.0
+        },
+        {
+            "id": 71,
+            "line_id": "04",
+            "global_code": "2072",
+            "dir": "1",
+            "arrive_time": "2020-06-12 14:47:04",
+            "depart_time": "2020-06-12 14:47:44",
+            "ride_time": 40,
+            "up_number": 88,
+            "down_number": 89,
+            "arrive_load_rate": 31.0
+        },
+        {
+            "id": 72,
+            "line_id": "04",
+            "global_code": "2073",
+            "dir": "1",
+            "arrive_time": "2020-06-12 14:52:39",
+            "depart_time": "2020-06-12 14:53:19",
+            "ride_time": 40,
+            "up_number": 59,
+            "down_number": 94,
+            "arrive_load_rate": 30.0
+        },
+        {
+            "id": 73,
+            "line_id": "04",
+            "global_code": "2074",
+            "dir": "1",
+            "arrive_time": "2020-06-12 14:58:14",
+            "depart_time": "2020-06-12 14:58:54",
+            "ride_time": 40,
+            "up_number": 85,
+            "down_number": 118,
+            "arrive_load_rate": 56.0
+        },
+        {
+            "id": 74,
+            "line_id": "04",
+            "global_code": "2075",
+            "dir": "1",
+            "arrive_time": "2020-06-12 15:03:49",
+            "depart_time": "2020-06-12 15:04:29",
+            "ride_time": 40,
+            "up_number": 27,
+            "down_number": 69,
+            "arrive_load_rate": 39.0
+        },
+        {
+            "id": 75,
+            "line_id": "04",
+            "global_code": "2076",
+            "dir": "1",
+            "arrive_time": "2020-06-12 15:09:24",
+            "depart_time": "2020-06-12 15:10:04",
+            "ride_time": 40,
+            "up_number": 33,
+            "down_number": 98,
+            "arrive_load_rate": 62.0
+        },
+        {
+            "id": 76,
+            "line_id": "04",
+            "global_code": "2077",
+            "dir": "1",
+            "arrive_time": "2020-06-12 15:14:59",
+            "depart_time": "2020-06-12 15:15:39",
+            "ride_time": 40,
+            "up_number": 27,
+            "down_number": 72,
+            "arrive_load_rate": 39.0
+        },
+        {
+            "id": 77,
+            "line_id": "04",
+            "global_code": "2078",
+            "dir": "1",
+            "arrive_time": "2020-06-12 15:20:34",
+            "depart_time": "2020-06-12 15:21:14",
+            "ride_time": 40,
+            "up_number": 63,
+            "down_number": 94,
+            "arrive_load_rate": 19.0
+        },
+        {
+            "id": 78,
+            "line_id": "04",
+            "global_code": "2079",
+            "dir": "1",
+            "arrive_time": "2020-06-12 15:26:09",
+            "depart_time": "2020-06-12 15:26:49",
+            "ride_time": 40,
+            "up_number": 48,
+            "down_number": 119,
+            "arrive_load_rate": 49.0
+        },
+        {
+            "id": 79,
+            "line_id": "04",
+            "global_code": "2080",
+            "dir": "1",
+            "arrive_time": "2020-06-12 15:31:44",
+            "depart_time": "2020-06-12 15:32:24",
+            "ride_time": 40,
+            "up_number": 18,
+            "down_number": 58,
+            "arrive_load_rate": 64.0
+        },
+        {
+            "id": 80,
+            "line_id": "04",
+            "global_code": "2081",
+            "dir": "1",
+            "arrive_time": "2020-06-12 15:37:19",
+            "depart_time": "2020-06-12 15:37:59",
+            "ride_time": 40,
+            "up_number": 72,
+            "down_number": 97,
+            "arrive_load_rate": 62.0
+        },
+        {
+            "id": 81,
+            "line_id": "04",
+            "global_code": "2082",
+            "dir": "1",
+            "arrive_time": "2020-06-12 15:42:54",
+            "depart_time": "2020-06-12 15:43:34",
+            "ride_time": 40,
+            "up_number": 28,
+            "down_number": 116,
+            "arrive_load_rate": 33.0
+        },
+        {
+            "id": 82,
+            "line_id": "04",
+            "global_code": "2083",
+            "dir": "1",
+            "arrive_time": "2020-06-12 15:48:29",
+            "depart_time": "2020-06-12 15:49:09",
+            "ride_time": 40,
+            "up_number": 87,
+            "down_number": 50,
+            "arrive_load_rate": 55.0
+        },
+        {
+            "id": 83,
+            "line_id": "04",
+            "global_code": "2084",
+            "dir": "1",
+            "arrive_time": "2020-06-12 15:54:04",
+            "depart_time": "2020-06-12 15:54:44",
+            "ride_time": 40,
+            "up_number": 11,
+            "down_number": 94,
+            "arrive_load_rate": 40.0
+        },
+        {
+            "id": 84,
+            "line_id": "04",
+            "global_code": "2085",
+            "dir": "1",
+            "arrive_time": "2020-06-12 15:59:39",
+            "depart_time": "2020-06-12 16:00:19",
+            "ride_time": 40,
+            "up_number": 14,
+            "down_number": 28,
+            "arrive_load_rate": 63.0
+        },
+        {
+            "id": 85,
+            "line_id": "04",
+            "global_code": "2086",
+            "dir": "1",
+            "arrive_time": "2020-06-12 16:05:14",
+            "depart_time": "2020-06-12 16:05:54",
+            "ride_time": 40,
+            "up_number": 40,
+            "down_number": 106,
+            "arrive_load_rate": 42.0
+        },
+        {
+            "id": 86,
+            "line_id": "04",
+            "global_code": "2087",
+            "dir": "1",
+            "arrive_time": "2020-06-12 16:10:49",
+            "depart_time": "2020-06-12 16:11:29",
+            "ride_time": 40,
+            "up_number": 37,
+            "down_number": 21,
+            "arrive_load_rate": 60.0
+        },
+        {
+            "id": 87,
+            "line_id": "04",
+            "global_code": "2088",
+            "dir": "1",
+            "arrive_time": "2020-06-12 16:16:24",
+            "depart_time": "2020-06-12 16:17:04",
+            "ride_time": 40,
+            "up_number": 73,
+            "down_number": 53,
+            "arrive_load_rate": 24.0
+        },
+        {
+            "id": 1,
+            "line_id": "02",
+            "global_code": "1002",
+            "dir": "2",
+            "arrive_time": "2020-06-12 14:24:40",
+            "depart_time": "2020-06-12 14:25:20",
+            "ride_time": 40,
+            "up_number": 80,
+            "down_number": 40,
+            "arrive_load_rate": 20.0
+        }
+    ]
+}
