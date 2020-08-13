@@ -1,0 +1,17 @@
+2020-08-13 14:31:32 WARNING [2408-Thread-1] log.log_response line 222: Not Found: /
+2020-08-13 14:31:32 WARNING [2408-Thread-1] basehttp.log_message line 154: "GET / HTTP/1.1" 404 11102
+2020-08-13 14:31:47 WARNING [2408-Thread-2] log.log_response line 222: Not Found: /__debug__/
+2020-08-13 14:31:47 WARNING [2408-Thread-2] basehttp.log_message line 154: "GET /__debug__/ HTTP/1.1" 404 12003
+2020-08-13 14:37:26 WARNING [2408-Thread-2] basehttp.log_message line 154: "GET /static/images/1.jpg HTTP/1.1" 404 1660
+2020-08-13 14:39:54 WARNING [2408-Thread-6] log.log_response line 222: Not Found: /
+2020-08-13 14:39:54 WARNING [2408-Thread-6] basehttp.log_message line 154: "GET / HTTP/1.1" 404 11102
+2020-08-13 14:42:51 WARNING [9132-Thread-1] log.log_response line 222: Not Found: /favicon.ico
+2020-08-13 14:42:51 WARNING [9132-Thread-1] basehttp.log_message line 154: "GET /favicon.ico HTTP/1.1" 404 11155
+2020-08-13 15:32:45 WARNING [11748-Thread-7] log.log_response line 222: Not Found: /book/login.html
+2020-08-13 15:32:45 WARNING [11748-Thread-7] basehttp.log_message line 154: "GET /book/login.html HTTP/1.1" 404 11856
+2020-08-13 15:32:52 WARNING [11748-Thread-7] log.log_response line 222: Not Found: /book/register.html
+2020-08-13 15:32:52 WARNING [11748-Thread-7] basehttp.log_message line 154: "GET /book/register.html HTTP/1.1" 404 11865
+2020-08-13 15:33:15 WARNING [11748-Thread-7] log.log_response line 222: Not Found: /book/login.html
+2020-08-13 15:33:15 WARNING [11748-Thread-7] basehttp.log_message line 154: "GET /book/login.html HTTP/1.1" 404 11856
+2020-08-13 16:09:42 WARNING [9540-Thread-3] log.log_response line 222: Forbidden (CSRF cookie not set.): /book/api/subjects/
+2020-08-13 16:09:42 WARNING [9540-Thread-3] basehttp.log_message line 154: "POST /book/api/subjects/ HTTP/1.1" 403 11823

@@ -1,0 +1,24 @@
+2020-08-13 17:12:42 WARNING [1184-Thread-1] base._legacy_decode line 140: Session data corrupted
+2020-08-13 17:12:42 WARNING [1184-Thread-1] log.log_response line 224: Not Found: /
+2020-08-13 17:12:42 WARNING [1184-Thread-1] basehttp.log_message line 157: "GET / HTTP/1.1" 404 11097
+2020-08-13 17:12:51 WARNING [1184-Thread-4] base._legacy_decode line 140: Session data corrupted
+2020-08-13 17:12:51 WARNING [1184-Thread-4] log.log_response line 224: Not Found: /polls/
+2020-08-13 17:12:51 WARNING [1184-Thread-4] basehttp.log_message line 157: "GET /polls/ HTTP/1.1" 404 11193
+2020-08-13 17:26:57 WARNING [5620-Thread-1] log.log_response line 224: Not Found: /book/api/subjects/
+2020-08-13 17:26:57 WARNING [5620-Thread-1] basehttp.log_message line 157: "GET /book/api/subjects/ HTTP/1.1" 404 11168
+2020-08-13 17:27:22 WARNING [5620-Thread-2] log.log_response line 224: Not Found: /book/api/subjects/
+2020-08-13 17:27:22 WARNING [5620-Thread-2] basehttp.log_message line 157: "GET /book/api/subjects/ HTTP/1.1" 404 11168
+2020-08-13 17:27:34 WARNING [5620-Thread-3] base._legacy_decode line 140: Session data corrupted
+2020-08-13 17:27:51 WARNING [5620-Thread-7] base._legacy_decode line 140: Session data corrupted
+2020-08-13 17:27:54 WARNING [5620-Thread-7] base._legacy_decode line 140: Session data corrupted
+2020-08-13 17:27:59 WARNING [5620-Thread-7] base._legacy_decode line 140: Session data corrupted
+2020-08-13 17:28:12 WARNING [5620-Thread-2] log.log_response line 224: Not Found: /book/api/subjects/
+2020-08-13 17:28:12 WARNING [5620-Thread-2] basehttp.log_message line 157: "GET /book/api/subjects/ HTTP/1.1" 404 11168
+2020-08-13 17:28:29 WARNING [5620-Thread-2] log.log_response line 224: Not Found: /book/api/subjects/
+2020-08-13 17:28:29 WARNING [5620-Thread-2] basehttp.log_message line 157: "GET /book/api/subjects/?format=json HTTP/1.1" 404 11180
+2020-08-13 17:28:35 WARNING [5620-Thread-2] log.log_response line 224: Not Found: /book/api/subjects/
+2020-08-13 17:28:35 WARNING [5620-Thread-2] basehttp.log_message line 157: "GET /book/api/subjects/?format=json HTTP/1.1" 404 11180
+2020-08-13 17:28:51 WARNING [5620-Thread-2] log.log_response line 224: Not Found: /book/api/subjects/
+2020-08-13 17:28:51 WARNING [5620-Thread-2] basehttp.log_message line 157: "GET /book/api/subjects/?format=json HTTP/1.1" 404 11180
+2020-08-13 17:28:55 WARNING [5620-Thread-7] base._legacy_decode line 140: Session data corrupted
+2020-08-13 17:28:58 WARNING [5620-Thread-8] base._legacy_decode line 140: Session data corrupted

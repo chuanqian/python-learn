@@ -1,0 +1,66 @@
+2020-08-13 17:12:32 autoreload.run_with_reloader: Watching for file changes with StatReloader
+2020-08-13 17:12:42 base._legacy_decode: Session data corrupted
+2020-08-13 17:12:42 log.log_response: Not Found: /
+2020-08-13 17:12:42 basehttp.log_message: "GET / HTTP/1.1" 404 11097
+2020-08-13 17:12:42 basehttp.log_message: "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 200 14984
+2020-08-13 17:12:42 basehttp.log_message: "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 200 12791
+2020-08-13 17:12:42 basehttp.log_message: "GET /static/debug_toolbar/img/ajax-loader.gif HTTP/1.1" 200 404
+2020-08-13 17:12:42 basehttp.log_message: "GET /static/debug_toolbar/css/print.css HTTP/1.1" 200 41
+2020-08-13 17:12:51 base._legacy_decode: Session data corrupted
+2020-08-13 17:12:51 log.log_response: Not Found: /polls/
+2020-08-13 17:12:51 basehttp.log_message: "GET /polls/ HTTP/1.1" 404 11193
+2020-08-13 17:13:04 basehttp.log_message: "GET /polls/api/subjects/ HTTP/1.1" 200 158
+2020-08-13 17:13:11 basehttp.log_message: "GET /polls/api/subjects/ HTTP/1.1" 200 158
+2020-08-13 17:26:20 autoreload.run_with_reloader: Watching for file changes with StatReloader
+2020-08-13 17:26:57 log.log_response: Not Found: /book/api/subjects/
+2020-08-13 17:26:57 basehttp.log_message: "GET /book/api/subjects/ HTTP/1.1" 404 11168
+2020-08-13 17:27:22 log.log_response: Not Found: /book/api/subjects/
+2020-08-13 17:27:22 basehttp.log_message: "GET /book/api/subjects/ HTTP/1.1" 404 11168
+2020-08-13 17:27:34 base._legacy_decode: Session data corrupted
+2020-08-13 17:27:34 basehttp.log_message: "GET /polls/api/subjects/ HTTP/1.1" 200 14604
+2020-08-13 17:27:34 basehttp.log_message: "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+2020-08-13 17:27:34 basehttp.log_message: "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3385
+2020-08-13 17:27:34 basehttp.log_message: "GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+2020-08-13 17:27:34 basehttp.log_message: "GET /static/rest_framework/css/default.css HTTP/1.1" 200 1131
+2020-08-13 17:27:34 basehttp.log_message: "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+2020-08-13 17:27:34 basehttp.log_message: "GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1719
+2020-08-13 17:27:34 basehttp.log_message: "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3597
+2020-08-13 17:27:34 basehttp.log_message: "GET /static/rest_framework/js/default.js HTTP/1.1" 200 1268
+2020-08-13 17:27:34 basehttp.log_message: "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+2020-08-13 17:27:34 basehttp.log_message: "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+2020-08-13 17:27:34 basehttp.log_message: "GET /static/rest_framework/js/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+2020-08-13 17:27:34 basehttp.log_message: "GET /static/debug_toolbar/img/ajax-loader.gif HTTP/1.1" 304 0
+2020-08-13 17:27:34 basehttp.log_message: "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 39680
+2020-08-13 17:27:34 basehttp.log_message: "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+2020-08-13 17:27:35 basehttp.log_message: "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+2020-08-13 17:27:51 base._legacy_decode: Session data corrupted
+2020-08-13 17:27:51 basehttp.log_message: "GET /polls/api/subjects/?format=api HTTP/1.1" 200 14648
+2020-08-13 17:27:54 base._legacy_decode: Session data corrupted
+2020-08-13 17:27:54 basehttp.log_message: "GET /polls/api/subjects/?format=json HTTP/1.1" 200 145
+2020-08-13 17:27:59 base._legacy_decode: Session data corrupted
+2020-08-13 17:27:59 basehttp.log_message: "GET /polls/api/subjects/?format=json HTTP/1.1" 200 145
+2020-08-13 17:28:12 log.log_response: Not Found: /book/api/subjects/
+2020-08-13 17:28:12 basehttp.log_message: "GET /book/api/subjects/ HTTP/1.1" 404 11168
+2020-08-13 17:28:29 log.log_response: Not Found: /book/api/subjects/
+2020-08-13 17:28:29 basehttp.log_message: "GET /book/api/subjects/?format=json HTTP/1.1" 404 11180
+2020-08-13 17:28:35 log.log_response: Not Found: /book/api/subjects/
+2020-08-13 17:28:35 basehttp.log_message: "GET /book/api/subjects/?format=json HTTP/1.1" 404 11180
+2020-08-13 17:28:51 log.log_response: Not Found: /book/api/subjects/
+2020-08-13 17:28:51 basehttp.log_message: "GET /book/api/subjects/?format=json HTTP/1.1" 404 11180
+2020-08-13 17:28:55 base._legacy_decode: Session data corrupted
+2020-08-13 17:28:55 basehttp.log_message: "GET /polls/api/subjects/ HTTP/1.1" 200 14604
+2020-08-13 17:28:55 basehttp.log_message: "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 304 0
+2020-08-13 17:28:55 basehttp.log_message: "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 304 0
+2020-08-13 17:28:55 basehttp.log_message: "GET /static/rest_framework/css/prettify.css HTTP/1.1" 304 0
+2020-08-13 17:28:55 basehttp.log_message: "GET /static/rest_framework/js/jquery-3.4.1.min.js HTTP/1.1" 304 0
+2020-08-13 17:28:55 basehttp.log_message: "GET /static/rest_framework/css/default.css HTTP/1.1" 304 0
+2020-08-13 17:28:55 basehttp.log_message: "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+2020-08-13 17:28:55 basehttp.log_message: "GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+2020-08-13 17:28:55 basehttp.log_message: "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+2020-08-13 17:28:55 basehttp.log_message: "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+2020-08-13 17:28:55 basehttp.log_message: "GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+2020-08-13 17:28:55 basehttp.log_message: "GET /static/rest_framework/img/grid.png HTTP/1.1" 304 0
+2020-08-13 17:28:58 base._legacy_decode: Session data corrupted
+2020-08-13 17:28:58 basehttp.log_message: "GET /polls/api/subjects/?format=api HTTP/1.1" 200 14648
+2020-08-13 17:29:22 basehttp.log_message: "GET /polls/api/subjects/?format=api HTTP/1.1" 200 14649
+2020-08-13 17:29:29 basehttp.log_message: "GET /polls/api/subjects/?format=json HTTP/1.1" 200 145
