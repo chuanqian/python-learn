@@ -22,3 +22,23 @@
 2020-08-13 17:28:51 WARNING [5620-Thread-2] basehttp.log_message line 157: "GET /book/api/subjects/?format=json HTTP/1.1" 404 11180
 2020-08-13 17:28:55 WARNING [5620-Thread-7] base._legacy_decode line 140: Session data corrupted
 2020-08-13 17:28:58 WARNING [5620-Thread-8] base._legacy_decode line 140: Session data corrupted
+2020-08-14 09:39:06 WARNING [7304-Thread-3] log.log_response line 224: Not Found: /favicon.ico
+2020-08-14 09:39:06 WARNING [7304-Thread-3] basehttp.log_message line 157: "GET /favicon.ico HTTP/1.1" 404 11147
+2020-08-14 09:54:45 WARNING [9820-Thread-1] log.log_response line 224: Not Found: /polls/
+2020-08-14 09:54:45 WARNING [9820-Thread-1] basehttp.log_message line 157: "GET /polls/ HTTP/1.1" 404 11370
+2020-08-14 11:00:16 WARNING [11208-Thread-3] log.log_response line 224: Forbidden (CSRF token missing or incorrect.): /polls/api/books/
+2020-08-14 11:00:16 WARNING [11208-Thread-3] basehttp.log_message line 157: "POST /polls/api/books/ HTTP/1.1" 403 11460
+2020-08-14 11:00:31 WARNING [11208-Thread-3] log.log_response line 224: Forbidden (CSRF token missing or incorrect.): /polls/api/books/
+2020-08-14 11:00:31 WARNING [11208-Thread-3] basehttp.log_message line 157: "POST /polls/api/books/?format=json HTTP/1.1" 403 11460
+2020-08-14 11:00:59 WARNING [11208-Thread-3] log.log_response line 224: Forbidden (CSRF token missing or incorrect.): /polls/api/books/
+2020-08-14 11:00:59 WARNING [11208-Thread-3] basehttp.log_message line 157: "POST /polls/api/books/?format=json HTTP/1.1" 403 11460
+2020-08-14 11:01:43 WARNING [7516-Thread-1] base.http_method_not_allowed line 104: Method Not Allowed (GET): /polls/api/books/
+2020-08-14 11:01:43 WARNING [7516-Thread-1] log.log_response line 224: Method Not Allowed: /polls/api/books/
+2020-08-14 11:01:43 WARNING [7516-Thread-1] basehttp.log_message line 157: "GET /polls/api/books/ HTTP/1.1" 405 0
+2020-08-14 11:01:54 WARNING [7516-Thread-1] log.log_response line 224: Forbidden (CSRF token missing or incorrect.): /polls/api/books/
+2020-08-14 11:01:54 WARNING [7516-Thread-1] basehttp.log_message line 157: "POST /polls/api/books/ HTTP/1.1" 403 11460
+2020-08-14 11:02:01 WARNING [7516-Thread-1] base.http_method_not_allowed line 104: Method Not Allowed (GET): /polls/api/books/
+2020-08-14 11:02:01 WARNING [7516-Thread-1] log.log_response line 224: Method Not Allowed: /polls/api/books/
+2020-08-14 11:02:01 WARNING [7516-Thread-1] basehttp.log_message line 157: "GET /polls/api/books/ HTTP/1.1" 405 0
+2020-08-14 11:02:21 WARNING [7516-Thread-1] log.log_response line 224: Forbidden (CSRF token missing or incorrect.): /polls/api/books/
+2020-08-14 11:02:21 WARNING [7516-Thread-1] basehttp.log_message line 157: "POST /polls/api/books/ HTTP/1.1" 403 11460

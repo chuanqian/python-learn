@@ -7,6 +7,9 @@ from .models import Subject
 from .SubjectMapper import SubjectMapper
 from django.http import HttpResponse, HttpRequest
 from .SubjectSerializer import SubjectSerializer
+from django.views import View
+from .models import BookInfo
+from .EntitySerializer import BookInfoSerializer
 
 
 # Create your views here.
@@ -26,3 +29,13 @@ def show_subjects(request: HttpRequest) -> HttpResponse:
     serializer = SubjectSerializer(subjects, many=True)
     # 通过序列化器的data的属性获得模型对应的字典并通过创建Response对象返回json格式的数据
     return Response(serializer.data)
+
+
+class BookViews(View):
+
+    def post(self, request):
+        """查询所有图书"""
+        books = BookInfo.objects.all().order_by("-id")
+        ser = BookInfoSerializer(books, many=True)
+        data = ser.data
+        return JsonResponse(data, safe=False)

@@ -64,3 +64,152 @@
 2020-08-13 17:28:58 basehttp.log_message: "GET /polls/api/subjects/?format=api HTTP/1.1" 200 14648
 2020-08-13 17:29:22 basehttp.log_message: "GET /polls/api/subjects/?format=api HTTP/1.1" 200 14649
 2020-08-13 17:29:29 basehttp.log_message: "GET /polls/api/subjects/?format=json HTTP/1.1" 200 145
+2020-08-14 09:38:41 autoreload.run_with_reloader: Watching for file changes with StatReloader
+2020-08-14 09:39:06 basehttp.log_message: "GET /admin/ HTTP/1.1" 302 0
+2020-08-14 09:39:06 basehttp.log_message: "GET /admin/login/?next=/admin/ HTTP/1.1" 200 11173
+2020-08-14 09:39:06 basehttp.log_message: "GET /static/admin/css/base.css HTTP/1.1" 200 16307
+2020-08-14 09:39:06 basehttp.log_message: "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+2020-08-14 09:39:06 basehttp.log_message: "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 1789
+2020-08-14 09:39:06 basehttp.log_message: "GET /static/admin/css/responsive.css HTTP/1.1" 200 18617
+2020-08-14 09:39:06 basehttp.log_message: "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+2020-08-14 09:39:06 basehttp.log_message: "GET /static/admin/css/login.css HTTP/1.1" 200 1185
+2020-08-14 09:39:06 basehttp.log_message: "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+2020-08-14 09:39:06 basehttp.log_message: "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 1360
+2020-08-14 09:39:06 basehttp.log_message: "GET /static/debug_toolbar/img/ajax-loader.gif HTTP/1.1" 304 0
+2020-08-14 09:39:06 basehttp.log_message: "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+2020-08-14 09:39:06 basehttp.log_message: "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+2020-08-14 09:39:06 basehttp.log_message: "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+2020-08-14 09:39:06 log.log_response: Not Found: /favicon.ico
+2020-08-14 09:39:06 basehttp.log_message: "GET /favicon.ico HTTP/1.1" 404 11147
+2020-08-14 09:39:14 basehttp.log_message: "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+2020-08-14 09:39:15 basehttp.log_message: "GET /admin/ HTTP/1.1" 200 12939
+2020-08-14 09:39:15 basehttp.log_message: "GET /static/admin/css/dashboard.css HTTP/1.1" 200 380
+2020-08-14 09:39:15 basehttp.log_message: "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+2020-08-14 09:39:15 basehttp.log_message: "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+2020-08-14 09:39:15 basehttp.log_message: "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+2020-08-14 09:39:17 basehttp.log_message: "GET /admin/polls/bookinfo/add/ HTTP/1.1" 200 16705
+2020-08-14 09:39:17 basehttp.log_message: "GET /static/admin/js/calendar.js HTTP/1.1" 200 7788
+2020-08-14 09:39:17 basehttp.log_message: "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+2020-08-14 09:39:17 basehttp.log_message: "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19750
+2020-08-14 09:39:17 basehttp.log_message: "GET /static/admin/css/forms.css HTTP/1.1" 200 8399
+2020-08-14 09:39:17 basehttp.log_message: "GET /static/admin/js/core.js HTTP/1.1" 200 5418
+2020-08-14 09:39:17 basehttp.log_message: "GET /static/admin/js/actions.js HTTP/1.1" 200 6783
+2020-08-14 09:39:17 basehttp.log_message: "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 6078
+2020-08-14 09:39:17 basehttp.log_message: "GET /static/admin/js/urlify.js HTTP/1.1" 200 8632
+2020-08-14 09:39:17 basehttp.log_message: "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 287630
+2020-08-14 09:39:17 basehttp.log_message: "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+2020-08-14 09:39:17 basehttp.log_message: "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 492
+2020-08-14 09:39:17 basehttp.log_message: "GET /static/admin/css/widgets.css HTTP/1.1" 200 10592
+2020-08-14 09:39:17 basehttp.log_message: "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+2020-08-14 09:39:17 basehttp.log_message: "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+2020-08-14 09:39:17 basehttp.log_message: "GET /admin/jsi18n/ HTTP/1.1" 200 3187
+2020-08-14 09:39:17 basehttp.log_message: "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+2020-08-14 09:39:22 basehttp.log_message: "GET /static/debug_toolbar/img/djdt_vertical.png HTTP/1.1" 200 882
+2020-08-14 09:39:43 basehttp.log_message: "GET /static/admin/img/calendar-icons.svg HTTP/1.1" 200 1094
+2020-08-14 09:39:55 basehttp.log_message: "POST /admin/polls/bookinfo/add/ HTTP/1.1" 302 0
+2020-08-14 09:39:56 basehttp.log_message: "GET /admin/polls/bookinfo/ HTTP/1.1" 200 15273
+2020-08-14 09:39:56 basehttp.log_message: "GET /static/admin/css/changelists.css HTTP/1.1" 200 6284
+2020-08-14 09:39:56 basehttp.log_message: "GET /admin/jsi18n/ HTTP/1.1" 200 3187
+2020-08-14 09:39:56 basehttp.log_message: "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+2020-08-14 09:39:56 basehttp.log_message: "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+2020-08-14 09:40:02 basehttp.log_message: "GET /admin/polls/bookinfo/add/ HTTP/1.1" 200 16705
+2020-08-14 09:40:02 basehttp.log_message: "GET /admin/jsi18n/ HTTP/1.1" 200 3187
+2020-08-14 09:40:26 basehttp.log_message: "POST /admin/polls/bookinfo/add/ HTTP/1.1" 302 0
+2020-08-14 09:40:27 basehttp.log_message: "GET /admin/polls/bookinfo/ HTTP/1.1" 200 15493
+2020-08-14 09:40:27 basehttp.log_message: "GET /admin/jsi18n/ HTTP/1.1" 200 3187
+2020-08-14 09:40:31 basehttp.log_message: "GET /admin/polls/bookinfo/add/ HTTP/1.1" 200 16705
+2020-08-14 09:40:31 basehttp.log_message: "GET /admin/jsi18n/ HTTP/1.1" 200 3187
+2020-08-14 09:40:58 basehttp.log_message: "POST /admin/polls/bookinfo/add/ HTTP/1.1" 302 0
+2020-08-14 09:40:59 basehttp.log_message: "GET /admin/polls/bookinfo/ HTTP/1.1" 200 15713
+2020-08-14 09:40:59 basehttp.log_message: "GET /admin/jsi18n/ HTTP/1.1" 200 3187
+2020-08-14 09:41:03 basehttp.log_message: "GET /admin/polls/bookinfo/ HTTP/1.1" 200 15495
+2020-08-14 09:41:03 basehttp.log_message: "GET /admin/jsi18n/ HTTP/1.1" 200 3187
+2020-08-14 09:41:05 basehttp.log_message: "GET /admin/polls/bookinfo/3/change/ HTTP/1.1" 200 17086
+2020-08-14 09:41:05 basehttp.log_message: "GET /admin/jsi18n/ HTTP/1.1" 200 3187
+2020-08-14 09:41:09 basehttp.log_message: "GET /admin/polls/bookinfo/ HTTP/1.1" 200 15495
+2020-08-14 09:54:29 autoreload.run_with_reloader: Watching for file changes with StatReloader
+2020-08-14 09:54:45 log.log_response: Not Found: /polls/
+2020-08-14 09:54:45 basehttp.log_message: "GET /polls/ HTTP/1.1" 404 11370
+2020-08-14 09:54:59 basehttp.log_message: "GET /polls/api/books/ HTTP/1.1" 200 445
+2020-08-14 09:55:30 basehttp.log_message: "GET /polls/api/books/?format=json HTTP/1.1" 200 445
+2020-08-14 09:55:38 basehttp.log_message: "GET /polls/api/books/ HTTP/1.1" 200 445
+2020-08-14 10:15:58 autoreload.trigger_reload: D:\PythonCode\python-learn\second_demo\polls\models.py changed, reloading.
+2020-08-14 10:15:59 autoreload.run_with_reloader: Watching for file changes with StatReloader
+2020-08-14 10:54:18 autoreload.run_with_reloader: Watching for file changes with StatReloader
+2020-08-14 10:54:37 basehttp.log_message: "GET /admin/ HTTP/1.1" 302 0
+2020-08-14 10:54:37 basehttp.log_message: "GET /admin/login/?next=/admin/ HTTP/1.1" 200 11173
+2020-08-14 10:54:37 basehttp.log_message: "GET /admin/ HTTP/1.1" 302 0
+2020-08-14 10:54:37 basehttp.log_message: "GET /admin/login/?next=/admin/ HTTP/1.1" 200 11173
+2020-08-14 10:54:43 basehttp.log_message: "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+2020-08-14 10:54:44 basehttp.log_message: "GET /admin/ HTTP/1.1" 200 13363
+2020-08-14 10:54:47 basehttp.log_message: "GET /admin/polls/bookinfo/add/ HTTP/1.1" 200 16998
+2020-08-14 10:54:47 basehttp.log_message: "GET /admin/jsi18n/ HTTP/1.1" 200 3187
+2020-08-14 10:55:00 basehttp.log_message: "POST /admin/polls/bookinfo/add/ HTTP/1.1" 302 0
+2020-08-14 10:55:01 basehttp.log_message: "GET /admin/polls/bookinfo/ HTTP/1.1" 200 15566
+2020-08-14 10:55:01 basehttp.log_message: "GET /admin/jsi18n/ HTTP/1.1" 200 3187
+2020-08-14 10:55:04 basehttp.log_message: "GET /admin/polls/bookinfo/add/ HTTP/1.1" 200 16998
+2020-08-14 10:55:04 basehttp.log_message: "GET /admin/jsi18n/ HTTP/1.1" 200 3187
+2020-08-14 10:55:16 basehttp.log_message: "POST /admin/polls/bookinfo/add/ HTTP/1.1" 302 0
+2020-08-14 10:55:17 basehttp.log_message: "GET /admin/polls/bookinfo/ HTTP/1.1" 200 15786
+2020-08-14 10:55:17 basehttp.log_message: "GET /admin/jsi18n/ HTTP/1.1" 200 3187
+2020-08-14 10:55:22 basehttp.log_message: "GET /admin/polls/bookinfo/add/ HTTP/1.1" 200 16998
+2020-08-14 10:55:22 basehttp.log_message: "GET /admin/jsi18n/ HTTP/1.1" 200 3187
+2020-08-14 10:55:36 basehttp.log_message: "POST /admin/polls/bookinfo/add/ HTTP/1.1" 302 0
+2020-08-14 10:55:37 basehttp.log_message: "GET /admin/polls/bookinfo/ HTTP/1.1" 200 16006
+2020-08-14 10:55:37 basehttp.log_message: "GET /admin/jsi18n/ HTTP/1.1" 200 3187
+2020-08-14 10:55:40 basehttp.log_message: "GET /admin/polls/bookinfo/3/change/ HTTP/1.1" 200 17363
+2020-08-14 10:55:40 basehttp.log_message: "GET /admin/jsi18n/ HTTP/1.1" 200 3187
+2020-08-14 10:55:44 basehttp.log_message: "GET /admin/polls/bookinfo/ HTTP/1.1" 200 15788
+2020-08-14 10:55:47 basehttp.log_message: "GET /admin/polls/heroinfo/add/ HTTP/1.1" 200 17558
+2020-08-14 10:55:47 basehttp.log_message: "GET /admin/jsi18n/ HTTP/1.1" 200 3187
+2020-08-14 10:56:12 basehttp.log_message: "POST /admin/polls/heroinfo/add/ HTTP/1.1" 302 0
+2020-08-14 10:56:13 basehttp.log_message: "GET /admin/polls/heroinfo/ HTTP/1.1" 200 15492
+2020-08-14 10:56:13 basehttp.log_message: "GET /admin/jsi18n/ HTTP/1.1" 200 3187
+2020-08-14 10:56:16 basehttp.log_message: "GET /admin/polls/heroinfo/add/ HTTP/1.1" 200 17558
+2020-08-14 10:56:17 basehttp.log_message: "GET /admin/jsi18n/ HTTP/1.1" 200 3187
+2020-08-14 10:56:35 basehttp.log_message: "POST /admin/polls/heroinfo/add/ HTTP/1.1" 302 0
+2020-08-14 10:56:35 basehttp.log_message: "GET /admin/polls/heroinfo/ HTTP/1.1" 200 15699
+2020-08-14 10:56:36 basehttp.log_message: "GET /admin/jsi18n/ HTTP/1.1" 200 3187
+2020-08-14 10:56:39 basehttp.log_message: "GET /admin/polls/heroinfo/add/ HTTP/1.1" 200 17558
+2020-08-14 10:56:39 basehttp.log_message: "GET /admin/jsi18n/ HTTP/1.1" 200 3187
+2020-08-14 10:56:55 basehttp.log_message: "POST /admin/polls/heroinfo/add/ HTTP/1.1" 302 0
+2020-08-14 10:56:56 basehttp.log_message: "GET /admin/polls/heroinfo/ HTTP/1.1" 200 15906
+2020-08-14 10:56:56 basehttp.log_message: "GET /admin/jsi18n/ HTTP/1.1" 200 3187
+2020-08-14 10:56:58 basehttp.log_message: "GET /admin/polls/heroinfo/add/ HTTP/1.1" 200 17557
+2020-08-14 10:56:59 basehttp.log_message: "GET /admin/jsi18n/ HTTP/1.1" 200 3187
+2020-08-14 10:57:13 basehttp.log_message: "POST /admin/polls/heroinfo/add/ HTTP/1.1" 302 0
+2020-08-14 10:57:13 basehttp.log_message: "GET /admin/polls/heroinfo/ HTTP/1.1" 200 16113
+2020-08-14 10:57:13 basehttp.log_message: "GET /admin/jsi18n/ HTTP/1.1" 200 3187
+2020-08-14 10:57:17 basehttp.log_message: "GET /admin/polls/bookinfo/add/ HTTP/1.1" 200 16998
+2020-08-14 10:57:17 basehttp.log_message: "GET /admin/jsi18n/ HTTP/1.1" 200 3187
+2020-08-14 10:57:20 basehttp.log_message: "GET /admin/polls/heroinfo/ HTTP/1.1" 200 15914
+2020-08-14 10:57:21 basehttp.log_message: "GET /admin/polls/heroinfo/add/ HTTP/1.1" 200 17558
+2020-08-14 10:57:21 basehttp.log_message: "GET /admin/jsi18n/ HTTP/1.1" 200 3187
+2020-08-14 10:57:35 basehttp.log_message: "POST /admin/polls/heroinfo/add/ HTTP/1.1" 302 0
+2020-08-14 10:57:36 basehttp.log_message: "GET /admin/polls/heroinfo/ HTTP/1.1" 200 16320
+2020-08-14 10:57:36 basehttp.log_message: "GET /admin/jsi18n/ HTTP/1.1" 200 3187
+2020-08-14 10:57:40 basehttp.log_message: "GET /admin/polls/heroinfo/add/ HTTP/1.1" 200 17558
+2020-08-14 10:57:40 basehttp.log_message: "GET /admin/jsi18n/ HTTP/1.1" 200 3187
+2020-08-14 10:58:03 basehttp.log_message: "POST /admin/polls/heroinfo/add/ HTTP/1.1" 302 0
+2020-08-14 10:58:03 basehttp.log_message: "GET /admin/polls/heroinfo/ HTTP/1.1" 200 16533
+2020-08-14 10:58:03 basehttp.log_message: "GET /admin/jsi18n/ HTTP/1.1" 200 3187
+2020-08-14 11:00:07 basehttp.log_message: "GET /polls/api/books/ HTTP/1.1" 200 455
+2020-08-14 11:00:16 log.log_response: Forbidden (CSRF token missing or incorrect.): /polls/api/books/
+2020-08-14 11:00:16 basehttp.log_message: "POST /polls/api/books/ HTTP/1.1" 403 11460
+2020-08-14 11:00:31 log.log_response: Forbidden (CSRF token missing or incorrect.): /polls/api/books/
+2020-08-14 11:00:31 basehttp.log_message: "POST /polls/api/books/?format=json HTTP/1.1" 403 11460
+2020-08-14 11:00:59 log.log_response: Forbidden (CSRF token missing or incorrect.): /polls/api/books/
+2020-08-14 11:00:59 basehttp.log_message: "POST /polls/api/books/?format=json HTTP/1.1" 403 11460
+2020-08-14 11:01:14 basehttp.log_message: "GET /polls/api/books/ HTTP/1.1" 200 455
+2020-08-14 11:01:34 autoreload.trigger_reload: D:\PythonCode\python-learn\second_demo\polls\views.py changed, reloading.
+2020-08-14 11:01:35 autoreload.run_with_reloader: Watching for file changes with StatReloader
+2020-08-14 11:01:43 base.http_method_not_allowed: Method Not Allowed (GET): /polls/api/books/
+2020-08-14 11:01:43 log.log_response: Method Not Allowed: /polls/api/books/
+2020-08-14 11:01:43 basehttp.log_message: "GET /polls/api/books/ HTTP/1.1" 405 0
+2020-08-14 11:01:54 log.log_response: Forbidden (CSRF token missing or incorrect.): /polls/api/books/
+2020-08-14 11:01:54 basehttp.log_message: "POST /polls/api/books/ HTTP/1.1" 403 11460
+2020-08-14 11:02:01 base.http_method_not_allowed: Method Not Allowed (GET): /polls/api/books/
+2020-08-14 11:02:01 log.log_response: Method Not Allowed: /polls/api/books/
+2020-08-14 11:02:01 basehttp.log_message: "GET /polls/api/books/ HTTP/1.1" 405 0
+2020-08-14 11:02:21 log.log_response: Forbidden (CSRF token missing or incorrect.): /polls/api/books/
+2020-08-14 11:02:21 basehttp.log_message: "POST /polls/api/books/ HTTP/1.1" 403 11460
